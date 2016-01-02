@@ -1,0 +1,13 @@
+.header {
+background-color: purple;
+color: #fff;
+font-size: 50px;
+height: 100px;
+width: 200px;
+}
+h1,
+h2 {
+width: 100%;
+background-color: #fff;
+font-size: 12px;
+}

@@ -1,0 +1,21 @@
+.box {
+  all: initial;
+  background-color: purple;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: .5rem;
+  outline: inherit;
+}
+.footer {
+  all: initial;
+  
+}
+.header {
+  all: initial;
+  width: 200px;
+  height: 100px;
+  background-color: purple;
+  color: #fff;
+  font-size: 50px;
+}
