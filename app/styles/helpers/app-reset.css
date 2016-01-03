@@ -22,10 +22,7 @@ html {
 /*Yes, the universal selector. No, it isn't slow: https://benfrain.com/css-performance-revisited-selectors-bloat-expensive-styles/*/
 * {
     /*This prevents users being able to select text. Stops long presses in iOS bringing up copy/paste UI for example*/
-    -webkit-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
+    user-select: none;
     /*This gets -webkit specific prefix as it is a non W3C property*/
     -webkit-tap-highlight-color: rgba(255,255,255,0);
     /*Older Androids need this instead*/
@@ -67,24 +64,18 @@ a:focus {
 
 /*You may want to comment this one out. I'd rather have all divs default to flex for apps but that might not work for you*/
 div {
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
 }
 
 /*As the rule above, I like all spans and a tags to default to inline-flex. Your mileage may vary*/
 span,
 a {
-    display: -webkit-inline-flex;
-    display: -ms-inline-flexbox;
     display: inline-flex;
 }
 
 input,
 fieldset {
-    -webkit-appearance: none;
-       -moz-appearance: none;
-            appearance: none;
+    appearance: none;
     border: 0;
     padding: 0;
     margin: 0;
@@ -108,14 +99,11 @@ input[type="number"] {
 /*Removes the little spinner controls for number type inputs (WebKit browsers/forks only)*/
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
-    -webkit-appearance: none;
-            appearance: none;
+    appearance: none;
 }
 
 /*SVG defaults to inline display which I dislike*/
 svg {
-    display: -webkit-inline-flex;
-    display: -ms-inline-flexbox;
     display: inline-flex;
 }
 
@@ -124,53 +112,4 @@ img {
     max-width: 100%;
     /*Make images display as a block (UA default is usually inline)*/
     display: block;
-}
-
-.box {
-  background-color: purple;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  border-radius: .5rem;
-  outline: inherit;
-}
-
-.footer {
-  
-}
-
-.header
-{
-  position: relative;
-  width: 100%;
-  opacity: 1;
-  color: #fff;
-  border-radius: 4px;
-  background-color: gray;
-  font-size: 60px;
-}
-
-.box
-{
-  background-color: lightblue;
-  width: calc(99.99% * 1/3 - (30px - 30px * 1/3));
-  height: 100px;
-}
-
-.box:nth-child(n) {
-    float: left;
-    margin-right: 30px;
-    clear: none;
-}
-
-.box:last-child {
-    margin-right: 0;
-}
-
-.box:nth-child(3n) {
-    margin-right: 0;
-}
-
-.box:nth-child(3n + 1) {
-    clear: left;
 }

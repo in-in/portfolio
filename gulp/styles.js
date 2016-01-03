@@ -8,7 +8,7 @@ import rename from 'gulp-rename';
 import notifier from 'node-notifier';
 import plumber from 'gulp-plumber';
 import atImport from 'postcss-import';
-import autoreset from 'postcss-autoreset';
+import lost from 'lost';
 
 
 const onError = function (err) {
@@ -22,6 +22,7 @@ gulp.task('styles', function () {
     atImport({
       glob: true
     }),
+    lost(),
     autoprefixer({browsers: ['last 2 versions']})
   ];
 
