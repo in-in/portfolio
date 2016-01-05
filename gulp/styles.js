@@ -27,6 +27,9 @@ gulp.task('styles', function () {
   ];
 
   return gulp.src('app/styles/styles.css')
+    .pipe(plumber({ errorHandler: onError }))
+    .pipe(sourcemaps.init())
     .pipe(postcss(processors))
+    .pipe(sourcemaps.write('.'))
     .pipe(gulp.dest('dist/assets/styles'));
 });
