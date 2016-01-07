@@ -4,6 +4,6 @@ include ../menu/menu
 mixin header()
   +b.header&attributes(attributes)
     +e.logo
-      +logo
+      +logo()
     +e.menu
-      +menu()
+      +menu(getData('menu'))

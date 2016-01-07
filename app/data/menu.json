@@ -1,0 +1,6 @@
+[
+  ["Home", "menu-home"],
+  ["About", "menu-user"],
+  ["Portfolio", "menu-brief"],
+  ["Contact", "menu-email"]
+]

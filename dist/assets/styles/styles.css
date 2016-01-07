@@ -201,5 +201,19 @@ img {
 
   fill: #222;
 }
+.menu
+{
+  width: 270px;
+  background-color: tomato;
+}
+
+.menu__item {
+  outline: 1px solid red;
+}
+
+.menu__icon
+{
+  width: 25px;
+}
 
 /*# sourceMappingURL=styles.css.map */
