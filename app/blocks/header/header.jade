@@ -1,10 +1,9 @@
-mixin header()
-  +b.header&attributes(attributes)
-    block
-
-
 include ../logo/logo
+include ../menu/menu
 
 mixin header()
   +b.header&attributes(attributes)
-    +logo
+    +e.logo
+      +logo
+    +e.menu
+      +menu()

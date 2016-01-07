@@ -1,5 +1,7 @@
-.logo {
+.logo
+{
   width: 50px;
   height: 50px;
-  fill: dodgerblue;
+
+  fill: var(--mainBlack);
 }

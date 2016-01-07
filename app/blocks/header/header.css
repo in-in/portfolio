@@ -4,3 +4,16 @@
   height: 50px;
   background-color: skyblue;
 }
+
+.header__logo
+{
+  lost-column: 1/3;
+}
+
+.header__menu
+{
+  color: rgba(#000, .8);
+  background-color: lime;
+
+  lost-column: 1/3;
+}

@@ -9,6 +9,9 @@ import notifier from 'node-notifier';
 import plumber from 'gulp-plumber';
 import atImport from 'postcss-import';
 import lost from 'lost';
+import cssnext from 'postcss-cssnext';
+import rucksack from 'rucksack-css';
+
 
 
 const onError = function (err) {
@@ -19,10 +22,10 @@ const onError = function (err) {
 
 gulp.task('styles', function () {
   var processors = [
-    atImport({
-      glob: true
-    }),
-    lost(),
+    atImport({glob: true}),
+    lost,
+    cssnext,
+    rucksack,
     autoprefixer({browsers: ['last 2 versions']})
   ];
 

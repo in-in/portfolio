@@ -7,6 +7,7 @@ import filter from 'gulp-filter';
 import rename from 'gulp-rename';
 import notifier from 'node-notifier';
 import plumber from 'gulp-plumber';
+import getData from 'gulp-data';
 
 const onError = function (err) {
   notifier.notify({
@@ -24,6 +25,9 @@ gulp.task('templates', () => (
   gulp.src('app/**/*.jade')
   .pipe(plumber({ errorHandler: onError }))
   .pipe(inheritance({basedir: 'app'}))
+  .pipe(getData(function(file) {
+      return require('app/data/' + path.basename(file.path) + '.json');
+    }))
   .pipe(filter(file => /app[\\\/]pages/.test(file.path)))
   .pipe(jade({data}))
   .pipe(rename({dirname: '.'}))
