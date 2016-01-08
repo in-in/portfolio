@@ -1,4 +1,5 @@
 @lost flexbox flex;
+@lost gutter 10px;
 @import 'helpers/app-reset';
 @import 'helpers/variables';
 @import '../blocks/**/*.css';

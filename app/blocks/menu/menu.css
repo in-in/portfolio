@@ -4,11 +4,18 @@
   background-color: tomato;
 }
 
-.menu__item {
-  outline: 1px solid red;
+.menu__item
+{
+  outline: 1px solid blue;
+  background-color: forestgreen;
+
+  lost-column: 1/4 0 0;
 }
 
 .menu__icon
 {
   width: 25px;
+  outline: 1px solid black;
+
+  fill: var(--mainBlack);
 }

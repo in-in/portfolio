@@ -1,6 +1,7 @@
+include ../icon/icon
+
 mixin menu(menu)
   +b('nav').menu&attributes(attributes)
     each item in menu
-      +e('a')(href='##{item[0].toLowerCase()}').item= item[0]
-        //- +icon('{item[1]}').menu__icon
-        +icon('').menu__icon&attributes(attributes)
+      +e('a')(href='##{item[0].toLowerCase()}').item
+        +icon(item[1]).menu__icon
