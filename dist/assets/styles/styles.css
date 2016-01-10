@@ -203,22 +203,31 @@ img {
 }
 .menu
 {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
   width: 270px;
   background-color: tomato;
 }
 
 .menu__item
 {
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+      flex: 0 0 auto;
+  width: 25%;
+
+  -webkit-justify-content: center;
+
+  -ms-flex-pack: center;
+
+      justify-content: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+      align-items: center;
   outline: 1px solid blue;
   background-color: forestgreen;
-
-  -webkit-flex: 0 0 auto;
-
-  -ms-flex: 0 0 auto;
-
-      flex: 0 0 auto;
-
-  width: 25%;
 }
 
 .menu__item:nth-child(n) {
@@ -237,7 +246,7 @@ img {
 {
   width: 25px;
   outline: 1px solid black;
-
+  background-color: azure;
   fill: #222;
 }
 
