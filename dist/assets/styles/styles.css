@@ -218,10 +218,15 @@ img {
       flex: 0 0 auto;
   width: 25%;
 
+  display: -webkit-flex;
+
+  display: -ms-flexbox;
+
+  display: -webkit-box;
+
+  display: flex;
   -webkit-justify-content: center;
-
   -ms-flex-pack: center;
-
       justify-content: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
