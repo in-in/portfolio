@@ -9,11 +9,11 @@ import notifier from 'node-notifier';
 import plumber from 'gulp-plumber';
 import getData from 'jade-get-data';
 
-const onError = function (err) {
-  notifier.notify({
-    message: "Error in \'templates\' task'"
-  });
-};
+// const onError = function (err) {
+//   notifier.notify({
+//     message: "Error in \'templates\' task'"
+//   });
+// };
 
 const data = {
   getData: getData('app/data'),
@@ -23,7 +23,7 @@ const data = {
 
 gulp.task('templates', () => (
   gulp.src('app/**/*.jade')
-  .pipe(plumber({ errorHandler: onError }))
+  .pipe(plumber())
   .pipe(inheritance({basedir: 'app'}))
   .pipe(filter(file => /app[\\\/]pages/.test(file.path)))
   .pipe(jade({data}))

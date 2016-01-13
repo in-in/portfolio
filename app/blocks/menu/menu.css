@@ -10,6 +10,7 @@
   lost-column: 1/4 0 0;
 
   display: flex;
+  height: inherit;
   justify-content: center;
   align-items: center;
   outline: 1px solid blue;
