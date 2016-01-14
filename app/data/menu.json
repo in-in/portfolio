@@ -1,6 +1,6 @@
 [
-  ["Home", "menu-home"],
-  ["About", "menu-user"],
-  ["Portfolio", "menu-brief"],
-  ["Contact", "menu-email"]
+  ["Home", "menu-home", 25, 19.895],
+  ["About", "menu-user", 25, 27.273],
+  ["Portfolio", "menu-brief", 25, 21.429],
+  ["Contact", "menu-email", 25, 19,643]
 ]

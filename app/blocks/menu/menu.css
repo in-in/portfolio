@@ -1,26 +1,80 @@
 .menu
 {
   display: flex;
-  width: 270px;
-  background-color: tomato;
+  width: 100%;
 }
 
 .menu__item
 {
   lost-column: 1/4 0 0;
 
-  display: flex;
-  height: inherit;
   justify-content: center;
-  align-items: center;
-  outline: 1px solid blue;
-  background-color: forestgreen;
+  align-items: flex-end;
+  padding-bottom: .75rem;
 }
 
 .menu__icon
 {
-  width: 25px;
-  outline: 1px solid black;
-  background-color: azure;
+  width: 1.563em;
   fill: var(--mainBlack);
+}
+
+.menu__item:hover .menu__icon
+{
+  /*fill: red;*/
+  animation-name: bounceIn;
+  animation-duration: 2s;
+  /*animation-delay: .2s;*/
+  /*animation-iteration-count: infinite;*/
+}
+
+@keyframes bounceIn
+{
+  from,
+  20%,
+  40%,
+  60%,
+  80%,
+  to
+  {
+    animation-timing-function: cubic-bezier(.215, .610, .355, 1.000);
+  }
+
+  0%
+  {
+    transform: scale3d(.3, .3, .3);
+    opacity: 0;
+  }
+
+  20%
+  {
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+
+  40%
+  {
+    transform: scale3d(.9, .9, .9);
+  }
+
+  60%
+  {
+    transform: scale3d(1.03, 1.03, 1.03);
+    opacity: 1;
+  }
+
+  80%
+  {
+    transform: scale3d(.97, .97, .97);
+  }
+
+  to
+  {
+    transform: scale3d(1, 1, 1);
+    opacity: 1;
+  }
+}
+
+.bounceIn
+{
+  animation-name: bounceIn;
 }
