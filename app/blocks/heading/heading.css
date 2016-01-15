@@ -2,10 +2,9 @@
 {
   color: var(--mainBlack);
   font-family: 'Roboto Condensed', sans-serif;
-  /*font-size: 1.618rem;*/
-  font-size: responsive;
-  font-weight: 400;
-  font-style: italic;
   font-size: responsive 1.618rem 6.854rem;
   font-range: 20rem 90rem;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 0.928;
 }

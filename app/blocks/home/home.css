@@ -1,23 +1,24 @@
 .home
 {
+  padding-top: 7.249999999999999%;
+  padding-bottom: 7.249999999999999%;
   background-image: linear-gradient(to left, #4b1248, #f0c27b);
 }
-
-/* 4b1248 80 */
-
-/* f0c27b ff */
 
 .home__heading
 {
   lost-column: 1/2 0 0;
+  padding-left: 20px;
 }
 
 .home__lion
 {
   lost-column: 1/2 0 0;
+  justify-content: flex-end;
+  padding-right: 20px;
 }
 
 .lion
 {
-  width: 130px;
+  width: 81.25%;
 }

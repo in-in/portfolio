@@ -206,6 +206,7 @@
       "font",
       "font-family",
       "font-size",
+      "font-range",
       "font-weight",
       "font-style",
       "font-variant",
