@@ -1,5 +1,13 @@
 @lost flexbox flex;
 @lost gutter 10px;
+
+/* imports */
+
 @import 'helpers/app-reset';
 @import 'helpers/variables';
 @import '../blocks/**/*.css';
+
+body
+{
+  font-size: 16px;
+}

@@ -1,9 +1,15 @@
 include ../container/container
 include ../section/section
+include ../home/home
 
 mixin index()
   +b.index
     +container()
-      +section()
-        p.r section home roboto medium
-        p.rc section home roboto condensec light
+      +section()#home
+        +home()
+          +e.heading
+            h1.heading Gorgeous Design For Humans
+          +e.lion
+            +icon('lion', 130, 167.251).lion
+      +section().section-about#about
+        p about section-about

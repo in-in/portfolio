@@ -1,5 +1,7 @@
 .container
 {
-  min-width: 320px;
-  max-width: 1440px;
+  flex-direction: column;
+  width: 100%;
+  min-width: 20rem;
+  max-width: 90rem;
 }
