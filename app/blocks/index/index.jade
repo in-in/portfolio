@@ -1,6 +1,8 @@
 include ../container/container
 include ../section/section
 include ../home/home
+include ../heading/heading
+include ../subheading/subheading
 
 mixin index()
   +b.index
@@ -8,7 +10,9 @@ mixin index()
       +section()#home
         +home()
           +e.heading
-            h1.heading Gorgeous Design For Humans
+            +heading() Gorgeous Design For Humans
+            +subheading() 
+              | Design is not just what it looks like and feels like. Design is how it works.
           +e.lion
             +icon('lion', 130, 167.251).lion
       +section().section-about#about

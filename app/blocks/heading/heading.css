@@ -1,10 +1,7 @@
 .heading
 {
-  color: var(--mainBlack);
-  font-family: 'Roboto Condensed', sans-serif;
   font-size: responsive 1.618rem 6.854rem;
   font-range: 20rem 90rem;
-  font-weight: 400;
+  font-weight: 300;
   font-style: italic;
-  line-height: 0.928;
 }

@@ -143,6 +143,76 @@ img {
     /*Make images display as a block (UA default is usually inline)*/
     display: block;
 }
+
+html
+{
+  font-size: 16px;
+}
+
+body
+{
+  color: #222;
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  line-height: 1.45;
+}
+
+p
+{
+  margin-bottom: 1.3em;
+}
+
+h1,
+h2,
+h3,
+h4
+{
+  margin: 1.414em 0 .5em;
+  font-weight: inherit;
+  line-height: 1.2;
+}
+
+h1
+{
+  margin-top: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 6.854em;
+}
+
+h2
+{
+  font-size: 4.236em;
+}
+
+h3
+{
+  font-size: 2.618em;
+}
+
+h4
+{
+  font-size: 1.618em;
+}
+
+small
+{
+  font-size: .618em;
+}
+
+/*
+320px --> 20em
+480px --> 30em
+640px --> 40em
+768px --> 48em
+800px --> 50em*
+960px --> 60em
+1024px --> 64em
+1120px --> 70em*
+1280px --> 80em
+1366px --> 85,375em
+1440px --> 90em
+*/
 .box {
   background-color: purple;
   display: -webkit-flex;
@@ -195,13 +265,10 @@ img {
 }
 .heading
 {
-  color: #222;
-  font-family: 'Roboto Condensed', sans-serif;
   font-size: calc(1.618rem + 5.236 * ((100vw - 20rem) / 70));
   font-size: calc(1.618rem + 5.236 * ((100vw - 20rem) / 70));
-  font-weight: 400;
+  font-weight: 300;
   font-style: italic;
-  line-height: 0.928;
 }
 @media screen and (min-width: 90rem) {
     .heading {
@@ -225,8 +292,10 @@ img {
 }
 .home
 {
-  padding-top: 7.249999999999999%;
-  padding-bottom: 7.249999999999999%;
+  padding-top: 5%;
+  padding-right: 6.25%;
+  padding-bottom: 5%;
+  padding-left: 6.25%;
   background-image: -webkit-linear-gradient(right, #4b1248, #f0c27b);
   background-image: linear-gradient(to left, #4b1248, #f0c27b);
 }
@@ -237,7 +306,9 @@ img {
   -ms-flex: 0 0 auto;
       flex: 0 0 auto;
   width: 50%;
-  padding-left: 20px;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .home__heading:nth-child(n) {
@@ -258,10 +329,12 @@ img {
   -ms-flex: 0 0 auto;
       flex: 0 0 auto;
   width: 50%;
+
   -webkit-justify-content: flex-end;
+
   -ms-flex-pack: end;
+
       justify-content: flex-end;
-  padding-right: 20px;
 }
 
 .home__lion:nth-child(n) {
@@ -351,15 +424,39 @@ img {
 {
   /*width: 100%;*/
 }
-
-body
+.subheading
 {
-  color: #222;
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
-  line-height: 1.45;
+  font-size: calc(1rem + 1.6179999999999999 * ((100vw - 20rem) / 70));
+  font-size: calc(1rem + 1.6179999999999999 * ((100vw - 20rem) / 70));
+  display: none;
+}
+@media screen and (min-width: 90rem) {
+    .subheading {
+        font-size: 2.618em;
+    }
+}
+@media screen and (max-width: 20rem) {
+    .subheading {
+        font-size: 1rem;
+    }
+}
+@media screen and (min-width: 90rem) {
+    .subheading {
+        font-size: 2.618em;
+    }
+}
+@media screen and (max-width: 20rem) {
+    .subheading {
+        font-size: 1rem;
+    }
 }
 
-/* 23,2 */
+@media (min-width: 30em)
+{
+  .subheading
+  {
+    display: block;
+  }
+}
 
 /*# sourceMappingURL=styles.css.map */

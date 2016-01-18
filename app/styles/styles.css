@@ -3,16 +3,5 @@
 
 /* imports */
 
-@import 'helpers/app-reset';
-@import 'helpers/variables';
+@import 'helpers/*.css';
 @import '../blocks/**/*.css';
-
-body
-{
-  color: var(--mainBlack);
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
-  line-height: 1.45;
-}
-
-/* 23,2 */

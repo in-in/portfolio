@@ -40,11 +40,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.27692308"
-     inkscape:cx="1097.3611"
-     inkscape:cy="1625"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="585.60036"
+     inkscape:cy="2778.4246"
      inkscape:document-units="px"
-     inkscape:current-layer="layer5"
+     inkscape:current-layer="layer12"
      showgrid="false"
      units="px"
      inkscape:window-width="1920"
@@ -514,7 +514,7 @@
     </rdf:RDF>
   </metadata>
   <g
-     style="display:none"
+     style="display:inline"
      inkscape:label="measurement"
      id="layer11"
      inkscape:groupmode="layer"
