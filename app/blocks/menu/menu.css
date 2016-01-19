@@ -29,3 +29,35 @@
 {
   transform: scale(.8);
 }
+
+.hide-text
+{
+  overflow: hidden;
+  white-space: nowrap;
+  text-indent: -9999px;
+}
+
+@media (--s)
+{
+  .menu__icon
+  {
+    display: none;
+  }
+
+  .menu__item
+  {
+    align-items: center;
+    padding-bottom: 0;
+    font-size: 25px;
+    font-size: responsive 1rem 1.618rem;
+    font-range: 30rem 90rem;
+    font-weight: 500;
+  }
+
+  .hide-text
+  {
+    overflow: hidden;
+    white-space: nowrap;
+    text-indent: 0;
+  }
+}
