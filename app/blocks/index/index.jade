@@ -1,6 +1,7 @@
 include ../container/container
 include ../section/section
 include ../home/home
+include ../about/about
 include ../heading/heading
 include ../subheading/subheading
 
@@ -15,5 +16,7 @@ mixin index()
               | Design is not just what it looks like and feels like. Design is how it works.
           +e.lion
             +icon('lion', 130, 167.251).lion
-      +section().section-about#about
-        p about section-about
+          span(class="triangle triangle--top-left js-triangle")
+      +section()#about
+        +about()
+          p about section-about

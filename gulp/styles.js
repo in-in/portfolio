@@ -30,7 +30,7 @@ gulp.task('styles', function () {
   ];
 
   return gulp.src('app/styles/styles.css')
-    .pipe(plumber({ errorHandler: onError }))
+    .pipe(plumber())
     .pipe(sourcemaps.init())
     .pipe(postcss(processors))
     .pipe(sourcemaps.write('.'))
