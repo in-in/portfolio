@@ -219,18 +219,6 @@ small
   height: 30rem;
   background-color: lightgreen;
 }
-
-.triangle
-{
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 0;
-  height: 0;
-  border-width: 74px 0 0 0;
-  border-style: solid;
-  border-color: transparent transparent transparent #007bff;
-}
 .box {
   background-color: purple;
   display: -webkit-flex;
@@ -337,14 +325,13 @@ small
 }
 .home
 {
+  position: relative;
   padding-top: 5%;
   padding-right: 6.25%;
-  padding-bottom: 5%;
+  padding-bottom: 21%;
   padding-left: 6.25%;
   background-image: -webkit-linear-gradient(right, #4b1248, #f0c27b);
   background-image: linear-gradient(to left, #4b1248, #f0c27b);
-  position: relative;
-  /*height: 20rem*/
 }
 
 .home__heading
@@ -571,6 +558,17 @@ small
   {
     display: block;
   }
+}
+.triangle
+{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-width: 74px 0 0 0;
+  border-style: solid;
+  border-color: transparent transparent transparent white;
 }
 
 /*# sourceMappingURL=styles.css.map */

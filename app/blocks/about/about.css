@@ -3,15 +3,3 @@
   height: 30rem;
   background-color: lightgreen;
 }
-
-.triangle
-{
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 0;
-  height: 0;
-  border-width: 74px 0 0 0;
-  border-style: solid;
-  border-color: transparent transparent transparent #007bff;
-}
