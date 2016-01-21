@@ -33,16 +33,16 @@
      guidetolerance="10"
      inkscape:snap-page="true"
      inkscape:guide-bbox="true"
-     showguides="false"
+     showguides="true"
      id="base"
      pagecolor="#ffffff"
      bordercolor="#666666"
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4074145"
-     inkscape:cx="160.76048"
-     inkscape:cy="2947.1068"
+     inkscape:zoom="6.2660539"
+     inkscape:cx="11.602942"
+     inkscape:cy="3039.1069"
      inkscape:document-units="px"
      inkscape:current-layer="layer18"
      showgrid="false"
@@ -208,6 +208,10 @@
        id="guide4213"
        orientation="1,0"
        position="1300,0" />
+    <sodipodi:guide
+       position="319.92969,2992.6179"
+       orientation="0,1"
+       id="guide5195" />
   </sodipodi:namedview>
   <defs
      id="defs4">
