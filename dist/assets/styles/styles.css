@@ -178,21 +178,131 @@ h1
   margin-top: 0;
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 6.854em;
+  font-size: calc(2rem + 4.854 * ((100vw - 20rem) / 70));
+  font-size: calc(2rem + 4.854 * ((100vw - 20rem) / 70));
+}
+
+@media screen and (min-width: 90rem) {
+    h1 {
+        font-size: 6.854rem;
+    }
+}
+
+@media screen and (max-width: 20rem) {
+    h1 {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 90rem) {
+    h1 {
+        font-size: 6.854rem;
+    }
+}
+
+@media screen and (max-width: 20rem) {
+    h1 {
+        font-size: 2rem;
+    }
 }
 
 h2
 {
   font-size: 4.236em;
+  font-size: calc(1.618rem + 2.6179999999999994 * ((100vw - 20rem) / 70));
+  font-size: calc(1.618rem + 2.6179999999999994 * ((100vw - 20rem) / 70));
+  font-weight: 500;
+}
+
+@media screen and (min-width: 90rem) {
+    h2 {
+        font-size: 4.236em;
+    }
+}
+
+@media screen and (max-width: 20rem) {
+    h2 {
+        font-size: 1.618rem;
+    }
+}
+
+@media screen and (min-width: 90rem) {
+    h2 {
+        font-size: 4.236em;
+    }
+}
+
+@media screen and (max-width: 20rem) {
+    h2 {
+        font-size: 1.618rem;
+    }
 }
 
 h3
 {
   font-size: 2.618em;
+  font-size: calc(1.2rem + 1.418 * ((100vw - 20rem) / 70));
+  font-size: calc(1.2rem + 1.418 * ((100vw - 20rem) / 70));
+}
+
+@media screen and (min-width: 90rem) {
+    h3 {
+        font-size: 2.618em;
+    }
+}
+
+@media screen and (max-width: 20rem) {
+    h3 {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (min-width: 90rem) {
+    h3 {
+        font-size: 2.618em;
+    }
+}
+
+@media screen and (max-width: 20rem) {
+    h3 {
+        font-size: 1.2rem;
+    }
 }
 
 h4
 {
   font-size: 1.618em;
+}
+
+p
+{
+  font-size: 1.618em;
+  font-size: calc(1rem + 0.6180000000000001 * ((100vw - 20rem) / 70));
+  font-size: calc(1rem + 0.6180000000000001 * ((100vw - 20rem) / 70));
+}
+
+@media screen and (min-width: 90rem) {
+    p {
+        font-size: 1.618rem;
+    }
+}
+
+@media screen and (max-width: 20rem) {
+    p {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 90rem) {
+    p {
+        font-size: 1.618rem;
+    }
+}
+
+@media screen and (max-width: 20rem) {
+    p {
+        font-size: 1rem;
+    }
 }
 
 small
@@ -215,9 +325,79 @@ small
 */
 .about
 {
-  height: 480px;
-  height: 30rem;
-  background-color: lightgreen;
+  width: 100%;
+}
+
+.about__avatar
+{
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+      flex: 0 0 auto;
+  width: 43.33333%;
+
+  -webkit-flex-direction: column;
+
+  -ms-flex-direction: column;
+
+  flex-direction: column;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+          -ms-grid-row-align: center;
+      align-items: center;
+}
+
+.about__avatar:nth-child(n) {
+    margin-right: 0;
+}
+
+.about__avatar:last-child {
+    margin-right: 0;
+}
+
+.about__avatar:nth-child(0n) {
+    float: right;
+}
+
+.about__avatar:nth-child(0n) {
+    margin-right: 0;
+}
+
+.about__info
+{
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+      flex: 0 0 auto;
+  width: 56.66667%;
+
+  -webkit-flex-direction: column;
+
+  -ms-flex-direction: column;
+
+  flex-direction: column;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+      justify-content: flex-end;
+}
+
+.about__info:nth-child(n) {
+    margin-right: 0;
+}
+
+.about__info:last-child {
+    margin-right: 0;
+}
+
+.about__info:nth-child(0n) {
+    float: right;
+}
+
+.about__info:nth-child(0n) {
+    margin-right: 0;
+}
+
+.avatar
+{
+  width: 71.94244604316546%;
 }
 .box {
   background-color: purple;
@@ -259,10 +439,9 @@ small
 
 .header__logo
 {
-  -webkit-box-flex: 0;
   -webkit-flex-grow: 0;
-      -ms-flex-positive: 0;
-          flex-grow: 0;
+  -ms-flex-positive: 0;
+      flex-grow: 0;
 }
 
 .header__menu
@@ -270,10 +449,9 @@ small
   -webkit-justify-content: flex-end;
   -ms-flex-pack: end;
       justify-content: flex-end;
-  -webkit-box-flex: 1;
   -webkit-flex-grow: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  -ms-flex-positive: 1;
+      flex-grow: 1;
 }
 
 @media (min-width: 40em)
@@ -287,10 +465,9 @@ small
 
   .header__menu
   {
-    -webkit-box-flex: 0;
     -webkit-flex-grow: 0;
-        -ms-flex-positive: 0;
-            flex-grow: 0;
+    -ms-flex-positive: 0;
+        flex-grow: 0;
     -ms-flex-preferred-size: 28.125rem;
         -webkit-flex-basis: 28.125rem;
             flex-basis: 28.125rem;
@@ -298,30 +475,8 @@ small
 }
 .heading
 {
-  font-size: calc(1.618rem + 5.236 * ((100vw - 20rem) / 70));
-  font-size: calc(1.618rem + 5.236 * ((100vw - 20rem) / 70));
   font-weight: 300;
   font-style: italic;
-}
-@media screen and (min-width: 90rem) {
-    .heading {
-        font-size: 6.854rem;
-    }
-}
-@media screen and (max-width: 20rem) {
-    .heading {
-        font-size: 1.618rem;
-    }
-}
-@media screen and (min-width: 90rem) {
-    .heading {
-        font-size: 6.854rem;
-    }
-}
-@media screen and (max-width: 20rem) {
-    .heading {
-        font-size: 1.618rem;
-    }
 }
 .home
 {
@@ -357,6 +512,10 @@ small
 }
 
 .home__heading:nth-child(0n) {
+    float: right;
+}
+
+.home__heading:nth-child(0n) {
     margin-right: 0;
 }
 
@@ -380,6 +539,10 @@ small
 
 .home__lion:last-child {
     margin-right: 0;
+}
+
+.home__lion:nth-child(0n) {
+    float: right;
 }
 
 .home__lion:nth-child(0n) {
@@ -438,6 +601,7 @@ small
       justify-content: center;
   -webkit-align-items: flex-end;
   -ms-flex-align: end;
+          -ms-grid-row-align: flex-end;
       align-items: flex-end;
   padding-bottom: 12px;
   padding-bottom: .75rem;
@@ -449,6 +613,10 @@ small
 
 .menu__item:last-child {
     margin-right: 0;
+}
+
+.menu__item:nth-child(0n) {
+    float: right;
 }
 
 .menu__item:nth-child(0n) {
@@ -494,6 +662,7 @@ small
   {
     -webkit-align-items: center;
     -ms-flex-align: center;
+            -ms-grid-row-align: center;
         align-items: center;
     padding-bottom: 0;
     font-size: 25px;
@@ -527,29 +696,7 @@ small
 }
 .subheading
 {
-  font-size: calc(1rem + 1.6179999999999999 * ((100vw - 20rem) / 70));
-  font-size: calc(1rem + 1.6179999999999999 * ((100vw - 20rem) / 70));
   display: none;
-}
-@media screen and (min-width: 90rem) {
-    .subheading {
-        font-size: 2.618em;
-    }
-}
-@media screen and (max-width: 20rem) {
-    .subheading {
-        font-size: 1rem;
-    }
-}
-@media screen and (min-width: 90rem) {
-    .subheading {
-        font-size: 2.618em;
-    }
-}
-@media screen and (max-width: 20rem) {
-    .subheading {
-        font-size: 1rem;
-    }
 }
 
 @media (min-width: 30em)
