@@ -1,0 +1,30 @@
+.social
+{
+  justify-content: center;
+  width: 100%;
+  width: 71.94244604316546%;
+  margin-top: 20px;;
+}
+
+.social__item
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 14.0625vw;
+  max-width: 4.688rem;
+  height: 7.8125vw;
+  max-height: 2.813rem;
+  margin-right: 10px;
+  border: 1px solid var(--mainBlack);
+}
+
+.social__item:last-child
+{
+  margin-right: 0;
+}
+
+.social__icon
+{
+  width: 35.55555555555556%;
+}

@@ -14,11 +14,11 @@ import rucksack from 'rucksack-css';
 
 
 
-const onError = function (err) {
-  notifier.notify({
-    message: "Error in \'styles\' task'"
-  });
-};
+// const onError = function (err) {
+//   notifier.notify({
+//     message: "Error in \'styles\' task'"
+//   });
+// };
 
 gulp.task('styles', function () {
   var processors = [

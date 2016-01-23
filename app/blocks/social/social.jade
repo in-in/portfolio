@@ -1,0 +1,7 @@
+include ../icon/icon
+
+mixin social(links)
+  +b.social&attributes(attributes)
+    each item in links
+      +e('a')(href='#0').item
+          +icon(item[1], item[2], item[3]).social__icon

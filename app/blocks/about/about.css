@@ -16,7 +16,7 @@
   lost-column: 1.7/3 0 0;
 
   flex-direction: column;
-  /*max-width: 25rem;*/
+  align-items: center;
 }
 
 .avatar
