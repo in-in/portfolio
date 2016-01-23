@@ -1,9 +1,9 @@
 .social
 {
+  flex-wrap: wrap;
   justify-content: center;
-  width: 100%;
-  width: 71.94244604316546%;
-  margin-top: 20px;;
+  width: 80%;
+  margin-top: 1.3rem;
 }
 
 .social__item
@@ -12,19 +12,24 @@
   justify-content: center;
   align-items: center;
   width: 14.0625vw;
+  min-width: 25px;
   max-width: 4.688rem;
   height: 7.8125vw;
   max-height: 2.813rem;
-  margin-right: 10px;
+  margin: .313rem;
   border: 1px solid var(--mainBlack);
-}
-
-.social__item:last-child
-{
-  margin-right: 0;
 }
 
 .social__icon
 {
   width: 35.55555555555556%;
+  min-width: 1rem;
+}
+
+@media (--m)
+{
+  .social__item
+  {
+    border-width: 2px;
+  }
 }

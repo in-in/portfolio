@@ -7,6 +7,7 @@ include ../subheading/subheading
 include ../triangle/triangle
 include ../info/info
 include ../social/social
+include ../skills/skills
 
 mixin index()
   +b.index
@@ -29,6 +30,8 @@ mixin index()
           +e.info
             +info()
               h2 Inin
-              h3.light  Front-end developer
+              h3.light Front-end developer
               p I'm a front-end developer based in Moscow. I produce stylish and high-quality digital projects.
               p I'm available for freelance works.
+          +e.skills
+            +skills(getData('skills'))

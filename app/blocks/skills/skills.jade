@@ -1,0 +1,8 @@
+mixin skills(list)
+  +b.skills&attributes(attributes)
+    h3 Skills:
+    +b('ul').checkbox
+      each item, index in list
+        +e.item
+          input(type='checkbox', id='check_#{index}', checked= (item[1]) ? "" : null)
+          label(for='check_#{index}')= item[0]

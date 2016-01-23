@@ -1,5 +1,6 @@
 .about
 {
+  flex-wrap: wrap;
   width: 100%;
 }
 
@@ -17,6 +18,14 @@
 
   flex-direction: column;
   align-items: center;
+}
+
+.about__skills
+{
+  lost-column: 3/3 0 0;
+
+  background-color: pink;
+  justify-content: center;
 }
 
 .avatar

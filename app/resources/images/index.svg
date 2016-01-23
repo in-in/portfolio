@@ -41,10 +41,10 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.5"
-     inkscape:cx="662.97514"
-     inkscape:cy="2451.0187"
+     inkscape:cx="78.34286"
+     inkscape:cy="1303.5956"
      inkscape:document-units="px"
-     inkscape:current-layer="layer14"
+     inkscape:current-layer="svg2"
      showgrid="false"
      units="px"
      inkscape:window-width="1920"
@@ -1168,7 +1168,8 @@
      transform="translate(0,1250)"
      inkscape:label="about"
      id="layer4"
-     inkscape:groupmode="layer">
+     inkscape:groupmode="layer"
+     sodipodi:insensitive="true">
     <g
        inkscape:groupmode="layer"
        id="layer19"
@@ -1568,7 +1569,8 @@
        inkscape:groupmode="layer"
        id="layer13"
        inkscape:label="userpic"
-       style="display:inline">
+       style="display:inline"
+       sodipodi:insensitive="true">
       <g
          style="display:inline"
          id="g3400"
