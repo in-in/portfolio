@@ -1,6 +1,7 @@
 :root
 {
   --mainBlack: #222;
+  --light: #a9a9a9;
 }
 
 @custom-media --xs (min-width: 20em);

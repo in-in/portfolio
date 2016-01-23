@@ -374,30 +374,56 @@ small
   -ms-flex-direction: column;
 
   flex-direction: column;
-  -webkit-justify-content: flex-end;
-  -ms-flex-pack: end;
-      justify-content: flex-end;
+  /*max-width: 25rem;*/
 }
 
-.about__info:nth-child(n) {
+.about__info:nth-child(n) {/*max-width: 25rem;*/
     margin-right: 0;
 }
 
-.about__info:last-child {
+.about__info:last-child {/*max-width: 25rem;*/
     margin-right: 0;
 }
 
-.about__info:nth-child(0n) {
+.about__info:nth-child(0n) {/*max-width: 25rem;*/
     float: right;
 }
 
-.about__info:nth-child(0n) {
+.about__info:nth-child(0n) {/*max-width: 25rem;*/
     margin-right: 0;
 }
 
 .avatar
 {
   width: 71.94244604316546%;
+  margin-top: 1.414em;
+  font-size: 4.236em;
+  font-size: calc(1.618rem + 2.6179999999999994 * ((100vw - 20rem) / 70));
+  font-size: calc(1.618rem + 2.6179999999999994 * ((100vw - 20rem) / 70));
+}
+
+@media screen and (min-width: 90rem) {
+    .avatar {
+        font-size: 4.236em;
+    }
+}
+
+@media screen and (max-width: 20rem) {
+    .avatar {
+        font-size: 1.618rem;
+    }
+}
+
+@media screen and (min-width: 90rem) {
+    .avatar {
+        font-size: 4.236em;
+    }
+}
+
+@media screen and (max-width: 20rem) {
+    .avatar {
+        font-size: 1.618rem;
+    }
 }
 .box {
   background-color: purple;
@@ -552,6 +578,9 @@ small
 .lion
 {
   width: 81.25%;
+}
+.light {
+  color: #a9a9a9;
 }
 .logo
 {

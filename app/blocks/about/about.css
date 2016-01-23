@@ -16,10 +16,14 @@
   lost-column: 1.7/3 0 0;
 
   flex-direction: column;
-  justify-content: flex-end;
+  /*max-width: 25rem;*/
 }
 
 .avatar
 {
   width: 71.94244604316546%;
+  margin-top: 1.414em;
+  font-size: 4.236em;
+  font-size: responsive 1.618rem 4.236em;
+  font-range: 20rem 90rem;
 }
