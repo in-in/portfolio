@@ -4,5 +4,5 @@ mixin skills(list)
     +b('ul').checkbox
       each item, index in list
         +e.item
-          input(type='checkbox', id='check_#{index}', checked= (item[1]) ? "" : null)
-          label(for='check_#{index}')= item[0]
+          +e('input').input(type='checkbox', id='check_#{index}', checked= (item[1]) ? "" : null)
+          +e('label').label(for='check_#{index}')= item[0]

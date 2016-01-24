@@ -759,12 +759,55 @@ small
 }
 .skills
 {
-  width: 200px;
-  height: 300px;
-  background-color: darkgray;
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+  width: 200px;
+  height: 300px;
+  background-color: darkgray;
+}
+
+.checkbox
+{
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  height: 260px;
+  list-style: none;
+}
+
+.checkbox__label
+{
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+      align-items: flex-end;
+  cursor: pointer;
+  vertical-align: bottom;
+  background-color: #1e90ff;
+  font-size: 21px;
+}
+
+.checkbox__label:before
+{
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+  content: '';
+  vertical-align: middle;
+  border-radius: 50%;
+  background-image: url('https://unsplash.it/g/30?image=855');
 }
 .social
 {
