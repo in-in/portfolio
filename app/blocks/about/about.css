@@ -6,7 +6,7 @@
 
 .about__avatar
 {
-  lost-column: 1.3/3 0 0;
+  lost-column: 1.3/3;
 
   flex-direction: column;
   align-items: center;
@@ -14,20 +14,18 @@
 
 .about__info
 {
-  lost-column: 1.7/3 0 0;
+  lost-column: 1.7/3;
 
   flex-direction: column;
   align-items: center;
-  background-color: khaki;
 }
 
 .about__skills
 {
-  lost-column: 3/3 0 0;
+  lost-column: 3/3;
 
-  justify-content: center;
+  justify-content: flex-start;
   padding: 0 6.0790625%;
-  background-color: pink;
 }
 
 .avatar
@@ -43,7 +41,7 @@
 {
   .about__skills
   {
-    lost-column: 1.7/3 0 0;
+    lost-column: 1.7/3;
     lost-move: 1.3/3;
 
     justify-content: center;

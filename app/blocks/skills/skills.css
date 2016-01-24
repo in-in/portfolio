@@ -3,7 +3,6 @@
   flex-direction: column;
   width: 100%;
   max-width: 25rem;
-  background-color: gray;
 }
 
 .checkbox
@@ -22,7 +21,6 @@
   align-items: center;
   margin: 0 .3rem;
   cursor: pointer;
-  background-color: lightgreen;
   font-size: responsive 1rem 1.618rem;
   font-range: 20rem 90rem;
 }
