@@ -24,8 +24,8 @@
 {
   lost-column: 3/3 0 0;
 
-  background-color: pink;
-  justify-content: center;
+  justify-content: flex-start;
+  background-color: pink;;
 }
 
 .avatar
@@ -35,4 +35,14 @@
   font-size: 4.236em;
   font-size: responsive 1.618rem 4.236em;
   font-range: 20rem 90rem;
+}
+
+@media (--m)
+{
+  .about__skills
+  {
+    lost-column: 1.7/3 0 0;
+    lost-move: 1.3/3;
+    justify-content: center;
+  }
 }

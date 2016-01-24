@@ -11,6 +11,7 @@ import atImport from 'postcss-import';
 import lost from 'lost';
 import cssnext from 'postcss-cssnext';
 import rucksack from 'rucksack-css';
+import svg from 'postcss-svg';
 
 
 
@@ -26,6 +27,10 @@ gulp.task('styles', function () {
     lost,
     cssnext,
     rucksack,
+    svg({
+      paths: ['dist/images'],
+      defaults: "[fill]: #ff00ff"
+    }),
     autoprefixer({browsers: ['last 2 versions']})
   ];
 
