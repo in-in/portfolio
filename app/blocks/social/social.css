@@ -12,11 +12,12 @@
   justify-content: center;
   align-items: center;
   width: 14.0625vw;
-  min-width: 25px;
+  min-width: 1.563rem;
   max-width: 4.688rem;
-  height: 7.8125vw;
+  min-height: 1.563rem;
   max-height: 2.813rem;
   margin: .313rem;
+  padding: .25rem 0;
   border: 1px solid var(--mainBlack);
 }
 

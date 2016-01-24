@@ -18,14 +18,16 @@
 
   flex-direction: column;
   align-items: center;
+  background-color: khaki;
 }
 
 .about__skills
 {
   lost-column: 3/3 0 0;
 
-  justify-content: flex-start;
-  background-color: pink;;
+  justify-content: center;
+  padding: 0 6.0790625%;
+  background-color: pink;
 }
 
 .avatar
@@ -37,12 +39,14 @@
   font-range: 20rem 90rem;
 }
 
-@media (--m)
+@media (--s)
 {
   .about__skills
   {
     lost-column: 1.7/3 0 0;
     lost-move: 1.3/3;
+
     justify-content: center;
+    padding: 0 0;
   }
 }
