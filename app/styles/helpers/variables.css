@@ -4,11 +4,11 @@
   --light: #a9a9a9;
 }
 
-@custom-media --xs (width > 20em);
-@custom-media --s (width > 30em);
-@custom-media --m (width > 40em);
-@custom-media --l (width > 60em);
-@custom-media --xl (width > 80em);
+@custom-media --xs (width > 20rem);
+@custom-media --s (width > 30rem);
+@custom-media --m (width > 40rem);
+@custom-media --l (width > 60rem);
+@custom-media --xl (width > 80rem);
 
 /*
 320px --> 20em

@@ -40,11 +40,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.1076923"
-     inkscape:cx="-300.44879"
-     inkscape:cy="2694.2969"
+     inkscape:zoom="1.5665135"
+     inkscape:cx="196.48544"
+     inkscape:cy="2375.782"
      inkscape:document-units="px"
-     inkscape:current-layer="layer19"
+     inkscape:current-layer="layer5"
      showgrid="false"
      units="px"
      inkscape:window-width="1920"
@@ -852,8 +852,7 @@
      transform="translate(0,1250)"
      inkscape:label="portfolio"
      id="layer5"
-     inkscape:groupmode="layer"
-     sodipodi:insensitive="true">
+     inkscape:groupmode="layer">
     <path
        style="display:inline;opacity:1;fill:url(#linearGradient9771);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.84500003;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="M 0,-642.45 320.00563,-567.5274 320,1067.55 l -319.99883397,0 z"
@@ -864,8 +863,7 @@
        inkscape:groupmode="layer"
        id="layer17"
        inkscape:label="caption"
-       style="display:inline"
-       sodipodi:insensitive="true">
+       style="display:inline">
       <g
          id="g5751"
          transform="translate(0,-2)">
@@ -998,8 +996,7 @@
        inkscape:groupmode="layer"
        id="layer16"
        inkscape:label="thumbnail"
-       style="display:inline"
-       sodipodi:insensitive="true">
+       style="display:inline">
       <g
          id="g5637"
          transform="matrix(0.85714286,0,0,0.85714286,845.71429,-925.71441)"
@@ -1080,7 +1077,8 @@
      transform="translate(0,1250)"
      inkscape:label="about"
      id="layer4"
-     inkscape:groupmode="layer">
+     inkscape:groupmode="layer"
+     sodipodi:insensitive="true">
     <g
        inkscape:groupmode="layer"
        id="layer19"

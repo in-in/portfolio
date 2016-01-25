@@ -8,6 +8,7 @@ include ../triangle/triangle
 include ../info/info
 include ../social/social
 include ../skills/skills
+include ../portfolio/portfolio
 
 mixin index()
   +b.index
@@ -35,3 +36,6 @@ mixin index()
               p I'm available for freelance works.
           +e.skills
             +skills(getData('skills'))
+      +section()#portfolio
+        +portfolio()
+        
