@@ -2,49 +2,49 @@
   [
     "Hosting",
     "Hosting provider service",
-    "http://satyr.io/160x160/khaki?text=Works1+x1",
+    "images/site1_160.jpg",
     "http://satyr.io/240x240/khaki?text=Works1+x1",
     "http://satyr.io/320x320/khaki?text=Works1+x1",
-    "http://satyr.io/430x430/khaki?text=Works1+x1"
+    "http://satyr.io/480x480/khaki?text=Works1+x1"
   ],
   [
     "GoodGood",
     "Full service digital agency",
-    "http://satyr.io/160x160/pink?text=Works2+x1",
+    "images/site2_160.jpg",
     "http://satyr.io/240x240/pink?text=Works2+x1",
     "http://satyr.io/320x320/pink?text=Works2+x1",
-    "http://satyr.io/430x430/pink?text=Works2+x1"
+    "http://satyr.io/480x480/pink?text=Works2+x1"
   ],
   [
     "Intent",
     "Professional Wedding Planners",
-    "http://satyr.io/160x160/skyblue?text=Works3+x1",
+    "images/site3_160.jpg",
     "http://satyr.io/240x240/skyblue?text=Works3+x1",
     "http://satyr.io/320x320/skyblue?text=Works3+x1",
-    "http://satyr.io/430x430/skyblue?text=Works3+x1"
+    "http://satyr.io/480x480/skyblue?text=Works3+x1"
   ],
   [
-    "Lorem",
-    "Lorem ipsum dolor",
-    "http://satyr.io/160x160/IndianRed?text=Works4+x1",
+    "Финансовый Автопилот",
+    "Начните инвестировать",
+    "images/site4_160.jpg",
     "http://satyr.io/240x240/IndianRed?text=Works4+x1",
     "http://satyr.io/320x320/IndianRed?text=Works4+x1",
-    "http://satyr.io/430x430/IndianRed?text=Works4+x1"
+    "http://satyr.io/480x480/IndianRed?text=Works4+x1"
   ],
   [
-    "Ipsum",
-    "Lorem ipsum dolor",
-    "http://satyr.io/160x160/DarkOrchid?text=Works5+x1",
+    "TML",
+    "Все для вашего комфорта",
+    "images/site5_160.jpg",
     "http://satyr.io/240x240/DarkOrchid?text=Works5+x1",
     "http://satyr.io/320x320/DarkOrchid?text=Works5+x1",
-    "http://satyr.io/430x430/DarkOrchid?text=Works5+x1"
+    "http://satyr.io/480x480/DarkOrchid?text=Works5+x1"
   ],
   [
-    "Dolor",
-    "Lorem ipsum dolor",
-    "http://satyr.io/160x160/Gainsboro?text=Works6+x1",
+    "Aditii",
+    "Online Store",
+    "images/site6_160.jpg",
     "http://satyr.io/240x240/Gainsboro?text=Works6+x1",
     "http://satyr.io/320x320/Gainsboro?text=Works6+x1",
-    "http://satyr.io/430x430/Gainsboro?text=Works6+x1"
+    "http://satyr.io/480x480/Gainsboro?text=Works6+x1"
   ]
 ]

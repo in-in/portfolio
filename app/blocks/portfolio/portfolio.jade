@@ -5,11 +5,11 @@ mixin portfolio(list)
         picture
           source(
             media="(max-width: 20rem)",
-            srcset="#{item[2]}"
+            srcset="#{item[2]} 1x, #{item[4]} 2x, #{item[5]} 3x"
             )
           source(
             media="(min-width: 20rem) and (max-width: 30rem)",
-            srcset="#{item[3]}"
+            srcset="#{item[3]} 1x, #{item[5]} 2x"
             )
           source(
             media="(min-width: 30rem) and (max-width: 40rem)",
