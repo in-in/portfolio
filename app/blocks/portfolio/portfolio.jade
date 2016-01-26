@@ -2,10 +2,10 @@ mixin portfolio(list)
   +b.portfolio&attributes(attributes)
     each item in list
      +e.item
-        picture
+        +e('picture').image
           source(
             media="(max-width: 20rem)",
-            srcset="#{item[2]} 1x, #{item[4]} 2x, #{item[5]} 3x"
+            srcset="#{item[2]}"
             )
           source(
             media="(min-width: 20rem) and (max-width: 30rem)",
@@ -28,25 +28,6 @@ mixin portfolio(list)
             srcset="#{item[5]}"
             )
           img(srcset="#{item[2]}", alt="#{item[0]}")
-
-
-      //- 
-      //- 
-      //- picture
-      //-   source(
-      //-     media="(min-width: 0) and (max-width: 20rem)",
-      //-     srcset="http://satyr.io/300x300/khaki?text=x1, http://satyr.io/450x450/khaki?text=x1.5 1.5x, http://satyr.io/600x600/khaki?text=x2 2x"
-      //-     )
-      //-   source(
-      //-     media="(min-width: 20rem) and (max-width: 30rem)",
-      //-     srcset="http://satyr.io/400x400/skyblue?text=x1, http://satyr.io/600x600/skyblue?text=x1.5 1.5x, http://satyr.io/800x800/skyblue?text=x2 2x"
-      //-     )
-      //-   source(
-      //-     media="(min-width: 30rem) and (max-width: 40rem)",
-      //-     srcset="http://satyr.io/600x600/pink?text=x1, http://satyr.io/900x900/pink?text=x1.5 1.5x, http://satyr.io/1200x1200/pink?text=x2 2x"
-      //-     )
-      //-   source(
-      //-     media="(min-width: 40rem)",
-      //-     srcset="http://satyr.io/1200x1200/gold?text=x1, http://satyr.io/1800x1800/gold?text=x1.5 1.5x, http://satyr.io/2400x2400/gold?text=x2 2x"
-      //-     )
-      //-   img(srcset="http://satyr.io/300x300/red, http://satyr.io/450x450/red?text=x1.5 1.5x, http://satyr.io/600x600/red?text=x2 2x", alt="portfolio exampe")
+        +e.description
+          h3= item[0]
+          p= item[1]

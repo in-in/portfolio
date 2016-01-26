@@ -3,48 +3,48 @@
     "Hosting",
     "Hosting provider service",
     "images/site1_160.jpg",
-    "http://satyr.io/240x240/khaki?text=Works1+x1",
-    "http://satyr.io/320x320/khaki?text=Works1+x1",
-    "http://satyr.io/480x480/khaki?text=Works1+x1"
+    "images/site1_240.jpg",
+    "images/site1_320.jpg",
+    "images/site1_480.jpg"
   ],
   [
     "GoodGood",
     "Full service digital agency",
     "images/site2_160.jpg",
-    "http://satyr.io/240x240/pink?text=Works2+x1",
-    "http://satyr.io/320x320/pink?text=Works2+x1",
-    "http://satyr.io/480x480/pink?text=Works2+x1"
+    "images/site2_240.jpg",
+    "images/site2_320.jpg",
+    "images/site2_480.jpg"
   ],
   [
     "Intent",
-    "Professional Wedding Planners",
+    "Professional wedding planners",
     "images/site3_160.jpg",
-    "http://satyr.io/240x240/skyblue?text=Works3+x1",
-    "http://satyr.io/320x320/skyblue?text=Works3+x1",
-    "http://satyr.io/480x480/skyblue?text=Works3+x1"
+    "images/site3_240.jpg",
+    "images/site3_320.jpg",
+    "images/site3_480.jpg"
   ],
   [
     "Финансовый Автопилот",
-    "Начните инвестировать",
+    "Landing page of investment company",
     "images/site4_160.jpg",
-    "http://satyr.io/240x240/IndianRed?text=Works4+x1",
-    "http://satyr.io/320x320/IndianRed?text=Works4+x1",
-    "http://satyr.io/480x480/IndianRed?text=Works4+x1"
+    "images/site4_240.jpg",
+    "images/site4_320.jpg",
+    "images/site4_480.jpg"
   ],
   [
     "TML",
-    "Все для вашего комфорта",
+    "Manufacturing company",
     "images/site5_160.jpg",
-    "http://satyr.io/240x240/DarkOrchid?text=Works5+x1",
-    "http://satyr.io/320x320/DarkOrchid?text=Works5+x1",
-    "http://satyr.io/480x480/DarkOrchid?text=Works5+x1"
+    "images/site5_240.jpg",
+    "images/site5_320.jpg",
+    "images/site5_480.jpg"
   ],
   [
     "Aditii",
     "Online Store",
     "images/site6_160.jpg",
-    "http://satyr.io/240x240/Gainsboro?text=Works6+x1",
-    "http://satyr.io/320x320/Gainsboro?text=Works6+x1",
-    "http://satyr.io/480x480/Gainsboro?text=Works6+x1"
+    "images/site6_240.jpg",
+    "images/site6_320.jpg",
+    "images/site6_480.jpg"
   ]
 ]
