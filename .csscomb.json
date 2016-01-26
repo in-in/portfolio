@@ -117,6 +117,7 @@
       "animation",
       "animation-name",
       "animation-duration",
+      "animation-fill-mode",
       "animation-play-state",
       "animation-timing-function",
       "animation-delay",
