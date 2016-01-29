@@ -1,11 +1,22 @@
 .triangle
 {
   position: absolute;
-  bottom: 0;
   left: 0;
   width: 0;
   height: 0;
   border-width: 74px 0 0 0;
   border-style: solid;
+}
+
+.triangle__top
+{
+  top: 0;
+  border-color: white transparent transparent transparent;
+}
+
+
+.triangle__bottom
+{
+  bottom: 0;
   border-color: transparent transparent transparent white;
 }

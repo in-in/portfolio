@@ -2,6 +2,8 @@
 {
   flex-wrap: wrap;
   width: 100%;
+  padding-top: 21%;
+  padding-bottom: 20%;
 }
 
 .portfolio__item

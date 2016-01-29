@@ -9,12 +9,13 @@ include ../info/info
 include ../social/social
 include ../skills/skills
 include ../portfolio/portfolio
+include ../contact/contact
 
 mixin index()
   +b.index
     +container()
       +section()#home
-        +home()
+        +home().gradient
           +e.heading
             +heading() Gorgeous Design For Humans
             +subheading() 
@@ -22,7 +23,7 @@ mixin index()
           +e.lion
             +icon('lion', 130, 167.251).lion
 
-        +triangle().triangle--top-left.js-triangle
+        +triangle().triangle__bottom.js-triangle
       +section()#about
         +about()
           +e.avatar
@@ -37,5 +38,7 @@ mixin index()
           +e.skills
             +skills(getData('skills'))
       +section()#portfolio
-        +portfolio(getData('works'))
-        
+        +triangle().triangle__top.js-triangle
+        +portfolio(getData('works')).gradient
+      +section()#contact
+        +contact()
