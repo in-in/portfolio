@@ -10,6 +10,7 @@ include ../social/social
 include ../skills/skills
 include ../portfolio/portfolio
 include ../contact/contact
+include ../form/form
 
 mixin index()
   +b.index
@@ -42,3 +43,5 @@ mixin index()
         +portfolio(getData('works')).gradient
       +section()#contact
         +contact()
+          h2 Get in touch
+          +form()

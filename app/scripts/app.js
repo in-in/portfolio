@@ -3,14 +3,11 @@ function tri() {
   const h = Math.floor(w * 0.23);
   const triangle = document.querySelectorAll('.js-triangle');
 
-  for (var i = 0; i < triangle.length; i++) {
+  for (let i = 0; i < triangle.length; i++) {
     triangle[i].style.borderWidth = h + 'px 0 0 ' + w + 'px';
   }
   window.onresize = tri;
 }
-
-// window.onload = tri;
-// window.onresize = tri;
 
 function show() {
   const up = this.querySelector('.portfolio__description h3');
@@ -41,7 +38,7 @@ function getCard() {
   }
 }
 
-window.onload = function () {
+window.onload = () => {
   tri();
   getCard();
 };
