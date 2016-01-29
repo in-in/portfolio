@@ -2,9 +2,6 @@ mixin portfolio(list)
   +b.portfolio&attributes(attributes)
     each item in list
       +e.item
-        +e.description
-         h3= item[0]
-         p= item[1]
         +e('picture').image
           source(
             media="(max-width: 20rem)",
@@ -31,3 +28,6 @@ mixin portfolio(list)
             srcset="#{item[5]}"
             )
           img(srcset="#{item[2]}", alt="#{item[0]}")
+        +e.description
+          h3= item[0]
+          p= item[1]
