@@ -44,7 +44,8 @@
   transition: all .5s ease;
   text-align: center;
   color: white;
-  background-color: rgba(23,23,23, .7);
+  /*background-color: rgba(23, 23, 23, .7);*/
+  background-color: rgba(#4B1248, .7);
 }
 
 .portfolio__description h3

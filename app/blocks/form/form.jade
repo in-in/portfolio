@@ -1,16 +1,16 @@
 mixin form()
   +b('form')(method="POST", action='').feedback
       +e.field
-          +b('input')(id="inputName", type='text', maxlength='100', required).textInput
-          +b('label')(for='inputName').textInput-label Name
+          +e('input')(id="inputName", type='text', maxlength='100', required).input
+          +e('label')(for='inputName').label Name
       +e.field
-          +b('input')(id="inputEmail", type='email', name='_replyto', maxlength='100', required).textInput
-          +b('label')(for='inputEmail').textInput-label Email
+          +e('input')(id="inputEmail", type='email', name='_replyto', maxlength='100', required).input
+          +e('label')(for='inputEmail').label Email
       +e.field
-          +b('input')(id="inputSubject", type='text', name='_subject', maxlength='100', required).textInput
-          +b('label')(for='inputSubject').textInput-label Subject
+          +e('input')(id="inputSubject", type='text', name='_subject', maxlength='100', required).input
+          +e('label')(for='inputSubject').label Subject
       +e.field
-          +b('textarea')(id='inputMessage', name='message', maxlength='1000', required).textInput
-          +b('label')(for='inputMessage').textInput-label
+          +e('textarea')(id='inputMessage', name='message', maxlength='1000', required).input
+          +e('label')(for='inputMessage').label
       input(type="hidden", name="_next", value="")
       +e('button')(type="submit").btn Submit

@@ -301,6 +301,41 @@ p
     }
 }
 
+input,
+label
+{
+  font-size: calc(1rem + 0.6180000000000001 * ((100vw - 20rem) / 70));
+  font-size: calc(1rem + 0.6180000000000001 * ((100vw - 20rem) / 70));
+}
+
+@media screen and (min-width: 90rem) {
+    input,
+label {
+        font-size: 1.618rem;
+    }
+}
+
+@media screen and (max-width: 20rem) {
+    input,
+label {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 90rem) {
+    input,
+label {
+        font-size: 1.618rem;
+    }
+}
+
+@media screen and (max-width: 20rem) {
+    input,
+label {
+        font-size: 1rem;
+    }
+}
+
 small
 {
   font-size: .618em;
@@ -518,7 +553,35 @@ small
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  background-color: palevioletred;
+}
+
+.feedback__field
+{
+  position: relative;
+  width: 100%;
+  height: 48px;
+  height: 3rem;
+  margin-bottom: 32px;
+  margin-bottom: 2rem;
+}
+
+.feedback__input
+{
+  width: 100%;
+  outline: 1px solid red;
+}
+
+.feedback__label
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: lightgreen;
+}
+
+.feedback__btn
+{
+  width: 100%;
 }
 .gradient
 {
@@ -879,8 +942,8 @@ small
   transition: all .5s ease;
   text-align: center;
   color: white;
-  background-color: #171717;
-  background-color: rgba(23,23,23, .7);
+  /*background-color: rgba(23, 23, 23, .7);*/
+  background-color: rgba(75,18,72, .7);
 }
 
 .portfolio__description h3

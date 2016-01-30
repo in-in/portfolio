@@ -59,6 +59,13 @@ p
   font-range: 20rem 90rem;
 }
 
+input,
+label
+{
+  font-size: responsive 1rem 1.618rem;
+  font-range: 20rem 90rem;
+}
+
 small
 {
   font-size: .618em;
