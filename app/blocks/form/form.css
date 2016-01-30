@@ -11,12 +11,19 @@
   margin-bottom: 2rem;
 }
 
-.feedback__input
+.feedback__input,
+.feedback__textarea
 {
   width: 100%;
-  padding-right: .5rem;
-  padding-left: .5rem;
+  padding: .5rem;
+  border: none;
   outline: 1px solid red;
+}
+
+.feedback__textarea
+{
+  height: 12.5rem;
+  resize: none;
 }
 
 .feedback__label
@@ -24,16 +31,24 @@
   position: absolute;
   top: 0;
   left: 0;
-  padding-left: .5rem;
+  padding: .5rem;
   background-color: lightgreen;
 }
 
 .feedback__label::after
 {
   content: '*';
-  display: inline-block;
   color: tomato;
 }
+
+.feedback__input:focus + .feedback__label,
+.feedback__textarea:focus + .feedback__label
+/*.feedback__input:valid + .feedback__label,
+.feedback__textarea:valid + .feedback__label*/
+{
+  display: none;
+}
+
 
 .feedback__btn
 {

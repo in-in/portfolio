@@ -60,10 +60,13 @@ p
 }
 
 input,
-label
+label,
+textarea
 {
+  font-family: 'Roboto', sans-serif;
   font-size: responsive 1rem 1.618rem;
   font-range: 20rem 90rem;
+  line-height: 1.45;
 }
 
 small

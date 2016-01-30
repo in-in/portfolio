@@ -38,7 +38,24 @@ function getCard() {
   }
 }
 
+function checkForm() {
+  var inputField = document.querySelectorAll('.feedback__input');
+  var textareaField = document.querySelectorAll('.feedback__textarea');
+
+  for (var i = 0; i < inputField.length; i++) {
+    inputField.addEventListener('keydown', function(e) {
+      if (inputField.value.length !== 0) {
+        console.log('data');
+      } else {
+        console.log('nothing');
+      }
+    });
+  }
+}
+
+
 window.onload = () => {
   tri();
   getCard();
+  checkForm();
 };
