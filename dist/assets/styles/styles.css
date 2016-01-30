@@ -527,11 +527,11 @@ small
 }
 .contact
 {
-  width: 100%;
-  height: 400px;
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
-  flex-direction: column;;
+  flex-direction: column;
+  width: 100%;
+  height: 400px;
 }
 .container
 {
@@ -587,6 +587,7 @@ small
 .feedback__label:after
 {
   content: '*';
+  display: inline-block;
   color: tomato;
 }
 
