@@ -13,14 +13,6 @@ import cssnext from 'postcss-cssnext';
 import rucksack from 'rucksack-css';
 import svg from 'postcss-svg';
 
-
-
-// const onError = function (err) {
-//   notifier.notify({
-//     message: "Error in \'styles\' task'"
-//   });
-// };
-
 gulp.task('styles', function () {
   var processors = [
     atImport({glob: true}),
@@ -35,7 +27,14 @@ gulp.task('styles', function () {
   ];
 
   return gulp.src('app/styles/styles.css')
-    .pipe(plumber())
+    .pipe(plumber({
+      errorHandler: function (error) {
+        console.log(error.message);
+        this.emit('end');
+        notifier.notify({
+            message: "Error in \'styles\' task'"
+          });
+      }}))
     .pipe(sourcemaps.init())
     .pipe(postcss(processors))
     .pipe(sourcemaps.write('.'))
