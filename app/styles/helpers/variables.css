@@ -2,6 +2,8 @@
 {
   --mainBlack: #222;
   --light: #a9a9a9;
+  --baseFontSize: 1rem;
+  --vr: calc(var(--baseFontSize) * 1.45);
 }
 
 @custom-media --xs (width > 20rem);

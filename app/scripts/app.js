@@ -39,17 +39,16 @@ function getCard() {
 }
 
 function checkForm() {
-  var inputField = document.querySelectorAll('.feedback__input');
-  var textareaField = document.querySelectorAll('.feedback__textarea');
+  const emailInput = document.getElementById('inputEmail');
+  emailInput.addEventListener('change', hideLabel, false);
 
-  for (var i = 0; i < inputField.length; i++) {
-    inputField.addEventListener('keydown', function(e) {
-      if (inputField.value.length !== 0) {
-        console.log('data');
-      } else {
-        console.log('nothing');
-      }
-    });
+  function hideLabel() {
+    const label = this.nextElementSibling;
+    if (emailInput.value) {
+      label.classList.add('feedback__label--hide');
+    } else if (emailInput.value.length === 0) {
+      label.classList.remove('feedback__label--hide');
+    }
   }
 }
 

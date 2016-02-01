@@ -147,6 +147,7 @@ img {
 html
 {
   font-size: 16px;
+  font-size: 1rem;
 }
 
 body
@@ -234,6 +235,11 @@ h2
     h2 {
         font-size: 1.618rem;
     }
+}
+
+.h2-center
+{
+  text-align: center;
 }
 
 h3
@@ -537,6 +543,7 @@ small
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+  padding-bottom: 20%;
 }
 .container
 {
@@ -550,39 +557,47 @@ small
   max-width: 90rem;
   margin: 0 auto;
 }
-.footer {
-  
+.footer
+{
+  height: 320px;
+  height: 20rem;
+  color: azure;
+  background-color: dodgerblue;
 }
 .feedback
 {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+  width: 100%;
+  max-width: 640px;
+  max-width: 40rem;
+  margin: 0 auto;
 }
 
 .feedback__field
 {
   position: relative;
   width: 100%;
-  /*height: 3rem;*/
-  margin-bottom: 32px;
-  margin-bottom: 2rem;
+  margin-bottom: 23.2px;
+  margin-bottom: 1.45rem;
 }
 
 .feedback__input,
 .feedback__textarea
 {
   width: 100%;
-  padding: 8px;
-  padding: .5rem;
+  padding: 11.6px;
+  padding: 0.725rem;
   border: none;
-  outline: 1px solid red;
+  border: 2.08px solid #222;
+  border: .13rem solid #222;
 }
 
 .feedback__textarea
 {
-  height: 200px;
-  height: 12.5rem;
+  height: 232px;
+  height: 14.5rem;
   resize: none;
 }
 
@@ -591,9 +606,15 @@ small
   position: absolute;
   top: 0;
   left: 0;
-  padding: 8px;
-  padding: .5rem;
-  background-color: lightgreen;
+  display: block;
+  padding: 11.6px;
+  padding: 0.725rem;
+  color: rgb(80, 80, 80);
+}
+
+.feedback__label--hide
+{
+  display: none;
 }
 
 .feedback__label:after
@@ -602,16 +623,38 @@ small
   color: tomato;
 }
 
+.feedback__btn
+{
+  width: 0;
+  padding: 11.6px 0;
+  padding: 0.725rem 0;
+  transition: width .8s ease;
+  color: #fff;
+  background-color: #222;
+  line-height: 1.45;
+}
+
 .feedback__input:focus + .feedback__label,
-.feedback__textarea:focus + .feedback__label
-/*.feedback__input:valid + .feedback__label,
-.feedback__textarea:valid + .feedback__label*/
+.feedback__textarea:focus + .feedback__label,
+.feedback__input:valid + .feedback__label,
+.feedback__textarea:valid + .feedback__label
 {
   display: none;
 }
 
+.feedback__input:not(:focus):valid,
+.feedback__textarea:not(:focus):valid
+{
+  box-shadow: inset 0 0 .5rem springgreen;
+}
 
-.feedback__btn
+.feedback__input:focus:invalid,
+.feedback__textarea:focus:invalid
+{
+  box-shadow: inset 0 0 .5rem tomato;
+}
+
+.feedback:valid .feedback__btn
 {
   width: 100%;
 }

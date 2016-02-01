@@ -1,28 +1,30 @@
 .feedback
 {
   flex-direction: column;
+  width: 100%;
+  max-width: 40rem;
+  margin: 0 auto;
 }
 
 .feedback__field
 {
   position: relative;
   width: 100%;
-  /*height: 3rem;*/
-  margin-bottom: 2rem;
+  margin-bottom: var(--vr);
 }
 
 .feedback__input,
 .feedback__textarea
 {
   width: 100%;
-  padding: .5rem;
+  padding: calc(var(--vr) / 2);
   border: none;
-  outline: 1px solid red;
+  border: .13rem solid var(--mainBlack);
 }
 
 .feedback__textarea
 {
-  height: 12.5rem;
+  height: calc(var(--vr) * 10);
   resize: none;
 }
 
@@ -31,8 +33,14 @@
   position: absolute;
   top: 0;
   left: 0;
-  padding: .5rem;
-  background-color: lightgreen;
+  display: block;
+  padding: calc(var(--vr) / 2);
+  color: color(var(--mainBlack) w(40%));
+}
+
+.feedback__label--hide
+{
+  display: none;
 }
 
 .feedback__label::after
@@ -41,16 +49,37 @@
   color: tomato;
 }
 
+.feedback__btn
+{
+  width: 0;
+  padding: calc(var(--vr) / 2) 0;
+  transition: width .8s ease;
+  color: #fff;
+  background-color: var(--mainBlack);
+  line-height: 1.45;
+}
+
 .feedback__input:focus + .feedback__label,
-.feedback__textarea:focus + .feedback__label
-/*.feedback__input:valid + .feedback__label,
-.feedback__textarea:valid + .feedback__label*/
+.feedback__textarea:focus + .feedback__label,
+.feedback__input:valid + .feedback__label,
+.feedback__textarea:valid + .feedback__label
 {
   display: none;
 }
 
+.feedback__input:not(:focus):valid,
+.feedback__textarea:not(:focus):valid
+{
+  box-shadow: inset 0 0 .5rem springgreen;
+}
 
-.feedback__btn
+.feedback__input:focus:invalid,
+.feedback__textarea:focus:invalid
+{
+  box-shadow: inset 0 0 .5rem tomato;
+}
+
+.feedback:valid .feedback__btn
 {
   width: 100%;
 }
