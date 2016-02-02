@@ -8,11 +8,15 @@
 .checkbox
 {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
-  height: 9.375rem;
   padding: 0;
   list-style: none;
+}
+
+.checkbox__item
+{
+  width: 50%;
 }
 
 .checkbox__label
@@ -43,12 +47,4 @@
 .checkbox__input[type='checkbox']:checked + .checkbox__label::before
 {
   background-image: svg('check', '[fill]: var(--mainBlack)');
-}
-
-@media (--m)
-{
-  .checkbox
-  {
-    height: 12rem;
-  }
 }

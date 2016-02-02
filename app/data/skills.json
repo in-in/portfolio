@@ -6,5 +6,6 @@
   ["SASS", true],
   ["jQuery", true],
   ["Gulp", true],
-  ["Grunt", true]
+  ["Grunt", true],
+  ["PostCSS", true]
 ]
