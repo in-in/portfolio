@@ -1,4 +1,11 @@
+include ../container/container
+
 mixin footer()
-  +b.footer&attributes(attributes)
-    +e.copyright Footer
-      
+  +container()
+    +b.footer&attributes(attributes)
+      +e.copyright
+        small Copyright &copy;
+      +e.author 
+        small powered by Puer
+          +icon('loco', 45, 41).loco
+        

@@ -11,9 +11,9 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="1440"
-   height="3250"
-   viewBox="0 0 1440 3250"
+   width="1440.0052"
+   height="3130"
+   viewBox="0 0 1440.0053 3130"
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r"
@@ -44,7 +44,7 @@
      inkscape:cx="761.91009"
      inkscape:cy="1746.6254"
      inkscape:document-units="px"
-     inkscape:current-layer="layer15"
+     inkscape:current-layer="layer21"
      showgrid="false"
      units="px"
      inkscape:window-width="1920"
@@ -55,7 +55,11 @@
      inkscape:snap-global="true"
      inkscape:snap-to-guides="true"
      inkscape:snap-grids="true"
-     gridtolerance="10">
+     gridtolerance="10"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0">
     <inkscape:grid
        empopacity="0.25098039"
        empcolor="#808080"
@@ -63,151 +67,153 @@
        color="#808080"
        empspacing="10"
        id="grid3336"
-       type="xygrid" />
+       type="xygrid"
+       originx="0.0052471502"
+       originy="-99.999961" />
     <sodipodi:guide
        inkscape:color="rgb(0,0,255)"
        inkscape:label=""
        id="guide4117"
        orientation="1,0"
-       position="35,0" />
+       position="35.005249,-99.999961" />
     <sodipodi:guide
        inkscape:color="rgb(0,0,255)"
        inkscape:label=""
        id="guide4119"
        orientation="1,0"
-       position="1405,0" />
+       position="1405.0053,-99.999961" />
     <sodipodi:guide
        inkscape:color="rgb(0,0,255)"
        inkscape:label=""
        id="guide4142"
        orientation="1,0"
-       position="140,0" />
+       position="140.00525,-99.999961" />
     <sodipodi:guide
        inkscape:color="rgb(0,0,255)"
        inkscape:label=""
        id="guide4146"
        orientation="1,0"
-       position="150,0" />
+       position="150.00525,-99.999961" />
     <sodipodi:guide
        inkscape:color="rgb(0,0,255)"
        inkscape:label=""
        id="guide4163"
        orientation="1,0"
-       position="265,0" />
+       position="265.00526,-99.999961" />
     <sodipodi:guide
        inkscape:color="rgb(0,0,255)"
        inkscape:label=""
        id="guide4167"
        orientation="1,0"
-       position="370,0" />
+       position="370.00526,-99.999961" />
     <sodipodi:guide
        inkscape:color="rgb(0,0,255)"
        inkscape:label=""
        id="guide4175"
        orientation="1,0"
-       position="255,0" />
+       position="255.00526,-99.999961" />
     <sodipodi:guide
        inkscape:color="rgb(0,0,255)"
        inkscape:label=""
        id="guide4181"
        orientation="1,0"
-       position="380,0" />
+       position="380.00526,-99.999961" />
     <sodipodi:guide
        inkscape:color="rgb(0,0,255)"
        inkscape:label=""
        id="guide4183"
        orientation="1,0"
-       position="485,0" />
+       position="485.00526,-99.999961" />
     <sodipodi:guide
        inkscape:color="rgb(0,0,255)"
        inkscape:label=""
        id="guide4185"
        orientation="1,0"
-       position="495,0" />
+       position="495.00526,-99.999961" />
     <sodipodi:guide
        inkscape:color="rgb(0,0,255)"
        inkscape:label=""
        id="guide4187"
        orientation="1,0"
-       position="600,0" />
+       position="600.00527,-99.999961" />
     <sodipodi:guide
        inkscape:color="rgb(0,0,255)"
        inkscape:label=""
        id="guide4189"
        orientation="1,0"
-       position="610,0" />
+       position="610.00527,-99.999961" />
     <sodipodi:guide
        inkscape:color="rgb(0,0,255)"
        inkscape:label=""
        id="guide4191"
        orientation="1,0"
-       position="715,0" />
+       position="715.00527,-99.999961" />
     <sodipodi:guide
        inkscape:color="rgb(0,0,255)"
        inkscape:label=""
        id="guide4193"
        orientation="1,0"
-       position="725,0" />
+       position="725.00527,-99.999961" />
     <sodipodi:guide
        inkscape:color="rgb(0,0,255)"
        inkscape:label=""
        id="guide4195"
        orientation="1,0"
-       position="830,0" />
+       position="830.00528,-99.999961" />
     <sodipodi:guide
        inkscape:color="rgb(0,0,255)"
        inkscape:label=""
        id="guide4197"
        orientation="1,0"
-       position="840,0" />
+       position="840.00528,-99.999961" />
     <sodipodi:guide
        inkscape:color="rgb(0,0,255)"
        inkscape:label=""
        id="guide4199"
        orientation="1,0"
-       position="945,0" />
+       position="945.00528,-99.999961" />
     <sodipodi:guide
        inkscape:color="rgb(0,0,255)"
        inkscape:label=""
        id="guide4201"
        orientation="1,0"
-       position="955,0" />
+       position="955.00528,-99.999961" />
     <sodipodi:guide
        inkscape:color="rgb(0,0,255)"
        inkscape:label=""
        id="guide4203"
        orientation="1,0"
-       position="1060,0" />
+       position="1060.0053,-99.999961" />
     <sodipodi:guide
        inkscape:color="rgb(0,0,255)"
        inkscape:label=""
        id="guide4205"
        orientation="1,0"
-       position="1070,0" />
+       position="1070.0053,-99.999961" />
     <sodipodi:guide
        inkscape:color="rgb(0,0,255)"
        inkscape:label=""
        id="guide4207"
        orientation="1,0"
-       position="1175,0" />
+       position="1175.0053,-99.999961" />
     <sodipodi:guide
        inkscape:color="rgb(0,0,255)"
        inkscape:label=""
        id="guide4209"
        orientation="1,0"
-       position="1185,0" />
+       position="1185.0053,-99.999961" />
     <sodipodi:guide
        inkscape:color="rgb(0,0,255)"
        inkscape:label=""
        id="guide4211"
        orientation="1,0"
-       position="1290,0" />
+       position="1290.0053,-99.999961" />
     <sodipodi:guide
        inkscape:color="rgb(0,0,255)"
        inkscape:label=""
        id="guide4213"
        orientation="1,0"
-       position="1300,0" />
+       position="1300.0053,-99.999961" />
   </sodipodi:namedview>
   <defs
      id="defs4">
@@ -286,7 +292,7 @@
     <linearGradient
        id="gray"
        osb:paint="solid"
-       gradientTransform="translate(-6.964317,0)">
+       gradientTransform="translate(-6.9800583,60.000113)">
       <stop
          style="stop-color:#707070;stop-opacity:1;"
          offset="0"
@@ -295,7 +301,7 @@
     <linearGradient
        id="main_black"
        osb:paint="solid"
-       gradientTransform="matrix(0.4335826,0,0,1.4377159,114879.63,-1144.1889)">
+       gradientTransform="matrix(0.4335826,0,0,1.4377159,114878.16,559.17244)">
       <stop
          style="stop-color:#222222;stop-opacity:1;"
          offset="0"
@@ -310,27 +316,18 @@
     </clipPath>
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#main_black"
-       id="linearGradient5035"
-       x1="977.60516"
-       y1="-1193.8953"
-       x2="1041.7287"
-       y2="-1193.8953"
-       gradientUnits="userSpaceOnUse" />
-    <linearGradient
-       inkscape:collect="always"
        xlink:href="#gray"
        id="linearGradient5075"
        x1="848.51416"
-       y1="-287.23485"
+       y1="-287.23486"
        x2="1258.7744"
-       y2="-287.23485"
+       y2="-287.23486"
        gradientUnits="userSpaceOnUse" />
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient5370"
        id="linearGradient5172"
-       gradientTransform="matrix(1.2601022,0,0,0.83413468,-36.788321,0)"
+       gradientTransform="matrix(1.2601022,0,0,0.83413468,-36.793568,20.000037)"
        x1="1171.9591"
        y1="-878.59918"
        x2="29.194712"
@@ -342,20 +339,20 @@
        id="linearGradient5174"
        gradientUnits="userSpaceOnUse"
        x1="848.51416"
-       y1="-287.23485"
+       y1="-287.23486"
        x2="1258.7744"
-       y2="-287.23485"
-       gradientTransform="translate(-690,-10)" />
+       y2="-287.23486"
+       gradientTransform="translate(-690.00525,10.000037)" />
     <linearGradient
        inkscape:collect="always"
        xlink:href="#gray"
        id="linearGradient5176"
        gradientUnits="userSpaceOnUse"
        x1="848.51416"
-       y1="-287.23485"
+       y1="-287.23486"
        x2="1258.7744"
-       y2="-287.23485"
-       gradientTransform="translate(-690,-10)" />
+       y2="-287.23486"
+       gradientTransform="translate(-690.00525,10.000038)" />
     <clipPath
        clipPathUnits="userSpaceOnUse"
        id="clipPath5200">
@@ -506,12 +503,22 @@
        inkscape:collect="always"
        xlink:href="#gradient_2"
        id="linearGradient9771"
-       gradientTransform="matrix(1.3855483,0,0,0.60488129,0,145.98787)"
+       gradientTransform="matrix(1.3855483,0,0,0.60488129,-0.00524715,165.98791)"
        x1="2.5641212e-15"
        y1="1083.5046"
        x2="1039.2998"
        y2="1083.5046"
        gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#main_black"
+       id="linearGradient5850"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-0.00524715,20.000037)"
+       x1="977.60516"
+       y1="-1193.8953"
+       x2="1041.7288"
+       y2="-1193.8953" />
   </defs>
   <metadata
      id="metadata7">
@@ -521,16 +528,16 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
-     style="display:inline"
+     style="display:none"
      inkscape:label="measurement"
      id="layer11"
      inkscape:groupmode="layer"
-     transform="translate(0,234)"
+     transform="translate(0.00524715,213.99996)"
      sodipodi:insensitive="true">
     <text
        sodipodi:linespacing="125%"
@@ -572,16 +579,16 @@
   </g>
   <g
      style="display:inline"
-     transform="translate(0,1250)"
+     transform="translate(0.00524715,1230)"
      inkscape:label="footer"
      id="layer8"
-     inkscape:groupmode="layer"
-     sodipodi:insensitive="true">
+     inkscape:groupmode="layer">
     <g
        inkscape:groupmode="layer"
        id="layer21"
        inkscape:label="footer-links"
-       style="display:inline">
+       style="display:inline"
+       sodipodi:insensitive="true">
       <g
          id="g4013"
          transform="translate(0,-90)">
@@ -826,10 +833,11 @@
   </g>
   <g
      style="display:inline"
-     transform="translate(0,1250)"
+     transform="translate(0.00524715,1230)"
      inkscape:label="contact"
      id="layer6"
-     inkscape:groupmode="layer">
+     inkscape:groupmode="layer"
+     sodipodi:insensitive="true">
     <rect
        y="1252.8553"
        x="35"
@@ -996,7 +1004,7 @@
   </g>
   <g
      style="display:inline"
-     transform="translate(0,1250)"
+     transform="translate(0.00524715,1230)"
      inkscape:label="portfolio"
      id="layer5"
      inkscape:groupmode="layer"
@@ -1164,15 +1172,17 @@
   </g>
   <g
      style="display:inline"
-     transform="translate(0,1250)"
+     transform="translate(0.00524715,1230)"
      inkscape:label="about"
      id="layer4"
-     inkscape:groupmode="layer">
+     inkscape:groupmode="layer"
+     sodipodi:insensitive="true">
     <g
        inkscape:groupmode="layer"
        id="layer19"
        inkscape:label="social"
-       style="display:inline">
+       style="display:inline"
+       sodipodi:insensitive="true">
       <g
          id="g4106"
          transform="translate(-687.00001,-90)">
@@ -1662,7 +1672,7 @@
     </g>
   </g>
   <g
-     transform="translate(0,1250)"
+     transform="translate(0.00524715,1230)"
      style="display:inline"
      inkscape:label="home"
      id="layer2"
@@ -1973,7 +1983,7 @@
         <polygon
            id="polygon139"
            style="fill:#933a73"
-           points="301,203 306,217 327,193 309,185 " />
+           points="327,193 309,185 301,203 306,217 " />
         <polygon
            id="polygon141"
            style="fill:#c67468"
@@ -1985,7 +1995,7 @@
         <polygon
            id="polygon145"
            style="fill:#974f53"
-           points="490,213 520,205 520,192 482,192 " />
+           points="520,192 482,192 490,213 520,205 " />
         <polygon
            id="polygon147"
            style="fill:#e19e67"
@@ -2005,7 +2015,7 @@
         <polygon
            id="polygon155"
            style="fill:#6a2774"
-           points="306,217 301,203 277,203 294,221 " />
+           points="277,203 294,221 306,217 301,203 " />
         <polygon
            id="polygon157"
            style="fill:#8f4a4f"
@@ -2389,7 +2399,7 @@
         <polygon
            id="polygon347"
            style="fill:#d38e57"
-           points="466,320 452,317 452,311 471,303 " />
+           points="452,311 471,303 466,320 452,317 " />
         <polygon
            id="polygon349"
            style="fill:#deb072"
@@ -2449,7 +2459,7 @@
         <polygon
            id="polygon377"
            style="fill:#3f1c53"
-           points="430,276 409,268 400,276 416,283 " />
+           points="400,276 416,283 430,276 409,268 " />
         <polygon
            id="polygon379"
            style="fill:#f9bd74"
@@ -2585,7 +2595,7 @@
         <polygon
            id="polygon445"
            style="fill:#91535d"
-           points="383,226 391,224 423,235 414,254 379,245 " />
+           points="391,224 423,235 414,254 379,245 383,226 " />
         <polygon
            id="polygon447"
            style="fill:#b0746a"
@@ -2617,7 +2627,7 @@
         <polygon
            id="polygon461"
            style="fill:#7b3962"
-           points="391,224 379,218 372,210 372,210 380,206 " />
+           points="379,218 372,210 372,210 380,206 391,224 " />
         <polygon
            id="polygon463"
            style="fill:#d49a5a"
@@ -2641,7 +2651,7 @@
         <polygon
            id="polygon473"
            style="fill:#eca45f"
-           points="460,226 472,231 474,260 468,284 500,245 487,235 468,220 " />
+           points="468,220 460,226 472,231 474,260 468,284 500,245 487,235 " />
         <polygon
            id="polygon475"
            style="fill:#bb7e5a"
@@ -2657,7 +2667,7 @@
         <polygon
            id="polygon481"
            style="fill:#4c2055"
-           points="451,221 464,208 468,220 461,217 " />
+           points="468,220 461,217 451,221 464,208 " />
         <polygon
            id="polygon483"
            style="fill:#e9b674"
@@ -2673,11 +2683,11 @@
         <polygon
            id="polygon489"
            style="fill:#f7c07b"
-           points="460,226 451,221 444,220 457,248 472,231 " />
+           points="451,221 444,220 457,248 472,231 460,226 " />
         <polygon
            id="polygon491"
            style="fill:#d89b65"
-           points="423,235 444,254 457,248 444,220 " />
+           points="457,248 444,220 423,235 444,254 " />
         <polygon
            id="polygon493"
            style="fill:#d89b65"
@@ -2689,7 +2699,7 @@
         <polygon
            id="polygon497"
            style="fill:#682b58"
-           points="449,208 464,208 456,216 446,215 " />
+           points="456,216 446,215 449,208 464,208 " />
       </g>
     </g>
     <g
@@ -2748,7 +2758,7 @@
            style="font-style:italic;font-variant:normal;font-weight:300;font-stretch:normal;font-size:109px;line-height:114.99999762%;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, Light Italic';fill:url(#main_black)">Gorgeous Design For Humans</flowPara></flowRoot>    </g>
   </g>
   <g
-     transform="translate(0,1250)"
+     transform="translate(0.00524715,1230)"
      style="display:inline"
      inkscape:label="header"
      id="layer3"
@@ -2850,9 +2860,9 @@
          id="text4299"
          y="-1185.1367"
          x="1009.1115"
-         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:25px;line-height:125%;font-family:Roboto;-inkscape-font-specification:'Roboto Medium';letter-spacing:0px;word-spacing:0px;display:inline;fill:url(#linearGradient5035);fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:25px;line-height:125%;font-family:Roboto;-inkscape-font-specification:'Roboto Medium';letter-spacing:0px;word-spacing:0px;display:inline;fill:url(#linearGradient5850);fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:25px;font-family:Roboto;-inkscape-font-specification:'Roboto Medium';text-align:center;text-anchor:middle;fill:url(#linearGradient5035);fill-opacity:1"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:25px;font-family:Roboto;-inkscape-font-specification:'Roboto Medium';text-align:center;text-anchor:middle;fill:url(#linearGradient5850);fill-opacity:1"
            y="-1185.1367"
            x="1009.1115"
            id="tspan4301"
