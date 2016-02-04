@@ -1,33 +1,33 @@
 mixin portfolio(list)
   +b.portfolio&attributes(attributes)
     each item in list
-      +e.item
+      +e('a')(href="#{item.link}").item
         +e('picture').image
           source(
             media="(max-width: 20rem)",
-            srcset="#{item[2]}"
+            srcset="#{item.xs}"
             )
           source(
             media="(min-width: 20rem) and (max-width: 30rem)",
-            srcset="#{item[3]} 1x, #{item[5]} 2x"
+            srcset="#{item.s} 1x, #{item.l} 2x"
             )
           source(
             media="(min-width: 30rem) and (max-width: 40rem)",
-            srcset="#{item[4]}"
+            srcset="#{item.m}"
             )
           source(
             media="(min-width: 40rem) and (max-width: 60rem)",
-            srcset="#{item[4]}"
+            srcset="#{item.m}"
             )
           source(
             media="(min-width: 60rem) and (max-width: 80rem)",
-            srcset="#{item[5]}"
+            srcset="#{item.l}"
             )
           source(
             media="(min-width: 80rem)",
-            srcset="#{item[5]}"
+            srcset="#{item.l}"
             )
-          img(srcset="#{item[2]}", alt="#{item[0]}")
+          img(srcset="#{item.xs}", alt="item.title")
         +e.description
-          h3= item[0]
-          p= item[1]
+          h3= item.title
+          p= item.desc

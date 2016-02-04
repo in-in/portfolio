@@ -2,6 +2,7 @@
 {
   --mainBlack: #222;
   --light: #a9a9a9;
+  --gold: #ffd700;
   --baseFontSize: 1rem;
   --vr: calc(var(--baseFontSize) * 1.45);
 }

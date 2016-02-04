@@ -1,4 +1,16 @@
 [
-  ["Free Code Camp", "icon-fcc", 400, 269],
-  ["GitHub", "icon-gh", 150, 146]
+  {
+    "title": "Free Code Camp",
+    "icon": "icon-fcc",
+    "link": "http://www.freecodecamp.com/in-in",
+    "w": 400,
+    "h": 269
+  },
+  {
+    "title": "GitHub",
+    "icon": "icon-gh",
+    "link": "https://github.com/in-in",
+    "w": 150,
+    "h": 146
+  }
 ]
