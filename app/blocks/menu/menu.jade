@@ -3,5 +3,5 @@ include ../icon/icon
 mixin menu(menu)
   +b('nav').menu&attributes(attributes)
     each item in menu
-      +e('a')(href='##{item[0].toLowerCase()}').item.hide-text= item[0]
+      +e('a')(href='##{item[0].toLowerCase()}').item.hide-text= item[0] + "f"
         +icon(item[1], item[2], item[3]).menu__icon
