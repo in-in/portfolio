@@ -7,6 +7,7 @@ Thumbs.db
 
 # Folders to ignore
 .git
+.publish
 .hg
 .idea
 
