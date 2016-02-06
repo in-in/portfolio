@@ -3,7 +3,7 @@
   flex-wrap: wrap;
   justify-content: center;
   width: 80%;
-  margin-top: 1.3rem;
+  margin-top: var(--vr);
 }
 
 .social__item
@@ -11,22 +11,25 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 14.0625vw;
-  min-width: 1.563rem;
-  max-width: 4.688rem;
-  min-height: 1.563rem;
-  max-height: 2.813rem;
-  margin: .313rem;
+  min-width: 2.813rem;
+  min-height: 1.875rem;
+  width: 10%;
+  margin-right: 5%;
   padding: .25rem 0;
   border: 1px solid var(--mainBlack);
 }
 
+.social__item:last-child
+{
+  margin-right: 0;
+}
+
 .social__icon
 {
-  width: 35.55555555555556%;
-  min-width: 1rem;
-  fill: var(--mainBlack);
+  width: 45%;
+  min-width: 1.2rem;
   transition: all .3s ease-out;
+  fill: var(--mainBlack);
 }
 
 .btn-hvr
@@ -35,6 +38,7 @@
   transition: color .3s;
   transform: translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -58,8 +62,8 @@
 .btn-hvr:focus .social__icon,
 .btn-hvr:active .social__icon
 {
-  fill: white;
   transform: scale(1.1);
+  fill: white;
 }
 
 .btn-hvr:hover::before,
@@ -71,6 +75,11 @@
 
 @media (--m)
 {
+  .social
+  {
+    margin-top: calc(var(--vr) * 2);
+  }
+
   .social__item
   {
     border-width: 2px;
