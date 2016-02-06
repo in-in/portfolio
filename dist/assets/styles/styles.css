@@ -981,7 +981,6 @@ small
             -ms-grid-row-align: center;
         align-items: center;
     padding-bottom: 0;
-    font-size: 25px;
     font-size: calc(1rem + 0.6180000000000001 * ((100vw - 30rem) / 60));
     font-weight: 500;
   }
@@ -1003,6 +1002,45 @@ small
     overflow: hidden;
     white-space: nowrap;
     text-indent: 0;
+  }
+
+  .hvr-under
+  {
+    position: relative;
+    overflow: hidden;
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+
+    -webkit-backface-visibility: hidden;
+
+            backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .hvr-under:before
+  {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: .25rem;
+    content: '';
+    transition: -webkit-transform .3s ease-out;
+    transition: transform .3s ease-out;
+    transition: transform .3s ease-out, -webkit-transform .3s ease-out;
+    -webkit-transform: translateY(-.25rem);
+            transform: translateY(-.25rem);
+    background: #222;
+  }
+
+  .hvr-under:hover:before,
+  .hvr-under:focus:before,
+  .hvr-under:active:before
+  {
+    -webkit-transform: translateY(0) scaleX(.8);
+            transform: translateY(0) scaleX(.8);
   }
 }
 .portfolio
@@ -1292,7 +1330,7 @@ small
   min-width: 16px;
   min-width: 1rem;
   fill: #222;
-  transition: all .2s ease-out;
+  transition: all .3s ease-out;
 }
 
 .btn-hvr
@@ -1330,8 +1368,9 @@ small
 .btn-hvr:focus .social__icon,
 .btn-hvr:active .social__icon
 {
-  color: white;
   fill: white;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .btn-hvr:hover:before,

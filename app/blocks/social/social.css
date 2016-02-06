@@ -26,7 +26,7 @@
   width: 35.55555555555556%;
   min-width: 1rem;
   fill: var(--mainBlack);
-  transition: all .2s ease-out;
+  transition: all .3s ease-out;
 }
 
 .btn-hvr
@@ -58,8 +58,8 @@
 .btn-hvr:focus .social__icon,
 .btn-hvr:active .social__icon
 {
-  color: white;
   fill: white;
+  transform: scale(1.1);
 }
 
 .btn-hvr:hover::before,
