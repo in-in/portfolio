@@ -25,6 +25,48 @@
 {
   width: 35.55555555555556%;
   min-width: 1rem;
+  fill: var(--mainBlack);
+  transition: all .2s ease-out;
+}
+
+.btn-hvr
+{
+  position: relative;
+  transition: color .3s;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.btn-hvr::before
+{
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: '';
+  transition: transform .3s ease-out;
+  transform: scaleY(0);
+  transform-origin: 50%;
+  background: var(--mainBlack);
+}
+
+.btn-hvr:hover .social__icon,
+.btn-hvr:focus .social__icon,
+.btn-hvr:active .social__icon
+{
+  color: white;
+  fill: white;
+}
+
+.btn-hvr:hover::before,
+.btn-hvr:focus::before,
+.btn-hvr:active::before
+{
+  transform: scaleY(1);
 }
 
 @media (--m)
