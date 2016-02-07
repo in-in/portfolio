@@ -706,7 +706,8 @@ small
   line-height: 1.45;
 }
 
-.feedback__btn:hover
+.feedback:valid .feedback__btn:hover,
+.feedback:valid .feedback__btn:focus
 {
   color: #222;
   border: 3.2px solid #222;

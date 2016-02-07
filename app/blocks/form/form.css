@@ -63,7 +63,8 @@
   line-height: 1.45;
 }
 
-.feedback__btn:hover
+.feedback:valid .feedback__btn:hover,
+.feedback:valid .feedback__btn:focus
 {
   color: var(--mainBlack);
   border: .2rem solid var(--mainBlack);
