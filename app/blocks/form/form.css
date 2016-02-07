@@ -53,10 +53,26 @@
 {
   width: 0;
   padding: calc(var(--vr) / 2) 0;
+  cursor: pointer;
   transition: width .8s ease;
+  transition: all .3s ease, letter-spacing .3s ease-out;
+  text-transform: uppercase;
   color: #fff;
+  border: .2rem solid #fff;
   background-color: var(--mainBlack);
   line-height: 1.45;
+}
+
+.feedback__btn:hover
+{
+  color: var(--mainBlack);
+  border: .2rem solid var(--mainBlack);
+  background-color: #fff;
+}
+
+.feedback__btn:active
+{
+  letter-spacing: .3rem;
 }
 
 .feedback__input:focus + .feedback__label,

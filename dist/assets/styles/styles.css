@@ -695,10 +695,29 @@ small
   width: 0;
   padding: 11.6px 0;
   padding: 0.725rem 0;
+  cursor: pointer;
   transition: width .8s ease;
+  transition: all .3s ease, letter-spacing .3s ease-out;
+  text-transform: uppercase;
   color: #fff;
+  border: 3.2px solid #fff;
+  border: .2rem solid #fff;
   background-color: #222;
   line-height: 1.45;
+}
+
+.feedback__btn:hover
+{
+  color: #222;
+  border: 3.2px solid #222;
+  border: .2rem solid #222;
+  background-color: #fff;
+}
+
+.feedback__btn:active
+{
+  letter-spacing: 4.8px;
+  letter-spacing: .3rem;
 }
 
 .feedback__input:focus + .feedback__label,
