@@ -1328,15 +1328,20 @@ small
   -webkit-align-items: center;
   -ms-flex-align: center;
       align-items: center;
+  width: 6.944444444444445vw;
   min-width: 45.008px;
   min-width: 2.813rem;
+  max-width: 100px;
+  max-width: 6.25rem;
+  height: 4.652777777777778vw;
   min-height: 30px;
   min-height: 1.875rem;
-  width: 10%;
+  max-height: 67.008px;
+  max-height: 4.188rem;
   margin-right: 5%;
   padding: 4px 0;
   padding: .25rem 0;
-  border: 1px solid #222;
+  border: .1736111111111111vw solid #222;
 }
 
 .social__item:last-child
@@ -1408,11 +1413,6 @@ small
   .social
   {
     margin-top: 2.9rem;
-  }
-
-  .social__item
-  {
-    border-width: 2px;
   }
 }
 .subheading

@@ -11,12 +11,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 6.944444444444445vw;
   min-width: 2.813rem;
+  max-width: 6.25rem;
+  height: 4.652777777777778vw;
   min-height: 1.875rem;
-  width: 10%;
+  max-height: 4.188rem;
   margin-right: 5%;
   padding: .25rem 0;
-  border: 1px solid var(--mainBlack);
+  border: .1736111111111111vw solid var(--mainBlack);
 }
 
 .social__item:last-child
@@ -78,10 +81,5 @@
   .social
   {
     margin-top: calc(var(--vr) * 2);
-  }
-
-  .social__item
-  {
-    border-width: 2px;
   }
 }
