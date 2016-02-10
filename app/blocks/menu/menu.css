@@ -11,6 +11,7 @@
   justify-content: center;
   align-items: flex-end;
   padding-bottom: .75rem;
+  cursor: pointer;
 }
 
 .menu__icon

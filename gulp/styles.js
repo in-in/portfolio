@@ -11,8 +11,8 @@ import atImport from 'postcss-import';
 import lost from 'lost';
 import cssnext from 'postcss-cssnext';
 import rucksack from 'rucksack-css';
-import svg from 'postcss-svg';
-// import svgFragments from 'postcss-svg-fragments';
+// import svg from 'postcss-svg';
+import svgFragments from 'postcss-svg-fragments';
 
 gulp.task('styles', function () {
   var processors = [
@@ -20,12 +20,12 @@ gulp.task('styles', function () {
     lost,
     cssnext,
     rucksack,
-    // svgFragments,
-    svg({
-      paths: ['dist/images'],
-      defaults: "[fill]: #ff00ff"
-    }),
-    autoprefixer({browsers: ['last 2 versions']})
+    svgFragments,
+    // svg({
+    //   paths: ['dist/images'],
+    //   defaults: "[fill]: #ff00ff"
+    // }),
+    autoprefixer({browsers: ['last 5 versions']})
   ];
 
   return gulp.src('app/styles/styles.css')

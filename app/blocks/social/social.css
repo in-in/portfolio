@@ -19,6 +19,7 @@
   max-height: 4.188rem;
   margin-right: 5%;
   padding: .25rem 0;
+  cursor: pointer;
   border: .1736111111111111vw solid var(--mainBlack);
 }
 

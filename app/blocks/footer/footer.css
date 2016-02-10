@@ -1,10 +1,10 @@
 .footer
 {
+  align-items: center;
   height: calc(var(--vr) * 2);
+  padding: 0 calc(var(--vr) / 2);
   color: #fff;
   background-color: var(--mainBlack);
-  align-items: center;
-  padding: 0 calc(var(--vr) / 2);
 }
 
 .footer__copyright
@@ -15,12 +15,24 @@
 .footer__author
 {
   lost-column: 1/2 0 0;
+
   justify-content: flex-end;
 }
 
-.loco {
+.loco
+{
   display: inline-block;
-  vertical-align: middle;
-  padding: 0 .12rem;
   height: .618rem;
+  padding: 0 .12rem;
+  vertical-align: middle;
+}
+
+.test
+{
+  width: 3rem;
+  height: 3rem;
+  color: red;
+  border: 1px solid #fff;
+  background-image: url(../../images/sprite.svg#camera);
+  fill: red;
 }
