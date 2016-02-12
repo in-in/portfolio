@@ -114,6 +114,7 @@
       "transition-property",
       "transform",
       "transform-origin",
+      "backface-visibility",
       "animation",
       "animation-name",
       "animation-duration",
