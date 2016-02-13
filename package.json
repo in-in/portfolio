@@ -9,12 +9,14 @@
     ]
   },
   "scripts": {
-    "start": "gulp"
+    "start": "gulp",
+    "make-block": "babel-node make-block.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^6.3.3",
+    "babel-cli": "^6.5.1",
     "babel-core": "^6.5.2",
     "babel-eslint": "^5.0.0-beta9",
     "babel-loader": "^6.2.2",
@@ -45,7 +47,6 @@
     "postcss-cssnext": "^2.4.0",
     "postcss-import": "^7.1.3",
     "postcss-svg": "^1.0.4",
-    "postcss-svg-fragments": "^1.2.1",
     "require-dir": "^0.3.0",
     "run-sequence": "^1.1.5",
     "source-map-loader": "^0.1.5",
