@@ -185,19 +185,6 @@ h1
   font-family: 'Roboto Condensed', sans-serif;
   font-size: -webkit-calc(2rem + 4.854 * ((100vw - 20rem) / 70));
   font-size: calc(2rem + 4.854 * ((100vw - 20rem) / 70));
-  font-size: calc(2rem + 4.854 * ((100vw - 20rem) / 70));
-}
-
-@media screen and (min-width: 90rem) {
-    h1 {
-        font-size: 6.854rem;
-    }
-}
-
-@media screen and (max-width: 20rem) {
-    h1 {
-        font-size: 2rem;
-    }
 }
 
 @media screen and (min-width: 90rem) {
@@ -216,20 +203,7 @@ h2
 {
   font-size: -webkit-calc(1.618rem + 2.6179999999999994 * ((100vw - 20rem) / 70));
   font-size: calc(1.618rem + 2.6179999999999994 * ((100vw - 20rem) / 70));
-  font-size: calc(1.618rem + 2.6179999999999994 * ((100vw - 20rem) / 70));
   font-weight: 500;
-}
-
-@media screen and (min-width: 90rem) {
-    h2 {
-        font-size: 4.236em;
-    }
-}
-
-@media screen and (max-width: 20rem) {
-    h2 {
-        font-size: 1.618rem;
-    }
 }
 
 @media screen and (min-width: 90rem) {
@@ -253,19 +227,6 @@ h3
 {
   font-size: -webkit-calc(1.2rem + 1.418 * ((100vw - 20rem) / 70));
   font-size: calc(1.2rem + 1.418 * ((100vw - 20rem) / 70));
-  font-size: calc(1.2rem + 1.418 * ((100vw - 20rem) / 70));
-}
-
-@media screen and (min-width: 90rem) {
-    h3 {
-        font-size: 2.618em;
-    }
-}
-
-@media screen and (max-width: 20rem) {
-    h3 {
-        font-size: 1.2rem;
-    }
 }
 
 @media screen and (min-width: 90rem) {
@@ -289,19 +250,6 @@ p
 {
   font-size: -webkit-calc(1rem + 0.6180000000000001 * ((100vw - 20rem) / 70));
   font-size: calc(1rem + 0.6180000000000001 * ((100vw - 20rem) / 70));
-  font-size: calc(1rem + 0.6180000000000001 * ((100vw - 20rem) / 70));
-}
-
-@media screen and (min-width: 90rem) {
-    p {
-        font-size: 1.618rem;
-    }
-}
-
-@media screen and (max-width: 20rem) {
-    p {
-        font-size: 1rem;
-    }
 }
 
 @media screen and (min-width: 90rem) {
@@ -323,24 +271,7 @@ textarea
   font-family: 'Roboto', sans-serif;
   font-size: -webkit-calc(1rem + 0.6180000000000001 * ((100vw - 20rem) / 70));
   font-size: calc(1rem + 0.6180000000000001 * ((100vw - 20rem) / 70));
-  font-size: calc(1rem + 0.6180000000000001 * ((100vw - 20rem) / 70));
   line-height: 1.45;
-}
-
-@media screen and (min-width: 90rem) {
-    input,
-label,
-textarea {
-        font-size: 1.618rem;
-    }
-}
-
-@media screen and (max-width: 20rem) {
-    input,
-label,
-textarea {
-        font-size: 1rem;
-    }
 }
 
 @media screen and (min-width: 90rem) {
@@ -506,19 +437,6 @@ small
   font-size: 4.236em;
   font-size: -webkit-calc(1.618rem + 2.6179999999999994 * ((100vw - 20rem) / 70));
   font-size: calc(1.618rem + 2.6179999999999994 * ((100vw - 20rem) / 70));
-  font-size: calc(1.618rem + 2.6179999999999994 * ((100vw - 20rem) / 70));
-}
-
-@media screen and (min-width: 90rem) {
-    .avatar {
-        font-size: 4.236em;
-    }
-}
-
-@media screen and (max-width: 20rem) {
-    .avatar {
-        font-size: 1.618rem;
-    }
 }
 
 @media screen and (min-width: 90rem) {
@@ -852,9 +770,9 @@ small
     -webkit-flex-grow: 0;
         -ms-flex-positive: 0;
             flex-grow: 0;
-    -webkit-flex-basis: 28.125rem;
-        -ms-flex-preferred-size: 28.125rem;
-            flex-basis: 28.125rem;
+    -webkit-flex-basis: 30rem;
+        -ms-flex-preferred-size: 30rem;
+            flex-basis: 30rem;
   }
 }
 .heading
@@ -1044,14 +962,14 @@ small
 .menu__icon:hover
 {
   -webkit-transform: scale(1.1);
-              -ms-transform: scale(1.1);
+      -ms-transform: scale(1.1);
           transform: scale(1.1);
 }
 
 .menu__icon:active
 {
   -webkit-transform: scale(.8);
-              -ms-transform: scale(.8);
+      -ms-transform: scale(.8);
           transform: scale(.8);
 }
 
@@ -1107,11 +1025,10 @@ small
     overflow: hidden;
     -webkit-transform: translateZ(0);
             transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 
-    -webkit-backface-visibility: hidden;
-
-            backface-visibility: hidden;
     -moz-osx-font-smoothing: grayscale;
   }
 
@@ -1129,7 +1046,7 @@ small
     transition: transform .3s ease-out;
     transition: transform .3s ease-out, -webkit-transform .3s ease-out;
     -webkit-transform: translateY(-.25rem);
-                -ms-transform: translateY(-.25rem);
+        -ms-transform: translateY(-.25rem);
             transform: translateY(-.25rem);
     background: #222;
   }
@@ -1139,7 +1056,7 @@ small
   .hvr-under:active:before
   {
     -webkit-transform: translateY(0) scaleX(.8);
-                -ms-transform: translateY(0) scaleX(.8);
+        -ms-transform: translateY(0) scaleX(.8);
             transform: translateY(0) scaleX(.8);
   }
 }
@@ -1352,19 +1269,6 @@ small
   cursor: pointer;
   font-size: -webkit-calc(1rem + 0.6180000000000001 * ((100vw - 20rem) / 70));
   font-size: calc(1rem + 0.6180000000000001 * ((100vw - 20rem) / 70));
-  font-size: calc(1rem + 0.6180000000000001 * ((100vw - 20rem) / 70));
-}
-
-@media screen and (min-width: 90rem) {
-    .checkbox__label {
-        font-size: 1.618rem;
-    }
-}
-
-@media screen and (max-width: 20rem) {
-    .checkbox__label {
-        font-size: 1rem;
-    }
 }
 
 @media screen and (min-width: 90rem) {
@@ -1392,14 +1296,14 @@ small
   margin-right: .625rem;
   content: '';
   vertical-align: middle;
-  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3Adc%3D%22http%3A%2F%2Fpurl.org%2Fdc%2Felements%2F1.1%2F%22%20xmlns%3Acc%3D%22http%3A%2F%2Fcreativecommons.org%2Fns%23%22%20xmlns%3Ardf%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%22%20xmlns%3Asvg%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Asodipodi%3D%22http%3A%2F%2Fsodipodi.sourceforge.net%2FDTD%2Fsodipodi-0.dtd%22%20xmlns%3Ainkscape%3D%22http%3A%2F%2Fwww.inkscape.org%2Fnamespaces%2Finkscape%22%20id%3D%22svg2%22%20x%3D%220px%22%20y%3D%220px%22%20version%3D%221.1%22%20viewBox%3D%220%200%2076.5%2076.5%22%20xml%3Aspace%3D%22preserve%22%20inkscape%3Aversion%3D%220.91%20r%22%20sodipodi%3Adocname%3D%22check-empty.svg%22%20style%3D%22fill%3A%23222%3B%22%20height%3D%22%22%20width%3D%22%22%3E%3Csodipodi%3Anamedview%20pagecolor%3D%22%23ffffff%22%20bordercolor%3D%22%23666666%22%20borderopacity%3D%221%22%20objecttolerance%3D%2210%22%20gridtolerance%3D%2210%22%20guidetolerance%3D%2210%22%20inkscape%3Apageopacity%3D%220%22%20inkscape%3Apageshadow%3D%222%22%20inkscape%3Awindow-width%3D%22640%22%20inkscape%3Awindow-height%3D%22480%22%20id%3D%22namedview9%22%20showgrid%3D%22false%22%20inkscape%3Azoom%3D%226.4313725%22%20inkscape%3Acx%3D%2238.25%22%20inkscape%3Acy%3D%2238.25%22%20inkscape%3Acurrent-layer%3D%22svg2%22%2F%3E%3Cmetadata%20id%3D%22metadata18%22%3E%3Crdf%3ARDF%3E%3Ccc%3AWork%20rdf%3Aabout%3D%22%22%3E%3Cdc%3Aformat%3Eimage%2Fsvg%2Bxml%3C%2Fdc%3Aformat%3E%3Cdc%3Atype%20rdf%3Aresource%3D%22http%3A%2F%2Fpurl.org%2Fdc%2Fdcmitype%2FStillImage%22%2F%3E%3Cdc%3Atitle%2F%3E%3C%2Fcc%3AWork%3E%3C%2Frdf%3ARDF%3E%3C%2Fmetadata%3E%3Cdefs%20id%3D%22defs16%22%2F%3E%3Cg%20id%3D%22g3337%22%3E%3Cg%20transform%3D%22translate(-.55)%22%20id%3D%22g4%22%3E%3Cg%20id%3D%22g6%22%3E%3Cg%20id%3D%22g8%22%3E%3Cpath%20d%3D%22m77.05%2076.5h-76.5v-76.5h76.5v76.5zm-71.7-4.7h66.9v-67h-66.9v67z%22%20id%3D%22path10%22%2F%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3Adc%3D%22http%3A%2F%2Fpurl.org%2Fdc%2Felements%2F1.1%2F%22%20xmlns%3Acc%3D%22http%3A%2F%2Fcreativecommons.org%2Fns%23%22%20xmlns%3Ardf%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%22%20xmlns%3Asvg%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Asodipodi%3D%22http%3A%2F%2Fsodipodi.sourceforge.net%2FDTD%2Fsodipodi-0.dtd%22%20xmlns%3Ainkscape%3D%22http%3A%2F%2Fwww.inkscape.org%2Fnamespaces%2Finkscape%22%20id%3D%22svg2%22%20x%3D%220px%22%20y%3D%220px%22%20version%3D%221.1%22%20viewBox%3D%220%200%2076.5%2076.5%22%20xml%3Aspace%3D%22preserve%22%20inkscape%3Aversion%3D%220.91%20r%22%20sodipodi%3Adocname%3D%22check-empty.svg%22%20style%3D%22fill%3A#222%3B%22%20height%3D%22%22%20width%3D%22%22%3E%3Csodipodi%3Anamedview%20pagecolor%3D%22%23ffffff%22%20bordercolor%3D%22%23666666%22%20borderopacity%3D%221%22%20objecttolerance%3D%2210%22%20gridtolerance%3D%2210%22%20guidetolerance%3D%2210%22%20inkscape%3Apageopacity%3D%220%22%20inkscape%3Apageshadow%3D%222%22%20inkscape%3Awindow-width%3D%22640%22%20inkscape%3Awindow-height%3D%22480%22%20id%3D%22namedview9%22%20showgrid%3D%22false%22%20inkscape%3Azoom%3D%226.4313725%22%20inkscape%3Acx%3D%2238.25%22%20inkscape%3Acy%3D%2238.25%22%20inkscape%3Acurrent-layer%3D%22svg2%22%2F%3E%3Cmetadata%20id%3D%22metadata18%22%3E%3Crdf%3ARDF%3E%3Ccc%3AWork%20rdf%3Aabout%3D%22%22%3E%3Cdc%3Aformat%3Eimage%2Fsvg%2Bxml%3C%2Fdc%3Aformat%3E%3Cdc%3Atype%20rdf%3Aresource%3D%22http%3A%2F%2Fpurl.org%2Fdc%2Fdcmitype%2FStillImage%22%2F%3E%3Cdc%3Atitle%2F%3E%3C%2Fcc%3AWork%3E%3C%2Frdf%3ARDF%3E%3C%2Fmetadata%3E%3Cdefs%20id%3D%22defs16%22%2F%3E%3Cg%20id%3D%22g3337%22%3E%3Cg%20transform%3D%22translate(-.55)%22%20id%3D%22g4%22%3E%3Cg%20id%3D%22g6%22%3E%3Cg%20id%3D%22g8%22%3E%3Cpath%20d%3D%22m77.05%2076.5h-76.5v-76.5h76.5v76.5zm-71.7-4.7h66.9v-67h-66.9v67z%22%20id%3D%22path10%22%2F%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E");
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .checkbox__input[type='checkbox']:checked + .checkbox__label:before
 {
-  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3Ardf%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xml%3Aspace%3D%22preserve%22%20viewBox%3D%220%200%2076.5%2076.5%22%20version%3D%221.1%22%20y%3D%220px%22%20x%3D%220px%22%20style%3D%22fill%3A%23222%3B%22%20height%3D%22%22%20width%3D%22%22%3E%3Cg%20transform%3D%22translate(-.55)%22%3E%3Cg%3E%3Cg%3E%3Cpath%20d%3D%22m77.05%2076.5h-76.5v-76.5h76.5v76.5zm-71.7-4.7h66.9v-67h-66.9v67z%22%2F%3E%3Cpolygon%20points%3D%2273.2%2025.6%2046%2066.9%2024.1%2052.4%2021.2%2056.8%2047.5%2074.1%2077.6%2028.5%22%20transform%3D%22translate(-10.6%2C-11.6)%22%2F%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3Ardf%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xml%3Aspace%3D%22preserve%22%20viewBox%3D%220%200%2076.5%2076.5%22%20version%3D%221.1%22%20y%3D%220px%22%20x%3D%220px%22%20style%3D%22fill%3A#222%3B%22%20height%3D%22%22%20width%3D%22%22%3E%3Cg%20transform%3D%22translate(-.55)%22%3E%3Cg%3E%3Cg%3E%3Cpath%20d%3D%22m77.05%2076.5h-76.5v-76.5h76.5v76.5zm-71.7-4.7h66.9v-67h-66.9v67z%22%2F%3E%3Cpolygon%20points%3D%2273.2%2025.6%2046%2066.9%2024.1%2052.4%2021.2%2056.8%2047.5%2074.1%2077.6%2028.5%22%20transform%3D%22translate(-10.6%2C-11.6)%22%2F%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E");
 }
 .social
 {
@@ -1490,10 +1394,10 @@ small
   transition: transform .3s ease-out;
   transition: transform .3s ease-out, -webkit-transform .3s ease-out;
   -webkit-transform: scaleY(0);
-              -ms-transform: scaleY(0);
+      -ms-transform: scaleY(0);
           transform: scaleY(0);
   -webkit-transform-origin: 50%;
-              -ms-transform-origin: 50%;
+      -ms-transform-origin: 50%;
           transform-origin: 50%;
   background: #222;
 }
@@ -1503,7 +1407,7 @@ small
 .btn-hvr:active .social__icon
 {
   -webkit-transform: scale(1.1);
-              -ms-transform: scale(1.1);
+      -ms-transform: scale(1.1);
           transform: scale(1.1);
   fill: white;
 }
@@ -1513,7 +1417,7 @@ small
 .btn-hvr:active:before
 {
   -webkit-transform: scaleY(1);
-              -ms-transform: scaleY(1);
+      -ms-transform: scaleY(1);
           transform: scaleY(1);
 }
 
