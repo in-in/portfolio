@@ -3,7 +3,6 @@
 import gulp from 'gulp';
 import postcss from 'gulp-postcss';
 import sourcemaps from 'gulp-sourcemaps';
-import autoprefixer from 'autoprefixer';
 import rename from 'gulp-rename';
 import notifier from 'node-notifier';
 import plumber from 'gulp-plumber';
@@ -17,13 +16,12 @@ gulp.task('styles', function () {
   var processors = [
     atImport({glob: true}),
     lost,
-    cssnext,
     rucksack,
     svg({
       paths: ['dist/images'],
       defaults: "[fill]: #ff00ff"
     }),
-    autoprefixer({browsers: ['last 5 versions']})
+    cssnext({browsers: ['last 5 versions']})
   ];
 
   return gulp.src('app/styles/styles.css')
