@@ -14,17 +14,17 @@ include ../form/form
 
 mixin index()
   +b.index
-    +container()
       +section()#home
         +home().gradient
-          +e.heading
-            +heading() Gorgeous Design For Humans
-            +subheading() 
-              | Design is not just what it looks like and feels like. Design is how it works.
-          +e.lion
-            +icon('lion', 130, 167.251).lion
-
-        +triangle().triangle__bottom.js-triangle
+          +container()
+            .homo__wrap
+              .home__heading
+                +heading() Gorgeous Design For Humans
+                +subheading() 
+                  | Design is not just what it looks like and feels like. Design is how it works.
+              .home__lion
+                +icon('lion', 130, 167.251).lion
+          +triangle().triangle__bottom.js-triangle
       +section()#about
         +about()
           +e.avatar
@@ -38,9 +38,10 @@ mixin index()
               p I'm available for freelance works.
           +e.skills
             +skills(getData('skills'))
-      +section()#portfolio
+      +section()#portfolio.gradient
         +triangle().triangle__top.js-triangle
-        +portfolio(getData('works')).gradient
+        +container()
+          +portfolio(getData('works'))
       +section()#contact
         +contact()
           h2.h2-center Get in touch

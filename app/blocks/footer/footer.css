@@ -1,9 +1,5 @@
 
-.test
-{
-  width: 3rem;
-  height: 3rem;
-}.footer
+.footer
 {
   align-items: center;
   height: calc(var(--vr) * 2);
