@@ -1,24 +1,41 @@
 .logo
 {
-  width: 3.125rem;
-  fill: var(--mainBlack);
+  position: relative;
+  width: 100%;
 }
 
-.logo-l
+.logo__icon
 {
-  display: none;
+  width: 3.125rem;
+  transition: all .5s ease;
+}
+
+.logo__icon--front
+{
+  z-index: 2;
+}
+
+.logo__icon--back
+{
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  transition: all .5s ease-in-out .3s;
+  opacity: 0;
 }
 
 @media (--m)
 {
-  .logo-s
+  .logo__icon
   {
-    display: none;
+    width: 4.375rem;
   }
 
-  .logo-l
+  .logo__icon--back
   {
-    display: block;
-    width: 8.75rem;
+    transform: translateX(4.375rem);
+    /*transform-origin: bottom;*/
+    opacity: 1;
   }
 }

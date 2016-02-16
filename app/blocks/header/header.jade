@@ -1,11 +1,12 @@
 include ../container/container
+include ../logo/logo
 include ../menu/menu
 
 mixin header()
   +container()
     +b.header&attributes(attributes)
       +e.logo
-        +icon('logo_small', 1, 1).logo.logo-s
-        +icon('logo', 400, 200).logo.logo-l
+        +logo()
       +e.menu
         +menu(getData('menu'))
+        
