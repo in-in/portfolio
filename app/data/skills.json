@@ -4,7 +4,6 @@
   ["JavaScript", true],
   ["Jade", true],
   ["SASS", true],
-  ["jQuery", true],
   ["Gulp", true],
   ["Grunt", true],
   ["PostCSS", true]
