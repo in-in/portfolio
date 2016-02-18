@@ -22,19 +22,6 @@ html {
 }
 
 /*Yes, the universal selector. No, it isn't slow: https://benfrain.com/css-performance-revisited-selectors-bloat-expensive-styles/*/
-* {
-    /*This prevents users being able to select text. Stops long presses in iOS bringing up copy/paste UI for example*/
-    -webkit-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
-    /*This gets -webkit specific prefix as it is a non W3C property*/
-    -webkit-tap-highlight-color: rgba(255,255,255,0);
-    /*Older Androids need this instead*/
-    -webkit-tap-highlight-color: transparent;
-    /* Most devs find border-box easier to reason about. However by inheriting we can mix box-sizing approaches.*/
-    box-sizing: inherit;
-}
 
 *:before,
 *:after {
@@ -735,6 +722,11 @@ small
   -webkit-flex-grow: 0;
       -ms-flex-positive: 0;
           flex-grow: 0;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+              -ms-grid-row-align: center;
+          align-items: center;
 }
 
 .header__menu
@@ -894,47 +886,109 @@ small
 .logo
 {
   position: relative;
-  width: 100%;
-}
-
-.logo__icon
-{
-  width: 50px;
-  width: 3.125rem;
-  -webkit-transition: all .5s ease;
-  transition: all .5s ease;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .logo__icon--front
 {
   z-index: 2;
+  width: 50px;
+  width: 3.125rem;
 }
 
 .logo__icon--back
 {
-  position: absolute;
   z-index: 1;
-  top: 0;
-  left: 0;
-  -webkit-transition: all .5s ease-in-out .3s;
-  transition: all .5s ease-in-out .3s;
-  opacity: 0;
 }
 
 @media (min-width: 40.001rem)
 {
-  .logo__icon
+  .logo__icon--front
   {
-    width: 4.375rem;
+    -webkit-transform-origin: left;
+        -ms-transform-origin: left;
+            transform-origin: left;
+    -webkit-animation-name: scaleFrontLogo;
+            animation-name: scaleFrontLogo;
+    -webkit-animation-duration: .8s;
+            animation-duration: .8s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
   }
 
   .logo__icon--back
   {
-    -webkit-transform: translateX(4.375rem);
-        -ms-transform: translateX(4.375rem);
-            transform: translateX(4.375rem);
-    /*transform-origin: bottom;*/
-    opacity: 1;
+    -webkit-animation-name: scaleBackLogo;
+            animation-name: scaleBackLogo;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
+    -webkit-animation-delay: .4s;
+            animation-delay: .4s;
+  }
+}
+
+@-webkit-keyframes scaleFrontLogo
+{
+  100%
+  {
+    -webkit-transform: scale(1.4);
+            transform: scale(1.4);
+  }
+}
+
+@keyframes scaleFrontLogo
+{
+  100%
+  {
+    -webkit-transform: scale(1.4);
+            transform: scale(1.4);
+  }
+}
+
+@-webkit-keyframes scaleBackLogo
+{
+  0%
+  {
+    width: 0;
+  }
+
+  100%
+  {
+    width: 4.375rem;
+    -webkit-transform: translateX(1.25rem);
+            transform: translateX(1.25rem);
+  }
+}
+
+@keyframes scaleBackLogo
+{
+  0%
+  {
+    width: 0;
+  }
+
+  100%
+  {
+    width: 4.375rem;
+    -webkit-transform: translateX(1.25rem);
+            transform: translateX(1.25rem);
   }
 }
 .menu
@@ -1097,6 +1151,16 @@ small
         -ms-transform: translateY(0) scaleX(.8);
             transform: translateY(0) scaleX(.8);
   }
+}
+::-moz-selection
+{
+  color: #fff;
+  background: #222;
+}
+::selection
+{
+  color: #fff;
+  background: #222;
 }
 .portfolio
 {
