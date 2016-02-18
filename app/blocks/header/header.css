@@ -9,6 +9,7 @@
 .header__logo
 {
   flex-grow: 0;
+  align-items: center;
 }
 
 .header__menu

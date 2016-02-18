@@ -1,78 +1,61 @@
 .logo
 {
   position: relative;
-  width: 100%;
-  height: auto;
-  background-color: blue;
-  transition: all 2s ease;
-}
-
-.logo__icon
-{
-  width: 3.125rem;
-  transition: all .5s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .logo__icon--front
 {
   z-index: 2;
+  width: 3.125rem;
 }
 
 .logo__icon--back
 {
-  position: absolute;
   z-index: 1;
-  top: 0;
-  left: 0;
-  animation-name: hideLogo;
-  animation-duration: 1s;
-  animation-fill-mode: forwards;
-  animation-timing-function: ease-in-out;
-  border: 1px solid #000;
 }
 
 @media (--m)
 {
   .logo__icon--front
   {
-    animation-name: scaleLogo;
-    animation-duration: 1s;
+    transform-origin: left;
+    animation-name: scaleFrontLogo;
+    animation-duration: .8s;
     animation-fill-mode: forwards;
     animation-timing-function: ease-in-out;
   }
 
   .logo__icon--back
   {
-    animation-name: scaleLogo, showLogo;
+    animation-name: scaleBackLogo;
     animation-duration: 1s;
     animation-fill-mode: forwards;
     animation-timing-function: ease-in-out;
-    animation-delay: 0s, 1s;
+    animation-delay: .4s;
   }
 }
 
-@keyframes scaleLogo
+@keyframes scaleFrontLogo
 {
   100%
   {
-    /*transform: scale(1.4);*/
+    transform: scale(1.4);
   }
 }
 
-@keyframes showLogo
+@keyframes scaleBackLogo
 {
-  100%
+  0%
   {
-    transform: translateX(4.375rem);
-    opacity: 1;
+    width: 0;
   }
-}
 
-@keyframes hideLogo
-{
   100%
   {
-    transform: translateX(0);
-    opacity: 0;
+    width: 4.375rem;
+    transform: translateX(1.25rem);
   }
 }
