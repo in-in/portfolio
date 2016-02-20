@@ -9,8 +9,13 @@ const onError = function (err) {
 };
 
 const svgConfig = {
-  mode: {
-    symbol: {
+  "shape": {
+    "id": {
+      "generator": "icon-"
+    }
+  },
+  "mode": {
+    "symbol": {
       "sprite": "../icon-sprite.jade",
       "inline": true
     }

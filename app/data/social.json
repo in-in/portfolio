@@ -1,14 +1,14 @@
 [
   {
     "title": "Free Code Camp",
-    "icon": "icon-fcc",
+    "icon": "fcc",
     "link": "http://www.freecodecamp.com/in-in",
     "w": 400,
     "h": 269
   },
   {
     "title": "GitHub",
-    "icon": "icon-gh",
+    "icon": "gh",
     "link": "https://github.com/in-in",
     "w": 150,
     "h": 146

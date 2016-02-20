@@ -9,25 +9,23 @@
   lost-column: 1/4 0 0;
 
   justify-content: center;
-  align-items: flex-end;
-  padding-bottom: .75rem;
+  align-items: center;
   cursor: pointer;
 }
 
 .menu__icon
 {
-  width: 1.563em;
-  transition: transform .2s ease-in;
+  width: 1.5rem;
+  transition: all .2s ease-in;
   fill: var(--mainBlack);
 }
 
-.menu__icon:hover
-{
+.menu__item:hover .menu__icon {
   transform: scale(1.1);
+  fill: #fff;
 }
 
-.menu__icon:active
-{
+.menu__item:active .menu__icon {
   transform: scale(.8);
 }
 
