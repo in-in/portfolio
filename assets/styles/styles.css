@@ -472,6 +472,61 @@ small
         margin-right: 0;
     }
 }
+.btn-hvr
+{
+  position: relative;
+  -webkit-transition: color .3s;
+  transition: color .3s;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+
+  -webkit-backface-visibility: hidden;
+
+          backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.btn-hvr:before
+{
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: '';
+  -webkit-transition: -webkit-transform .3s ease-out;
+  transition: -webkit-transform .3s ease-out;
+  transition: transform .3s ease-out;
+  transition: transform .3s ease-out, -webkit-transform .3s ease-out;
+  -webkit-transform: scaleY(0);
+      -ms-transform: scaleY(0);
+          transform: scaleY(0);
+  -webkit-transform-origin: 50%;
+      -ms-transform-origin: 50%;
+          transform-origin: 50%;
+  background: #222;
+}
+
+.btn-hvr:hover .social__icon,
+.btn-hvr:focus .social__icon,
+.btn-hvr:active .social__icon
+{
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
+  fill: white;
+}
+
+.btn-hvr:hover:before,
+.btn-hvr:focus:before,
+.btn-hvr:active:before
+{
+  -webkit-transform: scaleY(1);
+      -ms-transform: scaleY(1);
+          transform: scaleY(1);
+}
 .contact
 {
   -webkit-box-orient: vertical;
@@ -1015,13 +1070,11 @@ small
       -ms-flex-pack: center;
 
           justify-content: center;
-  -webkit-box-align: end;
-  -webkit-align-items: flex-end;
-      -ms-flex-align: end;
-              -ms-grid-row-align: flex-end;
-          align-items: flex-end;
-  padding-bottom: 12px;
-  padding-bottom: .75rem;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+              -ms-grid-row-align: center;
+          align-items: center;
   cursor: pointer;
 }
 
@@ -1043,23 +1096,21 @@ small
 
 .menu__icon
 {
-  width: 1.563em;
-  -webkit-transition: -webkit-transform .2s ease-in;
-  transition: -webkit-transform .2s ease-in;
-  transition: transform .2s ease-in;
-  transition: transform .2s ease-in, -webkit-transform .2s ease-in;
+  width: 24px;
+  width: 1.5rem;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
   fill: #222;
 }
 
-.menu__icon:hover
-{
+.menu__item:hover .menu__icon {
   -webkit-transform: scale(1.1);
       -ms-transform: scale(1.1);
           transform: scale(1.1);
+  fill: #fff;
 }
 
-.menu__icon:active
-{
+.menu__item:active .menu__icon {
   -webkit-transform: scale(.8);
       -ms-transform: scale(.8);
           transform: scale(.8);
@@ -1465,62 +1516,6 @@ small
   -webkit-transition: all .3s ease-out;
   transition: all .3s ease-out;
   fill: #222;
-}
-
-.btn-hvr
-{
-  position: relative;
-  -webkit-transition: color .3s;
-  transition: color .3s;
-  -webkit-transform: translateZ(0);
-          transform: translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-
-  -webkit-backface-visibility: hidden;
-
-          backface-visibility: hidden;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-.btn-hvr:before
-{
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  content: '';
-  -webkit-transition: -webkit-transform .3s ease-out;
-  transition: -webkit-transform .3s ease-out;
-  transition: transform .3s ease-out;
-  transition: transform .3s ease-out, -webkit-transform .3s ease-out;
-  -webkit-transform: scaleY(0);
-      -ms-transform: scaleY(0);
-          transform: scaleY(0);
-  -webkit-transform-origin: 50%;
-      -ms-transform-origin: 50%;
-          transform-origin: 50%;
-  background: #222;
-}
-
-.btn-hvr:hover .social__icon,
-.btn-hvr:focus .social__icon,
-.btn-hvr:active .social__icon
-{
-  -webkit-transform: scale(1.1);
-      -ms-transform: scale(1.1);
-          transform: scale(1.1);
-  fill: white;
-}
-
-.btn-hvr:hover:before,
-.btn-hvr:focus:before,
-.btn-hvr:active:before
-{
-  -webkit-transform: scaleY(1);
-      -ms-transform: scaleY(1);
-          transform: scaleY(1);
 }
 
 @media (min-width: 40.001rem)
