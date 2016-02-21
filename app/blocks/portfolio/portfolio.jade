@@ -5,29 +5,29 @@ mixin portfolio(list)
         +e('picture').image
           source(
             media="(max-width: 20rem)",
-            srcset="#{item.xs}"
+            srcset="assets/#{item.xs}"
             )
           source(
             media="(min-width: 20rem) and (max-width: 30rem)",
-            srcset="#{item.s} 1x, #{item.l} 2x"
+            srcset="assets/#{item.s} 1x, assets/#{item.l} 2x"
             )
           source(
             media="(min-width: 30rem) and (max-width: 40rem)",
-            srcset="#{item.m}"
+            srcset="assets/#{item.m}"
             )
           source(
             media="(min-width: 40rem) and (max-width: 60rem)",
-            srcset="#{item.m}"
+            srcset="assets/#{item.m}"
             )
           source(
             media="(min-width: 60rem) and (max-width: 80rem)",
-            srcset="#{item.l}"
+            srcset="assets/#{item.l}"
             )
           source(
             media="(min-width: 80rem)",
-            srcset="#{item.l}"
+            srcset="assets/#{item.l}"
             )
-          img(srcset="#{item.xs}", alt="item.title")
+          img(srcset="assets/#{item.xs}", alt="item.title")
         +e.description
           h3= item.title
           p= item.desc

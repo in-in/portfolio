@@ -1,4 +1,7 @@
-.font
+@font-face
 {
-  /*font-family: none;*/
+  font-family: 'Gidole';
+  src: url('../fonts/gidole.woff') format('woff'), url('../fonts/gidole.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }

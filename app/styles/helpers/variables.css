@@ -7,22 +7,8 @@
   --vr: calc(var(--baseFontSize) * 1.45);
 }
 
-@custom-media --xs (width > 20rem);
-@custom-media --s (width > 30rem);
-@custom-media --m (width > 40rem);
-@custom-media --l (width > 60rem);
-@custom-media --xl (width > 80rem);
-
-/*
-320px --> 20em
-480px --> 30em
-640px --> 40em
-768px --> 48em
-800px --> 50em*
-960px --> 60em
-1024px --> 64em
-1120px --> 70em*
-1280px --> 80em
-1366px --> 85,375em
-1440px --> 90em
-*/
+@custom-media --xs (width > 20em);
+@custom-media --s (width > 30em);
+@custom-media --m (width > 40em);
+@custom-media --l (width > 60em);
+@custom-media --xl (width > 80em);

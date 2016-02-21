@@ -3,3 +3,7 @@
   flex-direction: column;
   max-width: 25rem;
 }
+
+.info__title {
+  margin-top: 1.9em;
+}

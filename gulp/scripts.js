@@ -5,21 +5,25 @@ import webpack from 'webpack';
 import webpackStream from 'webpack-stream';
 import stylish from 'eslint/lib/formatters/stylish';
 import notifier from 'node-notifier';
+import plumber from 'gulp-plumber';
+import errorHandler from 'gulp-plumber-error-handler';
+import statsLogger from 'webpack-stats-logger';
 
 function runWebpack(watch = false) {
   const webpackConfig = {
     watch,
-    bail: true,
+    bail: false,
     profile: true,
     output: {
       filename: 'app.min.js',
       pathinfo: false
     },
-    devtool: '#source-map',
+    devtool: (gutil.env.sourcemaps || !gutil.env.debug) ? '#source-map' : '#cheap-module-eval-source-map',
     debug: true,
     resolve: {
       modulesDirectories: [
-        'node_modules'
+        'node_modules',
+        'scripts'
       ],
       extensions: ['.js', '']
     },
@@ -59,13 +63,12 @@ function runWebpack(watch = false) {
       formatter: errors => {
         if (errors[0].messages) {
           console.log(stylish(errors));
-          if (true) {
+          if (gutil.env.notify) {
             const error = errors[0].messages.find(msg => msg.severity === 2);
             if (error) {
               notifier.notify({
                 title: error.message,
-                message: `${error.line}:${error.column} ${error.source.trim()}`,
-                icon: path.join(__dirname, '../images/error-icon.png')
+                message: `${error.line}:${error.column} ${error.source.trim()}`
               });
             }
           }
@@ -76,11 +79,8 @@ function runWebpack(watch = false) {
 
   return gulp
     .src('app/scripts/app.js')
-    .pipe(webpackStream(webpackConfig, null, (err, stats) => {
-      const time = new Date().toTimeString().replace(/.*(\d{2}:\d{2}:\d{2}).*/, '$1');
-      const durations = (stats.endTime - stats.startTime);
-      const formatedDurations = durations > 1000 ? `${durations / 1000} s` : `${durations} ms`;
-    }))
+    .pipe(plumber({errorHandler: errorHandler('Error in \'scripts\' task')}))
+    .pipe(webpackStream(webpackConfig, null, statsLogger))
     .pipe(gulp.dest('dist/assets/scripts'));
 }
 

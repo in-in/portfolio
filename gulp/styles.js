@@ -18,7 +18,7 @@ gulp.task('styles', function () {
     lost,
     rucksack,
     svg({
-      paths: ['dist/images'],
+      paths: ['dist/assets/images'],
       defaults: "[fill]: #ff00ff"
     }),
     cssnext({browsers: ['last 5 versions']})
