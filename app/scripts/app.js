@@ -1,3 +1,5 @@
+import '../blocks/header/header';
+
 function tri() {
   const w = document.getElementById('home').offsetWidth;
   const h = Math.floor(w * 0.23);
