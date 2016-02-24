@@ -1,12 +1,14 @@
-const avatarElem = document.querySelector('.header');
+const headerElem = document.querySelector('.header');
+const logoElem = document.querySelector('.logo');
 
-const avatarSourceBottom = avatarElem.getBoundingClientRect().bottom + window.pageYOffset;
-console.log(window.pageYOffset);
+const headerSourceBottom = headerElem.getBoundingClientRect().bottom + window.pageYOffset;
 
 window.onscroll = function () {
-  if (avatarElem.classList.contains('fixed') && window.pageYOffset < avatarSourceBottom) {
-    avatarElem.classList.remove('fixed');
-  } else if (window.pageYOffset > avatarSourceBottom) {
-    avatarElem.classList.add('fixed');
+  if (headerElem.classList.contains('fixed') && window.pageYOffset < headerSourceBottom) {
+    headerElem.classList.remove('fixed');
+    logoElem.style.display = 'flex';
+  } else if (window.pageYOffset > headerSourceBottom) {
+    headerElem.classList.add('fixed');
+    logoElem.style.display = 'none';
   }
 };

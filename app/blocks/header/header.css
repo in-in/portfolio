@@ -1,11 +1,13 @@
 .header
 {
   z-index: 5;
-  display: flex;
-  justify-content: space-between;
   width: 100%;
+}
+
+.header__wrap
+{
+  justify-content: space-between;
   height: 3.125rem;
-  transition: all .2s linear;
 }
 
 .header__logo
@@ -32,9 +34,13 @@
 {
   .header
   {
-    height: 4.375rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
+  }
+
+  .header__wrap
+  {
+    height: 4.375rem;
   }
 
   .header__menu
@@ -46,5 +52,6 @@
   .fixed
   {
     margin-top: 0;
+    box-shadow: 0 .125rem .125rem rgba(0, 0, 0, .5);
   }
 }

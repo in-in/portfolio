@@ -3,10 +3,11 @@ include ../logo/logo
 include ../menu/menu
 
 mixin header()
-  +container()
-    +b.header&attributes(attributes)
-      +e.logo
-        +logo()
-      +e.menu
-        +menu(getData('menu'))
-        
+  +b.header&attributes(attributes)
+    +container()
+      .header__wrap
+        .header__logo
+          +logo()
+        .header__menu
+          +menu(getData('menu'))
+          
