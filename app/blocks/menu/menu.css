@@ -20,12 +20,14 @@
   fill: var(--mainBlack);
 }
 
-.menu__item:hover .menu__icon {
+.menu__item:hover .menu__icon
+{
   transform: scale(1.1);
   fill: #fff;
 }
 
-.menu__item:active .menu__icon {
+.menu__item:active .menu__icon
+{
   transform: scale(.8);
 }
 
@@ -34,6 +36,11 @@
   overflow: hidden;
   white-space: nowrap;
   text-indent: -9999px;
+}
+
+.menu__item--active
+{
+  background-color: coral;
 }
 
 @media (--s)

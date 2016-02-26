@@ -1115,14 +1115,16 @@ small
   fill: #222;
 }
 
-.menu__item:hover .menu__icon {
+.menu__item:hover .menu__icon
+{
   -webkit-transform: scale(1.1);
       -ms-transform: scale(1.1);
           transform: scale(1.1);
   fill: #fff;
 }
 
-.menu__item:active .menu__icon {
+.menu__item:active .menu__icon
+{
   -webkit-transform: scale(.8);
       -ms-transform: scale(.8);
           transform: scale(.8);
@@ -1133,6 +1135,11 @@ small
   overflow: hidden;
   white-space: nowrap;
   text-indent: -9999px;
+}
+
+.menu__item--active
+{
+  background-color: coral;
 }
 
 @media (min-width: 30.001em)

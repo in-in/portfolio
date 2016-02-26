@@ -1,4 +1,5 @@
 import '../blocks/header/header';
+import '../blocks/menu/menu';
 
 function tri() {
   const w = document.getElementById('home').offsetWidth;
