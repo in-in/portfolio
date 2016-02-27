@@ -3,7 +3,7 @@ include ../logo/logo
 include ../menu/menu
 
 mixin header()
-  +b.header&attributes(attributes)
+  +b('header').header&attributes(attributes)
     +container()
       .header__wrap
         .header__logo

@@ -58,9 +58,15 @@
   transition: all .3s ease, letter-spacing .3s ease-out;
   text-transform: uppercase;
   color: #fff;
-  border: .2rem solid #fff;
-  background-color: var(--mainBlack);
+  border: .2rem solid transparent;
+  background-color: transparent;
   line-height: 1.45;
+}
+
+.feedback:valid .feedback__btn
+{
+  width: 100%;
+  background-color: var(--mainBlack);
 }
 
 .feedback:valid .feedback__btn:hover,
@@ -94,9 +100,4 @@
 .feedback__textarea:focus:invalid
 {
   box-shadow: inset 0 0 .5rem tomato;
-}
-
-.feedback:valid .feedback__btn
-{
-  width: 100%;
 }

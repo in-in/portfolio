@@ -3,7 +3,6 @@
   position: relative;
   transition: color .3s;
   transform: translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;

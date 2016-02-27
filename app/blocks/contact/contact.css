@@ -1,6 +1,8 @@
 .contact
 {
   flex-direction: column;
+  justify-content: center;
+  height: 100vh;
   padding-top: 10%;
   padding-bottom: 10%;
 }
