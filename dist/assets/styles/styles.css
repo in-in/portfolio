@@ -461,6 +461,11 @@ small
   .about__skills:nth-child(3n) {
     margin-right: 0;
   }
+
+  #about:target
+  {
+    padding-top: 6.375rem;
+  }
 }
 .btn-hvr
 {
@@ -527,7 +532,6 @@ small
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
-  height: 100vh;
   padding-top: 10%;
   padding-bottom: 10%;
 }
@@ -926,11 +930,6 @@ small
 .lion
 {
   width: 81.25%;
-}
-
-#home
-{
-  background-color: seagreen;
 }
 .index
 {

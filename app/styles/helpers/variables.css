@@ -5,6 +5,7 @@
   --gold: #ffd700;
   --baseFontSize: 1rem;
   --vr: calc(var(--baseFontSize) * 1.45);
+  --headerLargeHeight: 6.375rem;
 }
 
 @custom-media --xs (width > 20em);
