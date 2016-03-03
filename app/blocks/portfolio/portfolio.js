@@ -2,7 +2,7 @@ function show() {
   const up = this.querySelector('.portfolio__description h3');
   const down = this.querySelector('.portfolio__description p');
   const img = this.querySelector('.portfolio__image');
-  const size = this.offsetWidth / 2;
+  const size = (this.offsetWidth / 2) + 2;
 
   up.style.transform = `translateY(-${size}px)`;
   down.style.transform = `translateY(${size}px)`;

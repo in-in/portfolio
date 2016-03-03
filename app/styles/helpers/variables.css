@@ -3,6 +3,8 @@
   --mainBlack: #222;
   --light: #a9a9a9;
   --gold: #ffd700;
+  --gradient1: #4b1248;
+  --gradient2: #f0c27b;
   --baseFontSize: 1rem;
   --vr: calc(var(--baseFontSize) * 1.45);
   --headerLargeHeight: 6.375rem;
