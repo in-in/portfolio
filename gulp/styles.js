@@ -6,7 +6,7 @@ import sourcemaps from 'gulp-sourcemaps';
 import rename from 'gulp-rename';
 import notifier from 'node-notifier';
 import plumber from 'gulp-plumber';
-import atImport from 'postcss-import';
+import atImport from 'postcss-easy-import';
 import lost from 'lost';
 import cssnext from 'postcss-cssnext';
 import rucksack from 'rucksack-css';
@@ -18,7 +18,7 @@ gulp.task('styles', function () {
     lost,
     rucksack,
     svg({
-      paths: ['dist/assets/images'],
+      paths: ['dist/assets/images/'],
       defaults: "[fill]: #ff00ff"
     }),
     cssnext({browsers: ['last 5 versions']})

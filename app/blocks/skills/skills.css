@@ -44,6 +44,10 @@
   background-position: center;
 }
 
+.checkbox__input {
+  display: none;
+}
+
 .checkbox__input[type='checkbox']:checked + .checkbox__label::before
 {
   background-image: svg('check', '[fill]: var(--mainBlack)');

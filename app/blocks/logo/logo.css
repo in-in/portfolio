@@ -4,6 +4,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 .logo__icon--front
@@ -15,6 +16,7 @@
 .logo__icon--back
 {
   z-index: 1;
+  width: 0;
 }
 
 @media (--m)

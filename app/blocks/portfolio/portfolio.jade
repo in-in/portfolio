@@ -1,8 +1,8 @@
 mixin portfolio(list)
   +b.portfolio&attributes(attributes)
     each item in list
-      +e('a')(href="#{item.link}").item
-        +e('picture').image
+      +e.A(href="#{item.link}").item
+        +e.PICTURE.image
           source(
             media="(max-width: 20rem)",
             srcset="assets/#{item.xs}"

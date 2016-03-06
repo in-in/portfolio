@@ -13,6 +13,7 @@
   position: relative;
   overflow: hidden;
   cursor: pointer;
+  outline: 2px solid pink;
 }
 
 .portfolio__image
