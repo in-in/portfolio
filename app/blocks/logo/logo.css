@@ -3,7 +3,6 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
   width: 3.125rem; /* 50/16 */
   height: 3.125rem; /* 50/16 */
   transition: all .3s ease;
@@ -13,8 +12,9 @@
 .logo::before,
 .logo::after
 {
-  position: relative;
+  position: absolute;
   z-index: -1;
+  left: 0;
   display: flex;
   visibility: hidden;
   width: 100%;
@@ -22,24 +22,27 @@
   transition: all .3s ease-out;
   opacity: 0;
   font-size: .75rem;
-  background-color: pink;
+}
+
+.logo__inner
+{
+  top: 50%;
 }
 
 .logo::before
 {
+  top: 5%;
   content: 'Intelligence';
 }
 
 .logo::after
 {
+  bottom: 5%;
   content: 'Development';
 }
 
 .logo__icon
 {
-  position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
 }
 
@@ -56,8 +59,13 @@
   .logo::after
   {
     visibility: visible;
-    margin-left: calc(100% + .5rem);
     transition: all .3s ease-in;
+    transform: translateX(110%);
     opacity: 1;
+  }
+
+  .logo__inner
+  {
+    transform: translate(110%, -50%);
   }
 }
