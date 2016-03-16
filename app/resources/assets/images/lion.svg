@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 456" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" class="polylion">
+ <defs>
+  <filter id="polycleaner" style="color-interpolation-filters:sRGB">
+   <feComponentTransfer>
+    <feFuncA type="table" tableValues="0 0.5 1 1"/>
+   </feComponentTransfer>
+  </filter>
+ </defs>
+ <g>
+  <polygon style="filter:url(#polycleaner);fill:#fadfaa" points="380 128 339 98 392 85" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#eaba8c" points="380 128 412 111 392 85" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#fad398" points="380 128 340 140 339 98" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#dfa387" points="340 140 309 142 339 98" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#f9d8ad" points="309 142 286 133 339 98" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#dbb08e" points="412 111 443 101 392 85" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#d59f7d" points="412 111 434 126 443 101" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#facc91" points="434 126 475 122 443 101" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#ce8670" points="380 128 402 132 412 111" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#bc716c" points="402 132 418 142 412 111" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#bc716c" points="340 140 309 185 309 142" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#d1806d" points="434 126 418 142 412 111" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#f8dc9b" points="475 122 462 137 434 126" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#fad295" points="462 137 509 139 475 122" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#dc8c6b" points="462 137 425 155 434 126" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#ec9b6c" points="425 155 418 142 434 126" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#e49c76" points="402 132 369 156 380 128" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#dd8d76" points="369 156 340 140 380 128" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#db8a6f" points="396 168 369 156 402 132" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#fbc27f" points="509 139 491 171 462 137" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#ce7660" points="462 137 461 173 425 155" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#bf5d76" points="327 193 309 185 340 140" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#a8526d" points="418 142 396 168 402 132" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#f6b78b" points="309 142 292 179 286 133" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#f7cb8c" points="491 171 542 154 509 139" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#d99860" points="491 171 520 192 542 154" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#d4846d" points="410 172 425 155 418 142" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#efa872" points="425 155 431 188 410 172" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#954a5e" points="460 187 461 173 425 155" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#c46374" points="340 140 344 188 369 156" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#b95e7f" points="292 179 258 161 286 133" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#944f8b" points="261 177 255 195 258 161" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#b45e69" points="396 168 410 172 418 142" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#d7835f" points="461 173 491 171 462 137" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#bd6d56" points="482 192 520 192 491 171" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#b05d59" points="491 171 482 192 461 173" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#82365a" points="482 192 460 187 461 173" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#9c4083" points="292 179 261 177 258 161" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#b75d79" points="292 179 309 185 309 142" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#f9cb8d" points="362 192 380 183 369 156" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#c86e78" points="301 203 278 191 292 179" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#ea9e86" points="292 179 278 191 261 177" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#af5078" points="309 185 301 203 292 179" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#d59071" points="344 188 362 192 369 156" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#f9cd90" points="425 155 460 187 431 188" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#ad4f74" points="344 188 327 193 340 140" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#e0a072" points="380 206 388 187 380 183" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#e8aa7d" points="322 223 342 208 344 188" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#ecb984" points="388 187 396 168 380 183" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#f9d49d" points="408 193 396 168 388 187" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#f9d49d" points="396 168 369 156 380 183" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#edad87" points="278 191 255 195 261 177" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#a55079" points="277 203 301 203 278 191" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#f3bb7e" points="388 187 408 193 380 206" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#f7bc76" points="460 187 464 208 431 188" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#cc8571" points="362 192 342 208 344 188" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#f7c185" points="380 183 380 206 362 192" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#8a4256" points="490 213 482 192 460 187" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#dc9d72" points="380 206 361 205 362 192" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#c9766e" points="344 188 322 223 327 193" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#a35370" points="322 223 306 217 327 193" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#b4607a" points="278 191 277 203 255 195" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#a5497a" points="277 203 252 222 255 195" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#933a73" points="306 217 327 193 309 185 301 203" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#c67468" points="361 205 348 223 362 192" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#662366" points="361 205 380 206 348 223" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#974f53" points="520 205 520 192 482 192 490 213" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#e19e67" points="464 208 490 213 460 187" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#b26369" points="362 192 348 223 342 208" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#5e2a50" points="520 205 529 218 490 213" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#db9460" points="490 213 468 220 464 208" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#6a2774" points="301 203 277 203 294 221 306 217" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#8f4a4f" points="529 218 500 245 490 213" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#802a75" points="252 222 294 221 277 203" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#f9c589" points="348 223 322 223 342 208" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#a75472" points="294 221 287 236 252 222" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#f1bb7f" points="348 223 331 253 322 223" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#d8996e" points="348 223 342 245 331 253" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#a05a50" points="529 218 498 273 500 245" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#f8bf7a" points="351 253 345 280 331 253" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#eea65a" points="509 320 520 279 498 273" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#bb6c4b" points="498 273 471 303 468 284" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#e89553" points="498 273 509 320 471 303" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#b77954" points="509 320 466 320 471 303" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#a15b53" points="509 320 468 338 466 320" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#f2ba70" points="509 320 522 330 520 279" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#bc7255" points="522 330 562 331 534 304" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#a5625c" points="562 331 550 386 522 330" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#cd8754" points="522 330 490 351 509 320" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#af6751" points="490 351 468 338 509 320" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#bf7b54" points="490 351 440 382 468 338" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#a65e52" points="440 382 444 350 468 338" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#e6a56d" points="522 330 512 382 490 351" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#ce875b" points="512 382 469 394 490 351" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#db925d" points="469 394 440 382 490 351" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#753653" points="440 382 398 402 402 354" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#8e4e5c" points="512 382 550 386 522 330" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#712f53" points="398 402 432 426 440 382" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#c37456" points="432 426 469 394 440 382" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#6a275d" points="550 386 490 463 512 382" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#7a385c" points="490 463 469 394 512 382" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#9f4e5f" points="490 463 432 426 469 394" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#812f5d" points="490 463 422 451 432 426" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#c58468" points="449 208 440 210 431 188" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#bc716b" points="410 172 408 193 396 168" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#c58468" points="408 193 431 188 410 172" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#d1885f" points="423 235 444 220 420 213" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#d99c6f" points="408 193 420 213 380 206" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#d59764" points="440 210 431 188 408 193" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#d1885f" points="420 213 440 210 408 193" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#87386f" points="306 217 294 249 294 221" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#af5c6e" points="287 236 294 221 294 249" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#c0724c" points="498 273 520 279 529 218" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#d48c51" points="520 279 540 260 529 218" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#af5c6e" points="306 217 322 223 294 249" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#55276f" points="287 236 294 249 252 222" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#ebac79" points="342 245 351 253 331 253" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#662873" points="294 249 245 245 252 222" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#7a2b6d" points="294 249 266 270 245 245" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#d4846b" points="322 223 331 253 294 249" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#ebac79" points="331 253 299 264 294 249" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#e29f70" points="331 253 345 280 299 264" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#edb05f" points="522 330 534 304 520 279" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#dc9b59" points="534 304 540 260 520 279" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#ca834d" points="534 304 562 331 540 260" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#d68c6f" points="299 264 266 270 294 249" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#b46868" points="299 264 272 301 266 270" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#985066" points="272 301 234 399 220 306" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#fac174" points="471 303 452 311 468 284" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#5a2750" points="440 382 402 354 444 350" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#bc7652" points="367 430 368 409 297 376" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#4f1e56" points="297 376 367 430 234 399" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#984b5b" points="422 451 418 476 406 445" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#5d2c4c" points="390 471 394 525 234 399" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#854659" points="422 451 406 445 432 426" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#a45b55" points="432 426 391 420 406 445" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#5d2552" points="367 430 390 471 234 399" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#853e5c" points="390 471 418 476 406 445" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#5d2552" points="418 476 490 463 422 451" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#732f62" points="490 463 394 525 418 476" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#914758" points="418 476 390 471 394 525" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#974e65" points="351 253 348 223 342 245" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#a85e6d" points="272 301 220 306 266 270" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#7a336f" points="266 270 245 245 220 306" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#c78c6c" points="365 226 379 245 351 253" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#f8d088" points="452 311 441 282 468 284" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#633752" points="441 282 427 295 430 276" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#f7db9c" points="441 282 452 311 427 295" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#fad58e" points="427 295 405 315 416 283" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#6c2861" points="234 399 297 376 272 301" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#c9a26b" points="405 315 427 306 427 295" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#744154" points="427 312 452 317 427 306" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#ac6960" points="297 376 307 309 272 301" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#5f3752" points="427 306 427 312 405 315" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#c99667" points="427 312 422 323 405 315" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#f2b66e" points="466 320 468 338 452 317" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#f9cc89" points="468 338 444 350 452 317" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#d3a46c" points="444 350 413 335 402 354" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#e8b576" points="422 323 383 331 413 335" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#d88f5a" points="364 359 368 409 297 376" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#ad654f" points="368 409 381 361 364 359" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#792e55" points="390 471 406 445 367 430" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#f1bf7a" points="444 350 422 323 413 335" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#c39160" points="413 335 402 354 383 331" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#bb875f" points="422 323 383 331 405 315" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#f7d79a" points="444 350 452 317 422 323" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#deb072" points="452 317 427 312 422 323" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#d38e57" points="452 317 452 311 471 303 466 320" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#deb072" points="452 317 427 306 452 311" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#b88864" points="452 311 427 295 427 306" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#8e4453" points="405 315 377 307 376 322" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#a06057" points="377 307 368 290 365 311" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#e2a76b" points="405 315 394 295 377 307" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#f9db9f" points="394 295 416 283 405 315" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#e79c62" points="297 376 354 312 307 309" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#c5885b" points="377 307 394 295 368 290" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#d6895d" points="354 312 345 280 307 309" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#eaa267" points="345 280 322 272 307 309" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#f7c684" points="394 295 416 283 400 276" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#4f2150" points="427 295 416 283 430 276" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#442551" points="455 268 430 276 441 282" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#905952" points="430 276 409 268 429 268" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#3f1c53" points="409 268 400 276 416 283 430 276" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#f9bd74" points="394 295 400 276 368 290" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#be7356" points="400 276 379 266 368 290" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#c67b5c" points="322 272 272 301 307 309" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#c68464" points="322 272 299 264 272 301" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#744855" points="455 268 429 268 430 276" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#98525a" points="379 266 345 280 368 290" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#b1625d" points="379 266 351 253 345 280" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#b1625d" points="368 290 354 312 345 280" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#d89f6a" points="455 268 444 254 429 268" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#c47f55" points="455 268 457 248 444 254" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#bd7859" points="444 254 423 235 414 254" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#eaaf77" points="348 223 365 226 351 253" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#e09b72" points="365 226 361 216 348 223" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#743854" points="406 445 391 420 367 430" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#8e4c50" points="391 420 368 409 367 430" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#6d3a3d" points="391 420 398 402 368 409" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#a5585d" points="391 420 432 426 398 402" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#87484c" points="398 402 381 361 368 409" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#571c4f" points="398 402 402 354 381 361" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#6b3b51" points="383 331 381 361 402 354" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#6b3b51" points="405 315 376 322 383 331" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#7e3854" points="376 322 365 311 377 307" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#e9a461" points="297 376 364 359 354 312" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#571c4f" points="383 331 376 322 365 311 354 312 364 359 381 361" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#8d4956" points="365 311 368 290 354 312" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#f2b974" points="468 284 455 268 441 282" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#c8885c" points="444 254 414 254 429 268" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#cd9566" points="429 268 409 268 414 254" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#ac7068" points="379 245 379 266 351 253" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#6c2e57" points="409 268 394 265 400 276" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#9d5c58" points="414 254 379 245 379 266 400 276 394 265 409 268" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#cd9971" points="379 245 383 226 365 226" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#b26d5d" points="420 213 423 235 391 224" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#91535d" points="414 254 379 245 383 226 391 224 423 235" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#b0746a" points="391 224 379 218 383 226" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#f0bd8a" points="383 226 367 218 379 218" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#f6da9b" points="383 226 367 218 365 226" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#f9f0b8" points="367 218 361 216 365 226" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#9e5663" points="372 210 361 216 367 218" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#cc8a6a" points="420 213 391 224 380 206" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#da9172" points="379 218 372 210 367 218" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#7b3962" points="372 210 380 206 391 224 379 218" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#d49a5a" points="468 284 474 260 455 268" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#c87a4c" points="498 273 468 284 500 245" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#da8951" points="487 235 500 245 490 213" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#f2af67" points="490 213 487 235 468 220" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#c78052" points="474 260 472 231 455 268" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#eca45f" points="474 260 468 284 500 245 487 235 468 220 460 226 472 231" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#bb7e5a" points="440 210 449 208 444 220" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#f7f0ae" points="460 226 461 217 468 220" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#ac5d58" points="464 208 449 208 431 188" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#4c2055" points="464 208 468 220 461 217 451 221" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#e9b674" points="472 231 457 248 455 268" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#f5d997" points="461 217 451 221 460 226" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#d9a46e" points="440 210 444 220 420 213" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#f7c07b" points="457 248 472 231 460 226 451 221 444 220" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#d89b65" points="444 254 457 248 444 220 423 235" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#d89b65" points="456 216 446 215 451 221" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#682b58" points="451 221 444 220 446 215" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+  <polygon style="filter:url(#polycleaner);fill:#682b58" points="464 208 456 216 446 215 449 208" transform="matrix(-.99652 0 0 .99795 564.04 -80.526)"/>
+ </g>
+</svg>

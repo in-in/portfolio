@@ -2,62 +2,62 @@
 {
   position: relative;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 3.125rem; /* 50/16 */
+  height: 3.125rem; /* 50/16 */
+  transition: all .3s ease;
+}
+
+.logo__inner,
+.logo::before,
+.logo::after
+{
+  position: relative;
+  z-index: -1;
+  display: flex;
+  visibility: hidden;
   width: 100%;
+  margin: 0;
+  transition: all .3s ease-out;
+  opacity: 0;
+  font-size: .75rem;
+  background-color: pink;
 }
 
-.logo__icon--front
+.logo::before
 {
-  z-index: 2;
-  width: 3.125rem;
+  content: 'Intelligence';
 }
 
-.logo__icon--back
+.logo::after
 {
-  z-index: 1;
-  width: 0;
+  content: 'Development';
+}
+
+.logo__icon
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 @media (--m)
 {
-  .logo__icon--front
+  .logo
   {
-    transform-origin: left;
-    animation-name: scaleFrontLogo;
-    animation-duration: .8s;
-    animation-fill-mode: forwards;
-    animation-timing-function: ease-in-out;
+    width: 4.375rem; /* 70/16 */
+    height: 4.375rem; /* 70/16 */
   }
 
-  .logo__icon--back
+  .logo__inner,
+  .logo::before,
+  .logo::after
   {
-    animation-name: scaleBackLogo;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
-    animation-timing-function: ease-in-out;
-    animation-delay: .4s;
-  }
-}
-
-@keyframes scaleFrontLogo
-{
-  100%
-  {
-    transform: scale(1.4);
-  }
-}
-
-@keyframes scaleBackLogo
-{
-  0%
-  {
-    width: 0;
-  }
-
-  100%
-  {
-    width: 4.375rem;
-    transform: translateX(1.25rem);
+    visibility: visible;
+    margin-left: calc(100% + .5rem);
+    transition: all .3s ease-in;
+    opacity: 1;
   }
 }

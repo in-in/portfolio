@@ -26,6 +26,7 @@
 {
   height: calc(var(--vr) * 10);
   resize: none;
+  overflow: auto;
 }
 
 .feedback__label

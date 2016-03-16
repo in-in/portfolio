@@ -22,20 +22,19 @@ mixin index()
                 +heading() Gorgeous Design For Humans
                 +subheading() 
                   | Design is not just what it looks like and feels like. Design is how it works.
-              .home__lion
-                +icon('lion', 350, 456).lion
+              .home__image
+                img(src="assets/images/lion.svg", alt="lion")
           +triangle().triangle__bottom.js-triangle
       +section()#about
         +about()
           +e.avatar
-            +icon('avatar', 400, 385).avatar
+            +icon('avatar').avatar
             +social(getData('social'))
           +e.info
             +info()
               +e('h2').title Inin
               h3.light Front-end developer
               p I'm a front-end developer based in Moscow. I produce stylish and high-quality digital projects.
-              p I'm available for freelance works.
           +e.skills
             +skills(getData('skills'))
       +section()#portfolio.gradient

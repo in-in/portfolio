@@ -1,81 +1,55 @@
-<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" viewBox="0 0 400 400" version="1.1" enable-background="new" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 400" xmlns:dc="http://purl.org/dc/elements/1.1/">
  <defs>
-  <linearGradient id="logo" osb:paint="solid">
-   <stop style="stop-color:#ffd700" offset="0"/>
+  <linearGradient id="k" y2="90" gradientUnits="userSpaceOnUse" y1="90" gradientTransform="translate(0 -.004)" x2="360" x1="40">
+   <stop stop-color="#222" offset="0"/>
   </linearGradient>
-  <linearGradient id="eye" osb:paint="solid">
-   <stop style="stop-color:#008080" offset="0"/>
-  </linearGradient>
-  <linearGradient id="white" osb:paint="solid">
-   <stop style="stop-color:#f2f2f2" offset="0"/>
-  </linearGradient>
-  <linearGradient id="black" gradientTransform="matrix(2 0 0 3.7804 180.01 -324.87)" osb:paint="solid">
-   <stop style="stop-color:#222222" offset="0"/>
-  </linearGradient>
-  <linearGradient id="linearGradient4701" y2="152.22" xlink:href="#black" gradientUnits="userSpaceOnUse" x2="70.788" y1="152.22" x1="50.788"/>
-  <linearGradient id="linearGradient4703" y2="185.04" xlink:href="#white" gradientUnits="userSpaceOnUse" x2="119.05" y1="185.04" x1="99.052"/>
-  <linearGradient id="linearGradient4299" y2="185.04" xlink:href="#white" gradientUnits="userSpaceOnUse" x2="119.05" gradientTransform="translate(60)" y1="185.04" x1="99.052"/>
-  <linearGradient id="linearGradient4701-0" y2="152.22" xlink:href="#black" gradientUnits="userSpaceOnUse" x2="70.788" y1="152.22" x1="50.788"/>
-  <linearGradient id="linearGradient4547" y2="90" xlink:href="#black" gradientUnits="userSpaceOnUse" x2="360" y1="90" x1="40"/>
-  <linearGradient id="linearGradient4631" y2="378.36" xlink:href="#logo" gradientUnits="userSpaceOnUse" x2="264.53" y1="378.36" x1="249.53"/>
-  <linearGradient id="linearGradient4690" y2="378.36" xlink:href="#logo" gradientUnits="userSpaceOnUse" x2="264.53" gradientTransform="matrix(.66667 0 0 .66667 74.333 136.33)" y1="378.36" x1="249.53"/>
-  <linearGradient id="linearGradient4694" y2="378.36" xlink:href="#logo" gradientUnits="userSpaceOnUse" x2="264.53" gradientTransform="matrix(.66667 0 0 .66667 97.333 136.33)" y1="378.36" x1="249.53"/>
-  <linearGradient id="linearGradient4735" y2="185.43" gradientUnits="userSpaceOnUse" x2="195.52" gradientTransform="translate(3.5696e-7 .000022375)" y1="185.43" x1="44.482">
-   <stop style="stop-color:#edc8af" offset="0"/>
-  </linearGradient>
-  <linearGradient id="linearGradient4246" y2="270" gradientUnits="userSpaceOnUse" x2="340" y1="270" x1="60">
-   <stop style="stop-color:#20b2aa" offset="0"/>
-  </linearGradient>
-  <linearGradient id="linearGradient4264" y2="170" xlink:href="#eye" gradientUnits="userSpaceOnUse" x2="120" y1="170" x1="100"/>
-  <linearGradient id="linearGradient4266" y2="170" xlink:href="#eye" gradientUnits="userSpaceOnUse" x2="280" y1="170" x1="260"/>
-  <linearGradient id="linearGradient4293" y2="360" gradientUnits="userSpaceOnUse" x2="360" y1="360" x1="40">
-   <stop style="stop-color:#4169e1" offset="0"/>
+  <linearGradient id="e" y2="185.43" gradientUnits="userSpaceOnUse" x2="195.52" gradientTransform="translate(0 -.004)" y1="185.43" x1="44.482">
+   <stop stop-color="#edc8af" offset="0"/>
   </linearGradient>
  </defs>
  <g>
-  <rect style="fill:none;color-rendering:auto;color:#000000;isolation:auto;mix-blend-mode:normal;shape-rendering:auto;solid-color:#000000;image-rendering:auto;enable-background:accumulate" height="400" width="400" y="0" x="0"/>
-  <rect style="fill:#ffffff;color-rendering:auto;color:#000000;isolation:auto;mix-blend-mode:normal;fill-rule:evenodd;shape-rendering:auto;solid-color:#000000;image-rendering:auto;enable-background:accumulate" height="21.689" width="20.622" y="181.33" x="98.133"/>
- </g>
- <g>
-  <path style="fill:url(#linearGradient4735);color-rendering:auto;color:#000000;isolation:auto;mix-blend-mode:normal;fill-rule:evenodd;shape-rendering:auto;solid-color:#000000;image-rendering:auto;enable-background:accumulate" d="m100 40v20h-20v20h-20v60h-20v60h20l.05469 60.074 19.945-.07v20h80v40h-100v20h-20v60h320v-60h-20v-20h-100v-40h80v-20l19.945.0742.06-60.07h20v-60h-20v-60h-20v-20h-20v-20z"/>
+  <path solid-color="#000000" style="isolation:auto;mix-blend-mode:normal" d="m0 .004h400v400h-400z" fill="none"/>
+  <path style="isolation:auto;mix-blend-mode:normal" d="m98.133 181.33h20.622v21.69h-20.627z" fill-rule="evenodd" solid-color="#000000" fill="#fff"/>
  </g>
  <g>
   <g>
-   <path style="fill:url(#linearGradient4701);color-rendering:auto;color:#000000;isolation:auto;mix-blend-mode:normal;fill-rule:evenodd;shape-rendering:auto;solid-color:#000000;image-rendering:auto;enable-background:accumulate" d="m80 140v20h40v20h20v-20h20v-20h-80z"/>
-   <path style="fill:url(#linearGradient4703);color-rendering:auto;color:#000000;isolation:auto;mix-blend-mode:normal;fill-rule:evenodd;shape-rendering:auto;solid-color:#000000;image-rendering:auto;enable-background:accumulate" d="m80 160h20v20h-20z"/>
-   <path d="m140 160h20v20h-20z" style="fill:url(#linearGradient4299);color-rendering:auto;color:#000000;isolation:auto;mix-blend-mode:normal;fill-rule:evenodd;shape-rendering:auto;solid-color:#000000;image-rendering:auto;enable-background:accumulate"/>
-   <path style="fill:url(#linearGradient4264);color-rendering:auto;color:#000000;isolation:auto;mix-blend-mode:normal;fill-rule:evenodd;shape-rendering:auto;solid-color:#000000;image-rendering:auto;enable-background:accumulate" d="m100 160h20v20h-20z"/>
-  </g>
-  <g>
-   <path style="fill:url(#linearGradient4701-0);color-rendering:auto;color:#000000;isolation:auto;mix-blend-mode:normal;fill-rule:evenodd;shape-rendering:auto;solid-color:#000000;image-rendering:auto;enable-background:accumulate" d="m240 140v20h40v20h20v-20h20v-20h-80z"/>
-   <path style="color-rendering:auto;color:#000000;isolation:auto;mix-blend-mode:normal;fill-rule:evenodd;shape-rendering:auto;solid-color:#000000;image-rendering:auto;enable-background:accumulate;fill:url(#linearGradient4703)" d="m240 160h20v20h-20z"/>
-   <path d="m300 160h20v20h-20z" style="color-rendering:auto;color:#000000;isolation:auto;mix-blend-mode:normal;fill-rule:evenodd;shape-rendering:auto;solid-color:#000000;image-rendering:auto;enable-background:accumulate;fill:url(#linearGradient4299)"/>
-   <path style="fill:url(#linearGradient4266);color-rendering:auto;color:#000000;isolation:auto;mix-blend-mode:normal;fill-rule:evenodd;shape-rendering:auto;solid-color:#000000;image-rendering:auto;enable-background:accumulate" d="m260 160h20v20h-20z"/>
-  </g>
- </g>
- <g>
-  <path style="fill:url(#linearGradient4547);color-rendering:auto;color:#000000;isolation:auto;mix-blend-mode:normal;fill-rule:evenodd;shape-rendering:auto;solid-color:#000000;image-rendering:auto;enable-background:accumulate" d="m100 40v20h20v20h20v20h20v10h80v-10h20v-20h20v-20h20v-20h-200zm200 20v20h20v-20h-20zm20 20v20h20v-20h-20zm20 20v20 20h20v-20-20h-20zm-240-40h-20v20h20v-20zm-20 20h-20v20h20v-20zm-20 20h-20v20 20h20v-20-20z"/>
- </g>
- <g>
-  <path style="fill:url(#linearGradient4293);color-rendering:auto;color:#000000;isolation:auto;mix-blend-mode:normal;fill-rule:evenodd;shape-rendering:auto;solid-color:#000000;image-rendering:auto;enable-background:accumulate" d="m60 320v20h-20v60h320v-60h-20v-20h-80v20h-20v20h-20v20h-40v-20h-20v-20h-20v-20z"/>
-  <path style="fill:url(#black);color-rendering:auto;color:#000000;isolation:auto;mix-blend-mode:normal;fill-rule:evenodd;shape-rendering:auto;solid-color:#000000;image-rendering:auto;enable-background:accumulate" d="m140 320v20h20v-20zm20 20v20h20v-20zm20 20v20h40v-20h-40zm40 0h20v-20h-20zm20-20h20v-20h-20z"/>
-  <rect style="fill:#222222;color-rendering:auto;fill-opacity:.49020;color:#000000;isolation:auto;mix-blend-mode:normal;fill-rule:evenodd;shape-rendering:auto;solid-color:#000000;image-rendering:auto;enable-background:accumulate" height="40" width="20" y="360" x="90"/>
-  <rect style="fill:#222222;color-rendering:auto;fill-opacity:.49020;color:#000000;isolation:auto;mix-blend-mode:normal;fill-rule:evenodd;shape-rendering:auto;solid-color:#000000;image-rendering:auto;enable-background:accumulate" height="40" width="20" y="360" x="290"/>
-  <g>
+   <path style="fill-rule:evenodd;isolation:auto;mix-blend-mode:normal;fill:#edc8af" d="m100 40v20h-20v20h-20v60h-20v60h20l.055 60.074 19.945-.07v20h80v40h-100v20h-20v60h320v-60h-20v-20h-100v-40h80v-20l19.945.074.06-60.07h20v-60h-20v-60h-20v-20h-20v-20z" fill-rule="evenodd" transform="translate(0 .004)" solid-color="#000000" fill="url(#e)"/>
    <g>
-    <rect style="fill:url(#linearGradient4631);color-rendering:auto;color:#000000;isolation:auto;mix-blend-mode:normal;fill-rule:evenodd;shape-rendering:auto;solid-color:#000000;image-rendering:auto;enable-background:accumulate" height="15" width="15" y="370" x="250"/>
-    <rect style="fill:url(#linearGradient4690);color-rendering:auto;color:#000000;isolation:auto;mix-blend-mode:normal;fill-rule:evenodd;shape-rendering:auto;solid-color:#000000;image-rendering:auto;enable-background:accumulate" height="10" width="10" y="383" x="241"/>
-    <rect style="fill:url(#linearGradient4694);color-rendering:auto;color:#000000;isolation:auto;mix-blend-mode:normal;fill-rule:evenodd;shape-rendering:auto;solid-color:#000000;image-rendering:auto;enable-background:accumulate" height="10" width="10" y="383" x="264"/>
-    <rect style="opacity:0.42;fill:none" height="10" width="10" y="383.02" x="264"/>
-    <rect style="fill-opacity:0" ry="0" height="10" width="10" y="383.02" x="264"/>
-    <text style="font-size:1.5625px;font-family:&apos;Roboto Condensed&apos;;letter-spacing:.1px;word-spacing:0px;font-weight:bold;line-height:95.99999785%;fill:#483d8b" y="390.03406" x="266.40518" xml:space="preserve"><tspan y="390.03406" x="266.40518" style="font-size:5.45px;font-family:&apos;Roboto Condensed&apos;;letter-spacing:.1px;font-weight:bold;line-height:95.99999785%;fill:#483d8b">iN </tspan></text>
+    <path style="fill-rule:evenodd;color:#000000;isolation:auto;mix-blend-mode:normal;solid-color:#000000;fill:#222222" d="m80 140v20h40v20h20v-20h20v-20h-80z"/>
+    <path style="fill-rule:evenodd;color:#000000;isolation:auto;mix-blend-mode:normal;solid-color:#000000;fill:#f2f2f2" d="m80 160h20v20h-20z"/>
+    <path style="fill-rule:evenodd;color:#000000;isolation:auto;mix-blend-mode:normal;solid-color:#000000;fill:#f2f2f2" d="m140 160h20v20h-20z"/>
+    <path style="fill-rule:evenodd;color:#000000;isolation:auto;mix-blend-mode:normal;solid-color:#000000;fill:#008080" d="m100 160h20v20h-20z"/>
+   </g>
+   <path style="isolation:auto;mix-blend-mode:normal;fill:#222222" d="m100 40v20h20v20h20v20h20v10h80v-10h20v-20h20v-20h20v-20h-200zm200 20v20h20v-20h-20zm20 20v20h20v-20h-20zm20 20v40h20v-40h-20zm-240-40h-20v20h20v-20zm-20 20h-20v20h20v-20zm-20 20h-20v40h20v-40z" fill-rule="evenodd" transform="translate(0 .004)" solid-color="#000000" fill="url(#k)"/>
+   <g transform="translate(159.25)">
+    <path style="color:#000000;isolation:auto;mix-blend-mode:normal;fill-rule:evenodd;solid-color:#000000;fill:#222222" d="m80 140v20h40v20h20v-20h20v-20h-80z"/>
+    <path style="color:#000000;isolation:auto;mix-blend-mode:normal;fill-rule:evenodd;solid-color:#000000;fill:#f2f2f2" d="m80 160h20v20h-20z"/>
+    <path style="color:#000000;isolation:auto;mix-blend-mode:normal;fill-rule:evenodd;solid-color:#000000;fill:#f2f2f2" d="m140 160h20v20h-20z"/>
+    <path style="color:#000000;isolation:auto;mix-blend-mode:normal;fill-rule:evenodd;solid-color:#000000;fill:#008080" d="m100 160h20v20h-20z"/>
    </g>
   </g>
- </g>
- <g>
   <g>
-   <path style="fill:url(#linearGradient4246);color-rendering:auto;color:#000000;isolation:auto;mix-blend-mode:normal;fill-rule:evenodd;shape-rendering:auto;solid-color:#000000;image-rendering:auto;enable-background:accumulate" d="m60 200v40 20h20v20h20v20h20v20h20v20h120v-20h20v-20h20v-20h20v-20h20v-20-40h-20v40h-60v-20h-120v20h-60v-40h-20z"/>
-   <rect style="fill:url(#white);color-rendering:auto;color:#000000;isolation:auto;mix-blend-mode:normal;fill-rule:evenodd;shape-rendering:auto;solid-color:#000000;image-rendering:auto;enable-background:accumulate" height="20" width="80" y="240" x="160"/>
+   <path style="fill-rule:evenodd;color:#000000;isolation:auto;mix-blend-mode:normal;solid-color:#000000;fill:#4169e1" d="m60 320v20h-20v60h320v-60h-20v-20h-80v20h-20v20h-20v20h-40v-20h-20v-20h-20v-20z"/>
+   <g>
+    <path d="m90 360h20v40h-20zm200 0h20v40h-20z" style="fill-opacity:0.49;color:#000000;isolation:auto;mix-blend-mode:normal;fill-rule:evenodd;solid-color:#000000;fill:#222222"/>
+   </g>
+   <path style="fill-rule:evenodd;color:#000000;isolation:auto;mix-blend-mode:normal;solid-color:#000000;fill:#222222" d="m140 320v20h20v-20zm20 20v20h20v-20zm20 20v20h40v-20h-40zm40 0h20v-20h-20zm20-20h20v-20h-20z"/>
   </g>
+  <path style="opacity:0.42;fill:none" d="m264 383.02h10v10h-10z"/>
+  <rect style="fill:none" ry="0" height="10" width="10" y="383.02" x="264"/>
+  <g>
+   <g>
+    <path style="fill-rule:evenodd;color:#000000;isolation:auto;mix-blend-mode:normal;solid-color:#000000;fill:#ffd700" d="m250 370h15v15h-15z"/>
+    <path style="fill-rule:evenodd;color:#000000;isolation:auto;mix-blend-mode:normal;solid-color:#000000;fill:#ffd700" d="m241 383h10v10h-10z"/>
+    <path style="fill-rule:evenodd;color:#000000;isolation:auto;mix-blend-mode:normal;solid-color:#000000;fill:#ffd700" d="m264 383h10v10h-10z"/>
+   </g>
+   <g style="fill:#483d8b">
+    <path d="m267.47 390.04h-.75576v-2.8793h.75576v2.8793zm-.79035-3.6245q0-.17563.11176-.2874.11177-.11177.29805-.11177t.29805.11177q.11176.11177.11176.2874 0 .17298-.11176.2874-.10911.11443-.29805.11443t-.30071-.11443q-.1091-.11442-.1091-.2874z"/>
+    <path d="m270.9 390.04h-.78237l-1.1443-2.5414v2.5414h-.78237v-3.8746h.78237l1.147 2.544v-2.544h.77971v3.8746z"/>
+   </g>
+  </g>
+  <path style="fill-rule:evenodd;color:#000000;isolation:auto;mix-blend-mode:normal;solid-color:#000000;fill:#20b2aa" d="m60 200v60h20v20h20v20h20v20h20v20h120v-20h20v-20h20v-20h20v-20h20v-60h-20v40h-60v-20h-120v20h-60v-40h-20z"/>
+  <path style="fill-rule:evenodd;color:#000000;isolation:auto;mix-blend-mode:normal;solid-color:#000000;fill:#f2f2f2" d="m160 240h80v20h-80z"/>
  </g>
 </svg>
