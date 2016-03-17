@@ -1,6 +1,7 @@
 .home
 {
   position: relative;
+  margin-top: 3.125rem; /* 50/16 */
   padding-top: 5%;
   padding-right: 6.25%;
   padding-bottom: 21%;
@@ -31,4 +32,13 @@
 .home__image img
 {
   width: 81.25%;
+}
+
+@media (--m)
+{
+  .home
+  {
+    margin-top: 6.375rem; /* 102/16 */
+    transition: all .2s;
+  }
 }

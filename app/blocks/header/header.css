@@ -1,7 +1,12 @@
 .header
 {
+  position: fixed;
   z-index: 5;
+  top: 0;
+  left: 0;
   width: 100%;
+  transition: all .3s ease;
+  background-color: #fff;
 }
 
 .header__wrap
@@ -22,20 +27,26 @@
   flex-grow: 1;
 }
 
-.fixed
+.header.header--scroll
 {
-  position: fixed;
-  top: 0;
-  left: 0;
-  background-color: rgba(255, 255, 255, .9);
+  padding-top: 0;
+  padding-bottom: 0;
+  background-color: rgba(255, 255, 255, .93);
+  box-shadow: 0 .125rem .125rem rgba(0, 0, 0, .5);
+}
+
+.header--scroll .logo
+{
+  width: 0;
+  opacity: 0;
 }
 
 @media (--m)
 {
   .header
   {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 
   .header__wrap
@@ -47,11 +58,5 @@
   {
     flex-grow: 0;
     flex-basis: 30rem;
-  }
-
-  .fixed
-  {
-    margin-top: 0;
-    box-shadow: 0 .125rem .125rem rgba(0, 0, 0, .5);
   }
 }
