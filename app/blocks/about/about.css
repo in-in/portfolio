@@ -10,6 +10,7 @@
 
   flex-direction: column;
   align-items: center;
+  background-color: pink;
 }
 
 .about__info
@@ -18,6 +19,7 @@
 
   flex-direction: column;
   align-items: center;
+  background-color: palegreen;
 }
 
 .about__skills
@@ -28,13 +30,25 @@
   padding: 0 6.0790625%;
 }
 
+.about__wrap
+{
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding: 0;
+  padding-bottom: 100%;
+}
+
 .avatar
 {
-  width: 71.94244604316546%;
-  margin-top: 1.414em;
-  font-size: 4.236em;
-  font-size: responsive 1.618rem 4.236em;
-  font-range: 20rem 90rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /*height: auto;*/
+  /*margin-top: 1.414em;*/
+  background-color: tomato;
 }
 
 @media (--s)

@@ -15,3 +15,9 @@
 @custom-media --m (width > 40em);
 @custom-media --l (width > 60em);
 @custom-media --xl (width > 80em);
+
+/* 20rem 320 */
+/* 30rem 480 */
+/* 40rem 640 */
+/* 60rem 960 */
+/* 80rem 1280 */

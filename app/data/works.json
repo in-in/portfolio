@@ -3,8 +3,8 @@
     "title": "Hosting",
     "desc":  "Hosting provider service",
     "link":  "http://in-in.github.io/hosting/",
-    "xs":    "images/site1_160.jpg",
-    "s":     "images/site1_240.jpg",
+    "xs":    "images/site1_320.jpg",
+    "s":     "images/site1_320.jpg",
     "m":     "images/site1_320.jpg",
     "l":     "images/site1_480.jpg"
   },
@@ -12,8 +12,8 @@
     "title": "GoodGood",
     "desc":  "Full service digital agency",
     "link":  "http://in-in.github.io/goodgood/",
-    "xs":    "images/site2_160.jpg",
-    "s":     "images/site2_240.jpg",
+    "xs":    "images/site2_320.jpg",
+    "s":     "images/site2_320.jpg",
     "m":     "images/site2_320.jpg",
     "l":     "images/site2_480.jpg"
   },
@@ -21,8 +21,8 @@
     "title": "Intent",
     "desc":  "Professional wedding planners",
     "link":  "http://in-in.github.io/intent/",
-    "xs":    "images/site3_160.jpg",
-    "s":     "images/site3_240.jpg",
+    "xs":    "images/site3_320.jpg",
+    "s":     "images/site3_320.jpg",
     "m":     "images/site3_320.jpg",
     "l":     "images/site3_480.jpg"
   },
@@ -30,8 +30,8 @@
     "title": "Финансовый Автопилот",
     "desc":  "Landing page of investment company",
     "link":  "http://in-in.github.io/autopilot/",
-    "xs":    "images/site4_160.jpg",
-    "s":     "images/site4_240.jpg",
+    "xs":    "images/site4_320.jpg",
+    "s":     "images/site4_320.jpg",
     "m":     "images/site4_320.jpg",
     "l":     "images/site4_480.jpg"
   },
@@ -39,8 +39,8 @@
     "title": "TML",
     "desc":  "Manufacturing company",
     "link":  "http://in-in.github.io/tml/",
-    "xs":    "images/site5_160.jpg",
-    "s":     "images/site5_240.jpg",
+    "xs":    "images/site5_320.jpg",
+    "s":     "images/site5_320.jpg",
     "m":     "images/site5_320.jpg",
     "l":     "images/site5_480.jpg"
   },
@@ -48,8 +48,8 @@
     "title": "Aditii",
     "desc":  "Online Store",
     "link":  "http://in-in.github.io/aditii/",
-    "xs":    "images/site6_160.jpg",
-    "s":     "images/site6_240.jpg",
+    "xs":    "images/site6_320.jpg",
+    "s":     "images/site6_320.jpg",
     "m":     "images/site6_320.jpg",
     "l":     "images/site6_480.jpg"
   }

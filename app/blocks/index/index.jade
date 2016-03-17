@@ -28,11 +28,12 @@ mixin index()
       +section()#about
         +about()
           +e.avatar
-            +icon('avatar').avatar
+            +e.wrap
+              +icon('avatar').avatar
             +social(getData('social'))
           +e.info
             +info()
-              +e('h2').title Inin
+              +e.H2.title Inin
               h3.light Front-end developer
               p I'm a front-end developer based in Moscow. I produce stylish and high-quality digital projects.
           +e.skills
