@@ -3,54 +3,72 @@
     "title": "Hosting",
     "desc":  "Hosting provider service",
     "link":  "http://in-in.github.io/hosting/",
-    "xs":    "images/site1_320.jpg",
-    "s":     "images/site1_320.jpg",
-    "m":     "images/site1_320.jpg",
-    "l":     "images/site1_480.jpg"
+    "320":   "site1_320.jpg",
+    "480":   "site1_480.jpg",
+    "640":   "site1_640.jpg",
+    "960":   "site1_960.jpg",
+    "1280":  "site1_1280.jpg",
+    "1440":  "site1_1440.jpg",
+    "1920":  "site1_1920.jpg"
   },
   {
     "title": "GoodGood",
     "desc":  "Full service digital agency",
     "link":  "http://in-in.github.io/goodgood/",
-    "xs":    "images/site2_320.jpg",
-    "s":     "images/site2_320.jpg",
-    "m":     "images/site2_320.jpg",
-    "l":     "images/site2_480.jpg"
+    "320":   "site2_320.jpg",
+    "480":   "site2_480.jpg",
+    "640":   "site2_640.jpg",
+    "960":   "site2_960.jpg",
+    "1280":  "site2_1280.jpg",
+    "1440":  "site2_1440.jpg",
+    "1920":  "site2_1920.jpg"
   },
   {
     "title": "Intent",
     "desc":  "Professional wedding planners",
     "link":  "http://in-in.github.io/intent/",
-    "xs":    "images/site3_320.jpg",
-    "s":     "images/site3_320.jpg",
-    "m":     "images/site3_320.jpg",
-    "l":     "images/site3_480.jpg"
+    "320":   "site3_320.jpg",
+    "480":   "site3_480.jpg",
+    "640":   "site3_640.jpg",
+    "960":   "site3_960.jpg",
+    "1280":  "site3_1280.jpg",
+    "1440":  "site3_1440.jpg",
+    "1920":  "site3_1920.jpg"
   },
   {
     "title": "Финансовый Автопилот",
     "desc":  "Landing page of investment company",
     "link":  "http://in-in.github.io/autopilot/",
-    "xs":    "images/site4_320.jpg",
-    "s":     "images/site4_320.jpg",
-    "m":     "images/site4_320.jpg",
-    "l":     "images/site4_480.jpg"
+    "320":   "site4_320.jpg",
+    "480":   "site4_480.jpg",
+    "640":   "site4_640.jpg",
+    "960":   "site4_960.jpg",
+    "1280":  "site4_1280.jpg",
+    "1440":  "site4_1440.jpg",
+    "1920":  "site4_1920.jpg"
   },
   {
     "title": "TML",
     "desc":  "Manufacturing company",
     "link":  "http://in-in.github.io/tml/",
-    "xs":    "images/site5_320.jpg",
-    "s":     "images/site5_320.jpg",
-    "m":     "images/site5_320.jpg",
-    "l":     "images/site5_480.jpg"
+    "320":   "site5_320.jpg",
+    "480":   "site5_480.jpg",
+    "640":   "site5_640.jpg",
+    "960":   "site5_960.jpg",
+    "1280":  "site5_1280.jpg",
+    "1440":  "site5_1440.jpg",
+    "1920":  "site5_1920.jpg"
   },
   {
-    "title": "Aditii",
-    "desc":  "Online Store",
-    "link":  "http://in-in.github.io/aditii/",
-    "xs":    "images/site6_320.jpg",
-    "s":     "images/site6_320.jpg",
-    "m":     "images/site6_320.jpg",
-    "l":     "images/site6_480.jpg"
+    "title": "Ветклиника",
+    "desc":  "Animal Clinic",
+    "link":  "http://in-in.github.io/vetclinic/",
+    "320":   "site6_320.jpg",
+    "480":   "site6_480.jpg",
+    "640":   "site6_640.jpg",
+    "960":   "site6_960.jpg",
+    "1280":  "site6_1280.jpg",
+    "1440":  "site6_1440.jpg",
+    "1920":  "site6_1920.jpg"
   }
 ]

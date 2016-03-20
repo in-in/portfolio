@@ -4,30 +4,22 @@ mixin portfolio(list)
       +e.A(href="#{item.link}").item
         +e.PICTURE.image
           source(
-            media="(max-width: 20rem)",
-            srcset="assets/#{item.xs}"
+            media="(max-width: 20em)",
+            srcset="assets/images/ex320.png 1x, assets/images/ex640.png 2x, assets/images/ex960.png 3x"
             )
           source(
-            media="(min-width: 20rem) and (max-width: 30rem)",
-            srcset="assets/#{item.s} 1x, assets/#{item.l} 2x"
+            media="(min-width: 20em) and (max-width: 30em)",
+            srcset="assets/images/ex480.png 1x, assets/images/ex960.png 2x, assets/images/ex1440.png 3x"
             )
           source(
-            media="(min-width: 30rem) and (max-width: 40rem)",
-            srcset="assets/#{item.m}"
+            media="(min-width: 30em) and (max-width: 40em)",
+            srcset="assets/images/ex640.png 1x, assets/images/ex1280.png 2x, assets/images/ex1920.png 3x"
             )
           source(
-            media="(min-width: 40rem) and (max-width: 60rem)",
-            srcset="assets/#{item.m}"
+            media="(min-width: 40em)",
+            srcset="assets/images/ex480.png 1x, assets/images/ex960.png 2x, assets/images/ex1440.png 3x"
             )
-          source(
-            media="(min-width: 60rem) and (max-width: 80rem)",
-            srcset="assets/#{item.l}"
-            )
-          source(
-            media="(min-width: 80rem)",
-            srcset="assets/#{item.l}"
-            )
-          img(srcset="assets/#{item.xs}", alt="item.title")
+          img(srcset="assets/images/#{item.xs}", alt="#{item.desc}")
         +e.description
           h3= item.title
           p= item.desc
