@@ -79,11 +79,13 @@
   align-items: flex-end;
   padding-bottom: .3em;
   font-weight: bold;
+  font-size: 2rem;
 }
 
 .portfolio__description p
 {
   padding-top: .3em;
+  font-size: 1.3rem
 }
 
 @media (--m)

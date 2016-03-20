@@ -5,21 +5,21 @@ mixin portfolio(list)
         +e.PICTURE.image
           source(
             media="(max-width: 20em)",
-            srcset="assets/images/ex320.png 1x, assets/images/ex640.png 2x, assets/images/ex960.png 3x"
+            srcset="assets/images/#{item.i320} 1x, assets/images/#{item.i640} 2x, assets/images/#{item.i960} 3x"
             )
           source(
             media="(min-width: 20em) and (max-width: 30em)",
-            srcset="assets/images/ex480.png 1x, assets/images/ex960.png 2x, assets/images/ex1440.png 3x"
+            srcset="assets/images/#{item.i480} 1x, assets/images/#{item.i960} 2x, assets/images/#{item.i1440} 3x"
             )
           source(
             media="(min-width: 30em) and (max-width: 40em)",
-            srcset="assets/images/ex640.png 1x, assets/images/ex1280.png 2x, assets/images/ex1920.png 3x"
+            srcset="assets/images/#{item.i640} 1x, assets/images/#{item.i1280} 2x, assets/images/#{item.i1920} 3x"
             )
           source(
             media="(min-width: 40em)",
-            srcset="assets/images/ex480.png 1x, assets/images/ex960.png 2x, assets/images/ex1440.png 3x"
+            srcset="assets/images/#{item.i320} 1x, assets/images/#{item.i640} 2x, assets/images/#{item.i960} 3x"
             )
-          img(srcset="assets/images/#{item.xs}", alt="#{item.desc}")
+          img(srcset="assets/images/#{item.i320}", alt="#{item.desc}")
         +e.description
           h3= item.title
           p= item.desc

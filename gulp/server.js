@@ -12,7 +12,6 @@ gulp.task('server', () => (
         'app/resources',
         'dist'
       ]
-      // directory: false,
     },
     ui: false,
     notify: false

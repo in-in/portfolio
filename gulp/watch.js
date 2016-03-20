@@ -6,7 +6,6 @@ import watch from 'gulp-watch';
 gulp.task('watch', () => {
   global.watch = true;
 
-  // watch('app/sprites/**/*.png', () => gulp.start('sprites'));
   watch('app/{styles,blocks}/**/*.css', () => runSequence('styles', () => reload('assets/styles/app.min.css')));
   watch(['app/{pages,blocks}/**/*.jade'], () => runSequence('templates', reload));
   watch('app/resources/**/*', () => runSequence('copy', reload));
