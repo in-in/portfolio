@@ -9,6 +9,7 @@ include ../info/info
 include ../social/social
 include ../skills/skills
 include ../portfolio/portfolio
+include ../gallery/gallery
 include ../contact/contact
 include ../form/form
 
@@ -40,10 +41,12 @@ mixin index()
           +e.skills
             +skills(getData('skills'))
       +section()#portfolio.gradient
-        +triangle().triangle__top.js-triangle
-        +container()
-          +portfolio(getData('works'))
+        +portfolio().gradient
+          +triangle().triangle__top.js-triangle
+          +container()
+            +gallery(getData('works'))
       +section()#contact
         +contact()
           h2.h2-center Get in touch
           +form()
+          

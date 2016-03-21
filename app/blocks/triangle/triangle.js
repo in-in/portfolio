@@ -8,5 +8,5 @@ function tri() {
   }
 }
 
-window.addEventListener('resize', tri, false);
 window.addEventListener('load', tri, false);
+window.addEventListener('resize', tri, false);
