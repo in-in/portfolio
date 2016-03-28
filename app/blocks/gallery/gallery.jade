@@ -1,25 +1,52 @@
 mixin gallery(list)
   +b.gallery&attributes(attributes)
-    each item in list
-      +e.A(href="#{item.link}").item
-        +e.PICTURE.image
-          source(
-            media="(max-width: 20em)",
-            srcset="assets/images/#{item.i320} 1x, assets/images/#{item.i640} 2x, assets/images/#{item.i960} 3x"
-            )
-          source(
-            media="(min-width: 20em) and (max-width: 30em)",
-            srcset="assets/images/#{item.i480} 1x, assets/images/#{item.i960} 2x, assets/images/#{item.i1440} 3x"
-            )
-          source(
-            media="(min-width: 30em) and (max-width: 40em)",
-            srcset="assets/images/#{item.i640} 1x, assets/images/#{item.i1280} 2x, assets/images/#{item.i1920} 3x"
-            )
-          source(
-            media="(min-width: 40em)",
-            srcset="assets/images/#{item.i320} 1x, assets/images/#{item.i640} 2x, assets/images/#{item.i960} 3x"
-            )
-          img(srcset="assets/images/#{item.i320}", alt="#{item.desc}")
-        +e.description
-          h3= item.title
-          p= item.desc
+    +e.col
+      each item, index in list
+        if (index % 2 === 0)
+          +e.A(href="#{item.link}").item
+            +e.PICTURE.image
+              source(
+                media="(max-width: 20em)",
+                srcset="assets/images/#{item.i320} 1x, assets/images/#{item.i640} 2x, assets/images/#{item.i960} 3x"
+                )
+              source(
+                media="(min-width: 20em) and (max-width: 30em)",
+                srcset="assets/images/#{item.i480} 1x, assets/images/#{item.i960} 2x, assets/images/#{item.i1440} 3x"
+                )
+              source(
+                media="(min-width: 30em) and (max-width: 40em)",
+                srcset="assets/images/#{item.i640} 1x, assets/images/#{item.i1280} 2x, assets/images/#{item.i1920} 3x"
+                )
+              source(
+                media="(min-width: 40em)",
+                srcset="assets/images/#{item.i320} 1x, assets/images/#{item.i640} 2x, assets/images/#{item.i960} 3x"
+                )
+              img(srcset="assets/images/#{item.i320}", alt="#{item.desc}")
+            +e.description
+              h3= item.title
+              p= item.desc
+    +e.col
+      each item, index in list
+        if (index % 2 !== 0)
+          +e.A(href="#{item.link}").item
+            +e.PICTURE.image
+              source(
+                media="(max-width: 20em)",
+                srcset="assets/images/#{item.i320} 1x, assets/images/#{item.i640} 2x, assets/images/#{item.i960} 3x"
+                )
+              source(
+                media="(min-width: 20em) and (max-width: 30em)",
+                srcset="assets/images/#{item.i480} 1x, assets/images/#{item.i960} 2x, assets/images/#{item.i1440} 3x"
+                )
+              source(
+                media="(min-width: 30em) and (max-width: 40em)",
+                srcset="assets/images/#{item.i640} 1x, assets/images/#{item.i1280} 2x, assets/images/#{item.i1920} 3x"
+                )
+              source(
+                media="(min-width: 40em)",
+                srcset="assets/images/#{item.i320} 1x, assets/images/#{item.i640} 2x, assets/images/#{item.i960} 3x"
+                )
+              img(srcset="assets/images/#{item.i320}", alt="#{item.desc}")
+            +e.description
+              h3= item.title
+              p= item.desc

@@ -24,9 +24,9 @@
 
 .feedback__textarea
 {
+  overflow: auto;
   height: calc(var(--vr) * 10);
   resize: none;
-  overflow: auto;
 }
 
 .feedback__label
@@ -52,7 +52,7 @@
 
 .feedback__btn
 {
-  width: 0;
+  width: 100%;
   padding: calc(var(--vr) / 2) 0;
   cursor: pointer;
   transition: width .8s ease;
@@ -60,8 +60,14 @@
   text-transform: uppercase;
   color: #fff;
   border: .2rem solid transparent;
-  background-color: transparent;
+  background-color: var(--mainBlack);
   line-height: 1.45;
+}
+
+.feedback:invalid .feedback__btn
+{
+  width: 0%;
+  background-color: transparent;
 }
 
 .feedback:valid .feedback__btn

@@ -65,7 +65,8 @@ p
 
 input,
 label,
-textarea
+textarea,
+button
 {
   font-family: 'Gidole', sans-serif;
   font-size: responsive 1rem 1.618rem;
